@@ -33,8 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Speech, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Speech\v11.0\Assembly\Microsoft.Speech.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,27 +51,58 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Aula1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Aula1.Designer.cs">
+      <DependentUpon>Aula1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aula2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula2.Designer.cs">
+      <DependentUpon>Aula2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAulas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAulas.Designer.cs">
+      <DependentUpon>MenuAulas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Aula1.resx">
+      <DependentUpon>Aula1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aula2.resx">
+      <DependentUpon>Aula2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAulas.resx">
+      <DependentUpon>MenuAulas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -75,6 +111,139 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I drink beer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I drink coffee.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I drink juice.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I drink milk.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I drink soda.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I drink tea.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I drink water.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I drink wine.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juice.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milk.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soda.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tea.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wine.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I drink.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACHOCOLATADO.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHA GELADO.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHOCOLATE QUENTE.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELA ACHOCOLATADO.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELA BEBE.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELA MILK SHAKE.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELE BEBE.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELE CHA GELADO.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELE CHOCOLATE QUENTE.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELE LIMOMADA.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELE VITAMINA.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LIMONADA.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MILK SHAKE.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VITAMINA.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHA GELADO1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHA GELADO2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELE VITAMINA1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELA VITAMINA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELA VITAMINA.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\she drinks coffee.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\he drinks soda.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
