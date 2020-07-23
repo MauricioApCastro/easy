@@ -245,5 +245,11 @@
   <ItemGroup>
     <None Include="Resources\he drinks soda.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\she drinks lemonade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\he drinks tea.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

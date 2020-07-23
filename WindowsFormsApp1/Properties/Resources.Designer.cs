@@ -213,6 +213,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap he_drinks_tea {
+            get {
+                object obj = ResourceManager.GetObject("he drinks tea", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap I_drink {
             get {
                 object obj = ResourceManager.GetObject("I drink", resourceCulture);
@@ -346,6 +356,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap she_drinks_coffee {
             get {
                 object obj = ResourceManager.GetObject("she drinks coffee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap she_drinks_lemonade {
+            get {
+                object obj = ResourceManager.GetObject("she drinks lemonade", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

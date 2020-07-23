@@ -66,10 +66,10 @@
             // 
             // btFalar
             // 
-            this.btFalar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btFalar.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btFalar.BackColor = System.Drawing.Color.Aqua;
             this.btFalar.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btFalar.Location = new System.Drawing.Point(876, 136);
+            this.btFalar.Location = new System.Drawing.Point(876, 115);
             this.btFalar.Name = "btFalar";
             this.btFalar.Size = new System.Drawing.Size(330, 83);
             this.btFalar.TabIndex = 23;
@@ -79,10 +79,10 @@
             // 
             // btEscrever
             // 
-            this.btEscrever.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btEscrever.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btEscrever.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btEscrever.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btEscrever.Location = new System.Drawing.Point(876, 261);
+            this.btEscrever.Location = new System.Drawing.Point(876, 217);
             this.btEscrever.Name = "btEscrever";
             this.btEscrever.Size = new System.Drawing.Size(330, 83);
             this.btEscrever.TabIndex = 24;
@@ -96,18 +96,19 @@
             this.lbPagina.AutoSize = true;
             this.lbPagina.Font = new System.Drawing.Font("Microsoft Sans Serif", 84.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPagina.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbPagina.Location = new System.Drawing.Point(1064, 506);
+            this.lbPagina.Location = new System.Drawing.Point(957, 433);
             this.lbPagina.Name = "lbPagina";
             this.lbPagina.Size = new System.Drawing.Size(118, 128);
             this.lbPagina.TabIndex = 25;
             this.lbPagina.Text = "0";
+            this.lbPagina.Click += new System.EventHandler(this.lbPagina_Click);
             // 
             // btProximo
             // 
-            this.btProximo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btProximo.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btProximo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btProximo.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btProximo.Location = new System.Drawing.Point(876, 390);
+            this.btProximo.Location = new System.Drawing.Point(876, 315);
             this.btProximo.Name = "btProximo";
             this.btProximo.Size = new System.Drawing.Size(330, 83);
             this.btProximo.TabIndex = 26;
@@ -117,14 +118,17 @@
             // 
             // textBoxAluno
             // 
-            this.textBoxAluno.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxAluno.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.textBoxAluno.Cursor = System.Windows.Forms.Cursors.Hand;
             this.textBoxAluno.Enabled = false;
             this.textBoxAluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 57.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxAluno.Location = new System.Drawing.Point(12, 733);
+            this.textBoxAluno.Location = new System.Drawing.Point(12, 791);
+            this.textBoxAluno.MaxLength = 100;
+            this.textBoxAluno.Multiline = true;
             this.textBoxAluno.Name = "textBoxAluno";
-            this.textBoxAluno.Size = new System.Drawing.Size(1170, 95);
+            this.textBoxAluno.Size = new System.Drawing.Size(1194, 182);
             this.textBoxAluno.TabIndex = 27;
+            this.textBoxAluno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBoxAluno.Visible = false;
             this.textBoxAluno.TextChanged += new System.EventHandler(this.textBoxAluno_TextChanged);
             // 
@@ -133,15 +137,16 @@
             this.txtEn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtEn.AutoSize = true;
-            this.txtEn.Font = new System.Drawing.Font("Microsoft Sans Serif", 57.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEn.Font = new System.Drawing.Font("Microsoft Sans Serif", 57.75F, System.Drawing.FontStyle.Bold);
             this.txtEn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.txtEn.Location = new System.Drawing.Point(16, 619);
+            this.txtEn.Location = new System.Drawing.Point(12, 583);
             this.txtEn.Name = "txtEn";
-            this.txtEn.Size = new System.Drawing.Size(274, 87);
+            this.txtEn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtEn.Size = new System.Drawing.Size(1194, 182);
             this.txtEn.TabIndex = 28;
             this.txtEn.Text = "leg. en";
-            this.txtEn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtEn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtEn.UseCompatibleTextRendering = true;
             this.txtEn.Click += new System.EventHandler(this.txtEn_Click);
             // 
             // lbProfessor
@@ -150,7 +155,7 @@
             this.lbProfessor.AutoSize = true;
             this.lbProfessor.BackColor = System.Drawing.Color.White;
             this.lbProfessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Bold);
-            this.lbProfessor.Location = new System.Drawing.Point(43, 506);
+            this.lbProfessor.Location = new System.Drawing.Point(81, 453);
             this.lbProfessor.Name = "lbProfessor";
             this.lbProfessor.Size = new System.Drawing.Size(452, 91);
             this.lbProfessor.TabIndex = 29;
@@ -161,14 +166,17 @@
             // txtPt
             // 
             this.txtPt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.txtPt.AutoSize = true;
             this.txtPt.Font = new System.Drawing.Font("Microsoft Sans Serif", 57.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.txtPt.Location = new System.Drawing.Point(16, 744);
+            this.txtPt.Location = new System.Drawing.Point(12, 791);
             this.txtPt.Name = "txtPt";
-            this.txtPt.Size = new System.Drawing.Size(231, 87);
-            this.txtPt.TabIndex = 30;
+            this.txtPt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtPt.Size = new System.Drawing.Size(1194, 182);
+            this.txtPt.TabIndex = 28;
             this.txtPt.Text = "leg.pt";
+            this.txtPt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtPt.UseCompatibleTextRendering = true;
+            this.txtPt.Click += new System.EventHandler(this.txtPt_Click);
             // 
             // timerFalar
             // 
@@ -197,7 +205,7 @@
             // 
             this.lbAudio.AutoSize = true;
             this.lbAudio.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAudio.Location = new System.Drawing.Point(893, 506);
+            this.lbAudio.Location = new System.Drawing.Point(846, 506);
             this.lbAudio.Name = "lbAudio";
             this.lbAudio.Size = new System.Drawing.Size(259, 55);
             this.lbAudio.TabIndex = 32;
@@ -216,10 +224,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.he_drinks_soda;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.he_drinks_tea;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 9);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(825, 604);
+            this.pictureBox1.Size = new System.Drawing.Size(816, 550);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 33;
             this.pictureBox1.TabStop = false;
@@ -227,12 +235,13 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(12, 315);
+            this.pictureBox2.Location = new System.Drawing.Point(420, 284);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(825, 301);
+            this.pictureBox2.Size = new System.Drawing.Size(408, 275);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 35;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // Aula2
             // 
