@@ -1367,5 +1367,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void btFalar_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

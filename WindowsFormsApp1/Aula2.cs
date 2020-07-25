@@ -1022,9 +1022,26 @@ namespace WindowsFormsApp1
 
         private void btFalar_Click(object sender, EventArgs e)
         {
+            c++;
             lbAudio.Text = "";
             btFalar.Text = "GRAVANDO";
             lblGravando.Text = "gravando";
+            if (c > 3)
+            {
+                lbProfessor.Visible = true;
+                textBoxAluno.Enabled = true;
+                timerFalar.Stop();
+                timerEscrever.Start();
+                timerOuvir.Stop();
+                textBoxAluno.Visible = true;
+
+                textBoxAluno.Select();
+                btEscrever.Enabled = true;
+                TimerMensagem.Stop();
+                btFalar.BackColor = Color.Aqua;
+                btFalar.Text = "CORRETO";
+            }
+
         }
 
         private void btEscrever_Click(object sender, EventArgs e)

@@ -75,7 +75,7 @@
             this.btFalar.TabIndex = 23;
             this.btFalar.Text = "FALAR";
             this.btFalar.UseVisualStyleBackColor = false;
-          //  this.btFalar.Click += new System.EventHandler(this.btFalar_Click);
+            this.btFalar.Click += new System.EventHandler(this.btFalar_Click_1);
             // 
             // btEscrever
             // 
