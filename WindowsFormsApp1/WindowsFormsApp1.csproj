@@ -57,6 +57,12 @@
     <Compile Include="Aula1.Designer.cs">
       <DependentUpon>Aula1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aula3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula3.Designer.cs">
+      <DependentUpon>Aula3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Aula2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +85,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Aula1.resx">
       <DependentUpon>Aula1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aula3.resx">
+      <DependentUpon>Aula3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Aula2.resx">
       <DependentUpon>Aula2.cs</DependentUpon>
@@ -250,6 +259,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\he drinks tea.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bacon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bread.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\butter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ham.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat bacon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat bread.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat butter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat ham.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat jam.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat pancake.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat toast.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jam.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pancake.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toast.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheese.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

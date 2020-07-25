@@ -14,12 +14,13 @@ using System.Threading;
 
 namespace WindowsFormsApp1
 {
-    public partial class Aula2 : Form
+    public partial class Aula03 : Form
     {
         //variáveis
         string frase = "teste";
         string legenda;
         string sd;//variável do áudio
+        string status = "";
         int num;
         int i;
         int c;
@@ -89,7 +90,7 @@ namespace WindowsFormsApp1
 
 
 
-        public Aula2()
+        public Aula03()
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
@@ -317,8 +318,8 @@ namespace WindowsFormsApp1
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.ELA_MILK_SHAKE;
-                    pictureBox2.Image = Properties.Resources.she_drinks_coffee; 
-                     sd = listaAudio[8];//audio
+                    pictureBox2.Image = Properties.Resources.she_drinks_coffee;
+                    sd = listaAudio[8];//audio
                     txtPt.Text = listaPortugues[8];//legenda 
                     txtEn.Text = listaIngles[8];//legenda inglês
                     lbProfessor.Text = "";
@@ -351,7 +352,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     // btProximo.Enabled = false;
 
-                    
+
                     pictureBox1.Image = Properties.Resources.I_drink_wine;
                     pictureBox2.Image = Properties.Resources.I_drink_beer;
                     sd = listaAudio[10];//audio
@@ -367,7 +368,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
-                    btFalar.Enabled = false;               
+                    btFalar.Enabled = false;
                     pictureBox1.Image = Properties.Resources.she_drinks_lemonade;
                     pictureBox2.Image = Properties.Resources.he_drinks_tea;
                     sd = listaAudio[11];//audio                 
@@ -384,9 +385,9 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                     pictureBox2.Visible = false;
-                    pictureBox1.ClientSize = new Size(816,550);//tela inteira
+                    pictureBox1.ClientSize = new Size(816, 550);//tela inteira
                     pictureBox1.Image = Properties.Resources.I_drink_soda;
-                   
+
                     sd = listaAudio[12];//audio                 
                     txtPt.Text = listaPortugues[12];//legenda 
                     txtEn.Text = listaIngles[12];//legenda inglês
@@ -403,7 +404,7 @@ namespace WindowsFormsApp1
                     // btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
-                    pictureBox1.Image = Properties.Resources.ELA_VITAMINA; 
+                    pictureBox1.Image = Properties.Resources.ELA_VITAMINA;
                     pictureBox2.Image = Properties.Resources.CHA_GELADO;
                     sd = listaAudio[13];//audio
                     txtPt.Text = listaPortugues[13];//legenda 
@@ -920,7 +921,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
                     this.Close();
                     break;
-                    
+
 
 
 
@@ -951,7 +952,33 @@ namespace WindowsFormsApp1
             legenda = txtEn.Text;
             lbAudio.Text = frase;
 
+          
+            
+               
+                if ((lbAudio.Text)==(txtEn.Text)&&(lblGravando.Text.Equals("gravando")))
+                {
+                   
+                    lbProfessor.Visible = true;
+                    textBoxAluno.Enabled = true;
+                    timerFalar.Stop();
+                    timerEscrever.Start();
+                    timerOuvir.Stop();
+                    textBoxAluno.Visible = true;
+                    
+                    textBoxAluno.Select();
+                    btEscrever.Enabled = true;
+                    TimerMensagem.Stop();
+                    btFalar.BackColor = Color.Aqua;
+                    btFalar.Text = "CORRETO";
+                
+                }
+                if((lbAudio.Text)!=(txtEn.Text) && (lblGravando.Text.Equals("gravando")))
+                {
+                    btFalar.Text = "REPETIR";
 
+                }
+
+            
         }
 
         private void btOuvir_Click(object sender, EventArgs e)
@@ -990,71 +1017,14 @@ namespace WindowsFormsApp1
 
         private void TimerMensagem_Tick(object sender, EventArgs e)
         {
-            lbProfessor.ForeColor = lbProfessor.ForeColor == Color.Red ? Color.White : Color.Red;
+
         }
 
         private void btFalar_Click(object sender, EventArgs e)
         {
-
-
-
-            if (lbAudio.Text.Equals(txtEn.Text))
-            {
-
-                lbProfessor.Visible = true;
-                textBoxAluno.Enabled = true;
-                timerFalar.Stop();
-                timerEscrever.Start();
-                timerOuvir.Stop();
-                textBoxAluno.Visible = true;
-                textBoxAluno.Select();
-                btEscrever.Enabled = true;
-                TimerMensagem.Stop();
-                btFalar.BackColor = Color.Aqua;
-                c = 0;
-            }
-            else
-            {
-                var result = Convert.ToString(c);
-                c++;
-
-                if (c > 3)
-                {
-
-                    lbProfessor.Visible = true;
-                    textBoxAluno.Enabled = true;
-                    timerFalar.Stop();
-                    timerEscrever.Start();
-                    timerOuvir.Stop();
-                    textBoxAluno.Visible = true;
-                    textBoxAluno.Select();
-                    btEscrever.Enabled = true;
-                    TimerMensagem.Stop();
-                    btFalar.BackColor = Color.Aqua;
-                    lbProfessor.Enabled = false;
-                    c = 0;
-                }
-                else
-                {
-                    lbProfessor.Text = "Fale novamente!!!";
-                }
-
-
-
-
-
-
-            }
-
-
-
-
-
-
-
-
-
-
+            lbAudio.Text = "";
+            btFalar.Text = "GRAVANDO";
+            lblGravando.Text = "gravando";
         }
 
         private void btEscrever_Click(object sender, EventArgs e)
@@ -1064,7 +1034,8 @@ namespace WindowsFormsApp1
             {
 
                 lbProfessor.ForeColor = Color.Green;
-                lbProfessor.Text = "Resposta Correta";
+                //lbProfessor.Text = "Resposta Correta";
+                btEscrever.Text = "CORRETO";
                 btEscrever.BackColor = Color.Aqua;
                 timerEscrever.Stop();
                 btProximo.Enabled = true;
@@ -1075,8 +1046,8 @@ namespace WindowsFormsApp1
             {
                 TimerMensagem.Start();
                 lbProfessor.ForeColor = Color.Red;
-                lbProfessor.Text = "Escreva novamente";
-
+                //lbProfessor.Text = "Escreva novamente";
+                btEscrever.Text = "REPETIR";
                 btProximo.Enabled = false;
 
             }
@@ -1098,7 +1069,7 @@ namespace WindowsFormsApp1
         }
 
 
- 
+
 
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
         {

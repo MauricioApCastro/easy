@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Aula2
+    partial class Aula03
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Aula2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Aula03));
             this.btOuvir = new System.Windows.Forms.Button();
             this.btFalar = new System.Windows.Forms.Button();
             this.btEscrever = new System.Windows.Forms.Button();
@@ -47,6 +47,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.lblGravando = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -198,7 +199,7 @@
             // 
             // TimerMensagem
             // 
-            this.TimerMensagem.Interval = 1000;
+            this.TimerMensagem.Interval = 1;
             this.TimerMensagem.Tick += new System.EventHandler(this.TimerMensagem_Tick);
             // 
             // lbAudio
@@ -210,7 +211,6 @@
             this.lbAudio.Size = new System.Drawing.Size(259, 55);
             this.lbAudio.TabIndex = 32;
             this.lbAudio.Text = "texto audio";
-            this.lbAudio.Visible = false;
             // 
             // label1
             // 
@@ -243,12 +243,22 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // Aula2
+            // lblGravando
+            // 
+            this.lblGravando.AutoSize = true;
+            this.lblGravando.Location = new System.Drawing.Point(902, 453);
+            this.lblGravando.Name = "lblGravando";
+            this.lblGravando.Size = new System.Drawing.Size(35, 13);
+            this.lblGravando.TabIndex = 36;
+            this.lblGravando.Text = "label2";
+            // 
+            // Aula03
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(1214, 989);
+            this.Controls.Add(this.lblGravando);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbProfessor);
             this.Controls.Add(this.pictureBox1);
@@ -262,7 +272,7 @@
             this.Controls.Add(this.btFalar);
             this.Controls.Add(this.btOuvir);
             this.Controls.Add(this.pictureBox2);
-            this.Name = "Aula2";
+            this.Name = "Aula03";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Aula1_Load);
@@ -292,5 +302,6 @@
         private System.Windows.Forms.Label lbAudio;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label lblGravando;
     }
 }
