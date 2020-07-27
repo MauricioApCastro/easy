@@ -45,6 +45,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbAudio = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblGravando = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -221,12 +222,23 @@
             this.label1.Text = "label1";
             this.label1.Visible = false;
             // 
+            // lblGravando
+            // 
+            this.lblGravando.AutoSize = true;
+            this.lblGravando.Location = new System.Drawing.Point(876, 490);
+            this.lblGravando.Name = "lblGravando";
+            this.lblGravando.Size = new System.Drawing.Size(35, 13);
+            this.lblGravando.TabIndex = 35;
+            this.lblGravando.Text = "label2";
+            this.lblGravando.Visible = false;
+            // 
             // Aula1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(1214, 989);
+            this.Controls.Add(this.lblGravando);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbProfessor);
             this.Controls.Add(this.pictureBox1);
@@ -267,5 +279,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lbAudio;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblGravando;
     }
 }

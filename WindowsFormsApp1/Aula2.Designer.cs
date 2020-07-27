@@ -211,6 +211,7 @@
             this.lbAudio.Size = new System.Drawing.Size(259, 55);
             this.lbAudio.TabIndex = 32;
             this.lbAudio.Text = "texto audio";
+            this.lbAudio.Visible = false;
             // 
             // label1
             // 
@@ -251,6 +252,7 @@
             this.lblGravando.Size = new System.Drawing.Size(35, 13);
             this.lblGravando.TabIndex = 36;
             this.lblGravando.Text = "label2";
+            this.lblGravando.Visible = false;
             // 
             // Aula03
             // 

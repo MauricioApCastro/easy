@@ -24,7 +24,7 @@ namespace WindowsFormsApp1
         int i;
         int c;
         // variaveis para voz
-        static CultureInfo ci = new CultureInfo("pt-Br");// linguagem utilizada
+        static CultureInfo ci = new CultureInfo("en-US");// linguagem utilizada
         static SpeechRecognitionEngine reconhecedor; // reconhecedor de voz
         SpeechSynthesizer resposta = new SpeechSynthesizer();// sintetizador de voz
 
@@ -226,6 +226,32 @@ namespace WindowsFormsApp1
             lbAudio.Text = frase;
 
 
+
+
+            if ((lbAudio.Text) == (txtEn.Text) && (lblGravando.Text.Equals("gravando")))
+            {
+
+                lbProfessor.Visible = true;
+                textBoxAluno.Enabled = true;
+                timerFalar.Stop();
+                timerEscrever.Start();
+                timerOuvir.Stop();
+                textBoxAluno.Visible = true;
+
+                textBoxAluno.Select();
+                btEscrever.Enabled = true;
+                TimerMensagem.Stop();
+                btFalar.BackColor = Color.Aqua;
+                btFalar.Text = "CORRETO";
+
+            }
+            if ((lbAudio.Text) != (txtEn.Text) && (lblGravando.Text.Equals("gravando")))
+            {
+                btFalar.Text = "REPETIR";
+
+            }
+
+
         }
 
         private void btOuvir_Click(object sender, EventArgs e)
@@ -237,6 +263,7 @@ namespace WindowsFormsApp1
             btOuvir.BackColor = Color.Aqua;
             timerFalar.Start();
             btFalar.Enabled = true;
+            btFalar.Text = "FALAR";
 
             {//audio
                 System.Media.SoundPlayer Tocar = new System.Media.SoundPlayer();//ativa o áudio
@@ -269,54 +296,30 @@ namespace WindowsFormsApp1
 
         private void btFalar_Click(object sender, EventArgs e)
         {
-            
-            
 
-            if (lbAudio.Text.Equals(txtEn.Text))
+
+            c++;
+            lbAudio.Text = "";
+            btFalar.Text = "FALANDO";
+            lblGravando.Text = "gravando";
+            if (c > 3)
             {
-
                 lbProfessor.Visible = true;
                 textBoxAluno.Enabled = true;
                 timerFalar.Stop();
                 timerEscrever.Start();
                 timerOuvir.Stop();
                 textBoxAluno.Visible = true;
+
                 textBoxAluno.Select();
                 btEscrever.Enabled = true;
                 TimerMensagem.Stop();
                 btFalar.BackColor = Color.Aqua;
+                btFalar.Text = "CORRETO";
                 c = 0;
-            }
-            else 
-            {
-                var result = Convert.ToString(c);
-                c++;
-
-                if (c>3)
-                {
-                   
-                    lbProfessor.Visible = true;
-                    textBoxAluno.Enabled = true;
-                    timerFalar.Stop();
-                    timerEscrever.Start();
-                    timerOuvir.Stop();
-                    textBoxAluno.Visible = true;
-                    textBoxAluno.Select();
-                    btEscrever.Enabled = true;
-                    TimerMensagem.Stop();
-                    btFalar.BackColor = Color.Aqua;
-                    lbProfessor.Enabled = false;
-                    c = 0;
-                }
-                else
-                {
-                    lbProfessor.Text = "Fale novamente!!!";
-                }
 
 
-                
-             
-                
+
 
             }
 
@@ -338,7 +341,7 @@ namespace WindowsFormsApp1
             {
 
                 lbProfessor.ForeColor = Color.Green;
-                lbProfessor.Text = "Resposta Correta";
+                btEscrever.Text = "CORRETO";
                 btEscrever.BackColor = Color.Aqua;
                 timerEscrever.Stop();
                 btProximo.Enabled = true;
@@ -349,7 +352,7 @@ namespace WindowsFormsApp1
             {
                 TimerMensagem.Start();
                 lbProfessor.ForeColor = Color.Red;
-                lbProfessor.Text = "Escreva novamente";
+                btEscrever.Text = "REPETIR";
 
                 btProximo.Enabled = false;
 
@@ -377,12 +380,16 @@ namespace WindowsFormsApp1
         {
             timerOuvir.Start();
             num++;
+            c = 0;
             int silvinha = num;
             var x = num;
             lbProfessor.Text = "";
             var result = Convert.ToString(x);
             lbPagina.Text = result;
             timerOuvir.Enabled = true;
+            lblGravando.Text = "";
+            btFalar.Text = "FALAR";
+            btEscrever.Text = "ESCREVER";
 
             switch (silvinha)
             {               case 1:
