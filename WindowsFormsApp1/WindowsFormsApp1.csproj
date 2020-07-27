@@ -57,6 +57,12 @@
     <Compile Include="Aula1.Designer.cs">
       <DependentUpon>Aula1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aula4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula4.Designer.cs">
+      <DependentUpon>Aula4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Aula3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Aula1.resx">
       <DependentUpon>Aula1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aula4.resx">
+      <DependentUpon>Aula4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Aula3.resx">
       <DependentUpon>Aula3.cs</DependentUpon>
@@ -304,6 +313,87 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cheese.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barbecue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beam.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheesse.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickem.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egg.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fish.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat barbecue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat beam.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat cheesse.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat chicken.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat egg.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat fish.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat meat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat pork.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat salad.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat sausage.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat soup.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat stack.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eats rice.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pork.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rice.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salad.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sausage.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soup.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stack.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
