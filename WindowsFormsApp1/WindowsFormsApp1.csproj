@@ -57,6 +57,18 @@
     <Compile Include="Aula1.Designer.cs">
       <DependentUpon>Aula1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aula7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula7.Designer.cs">
+      <DependentUpon>Aula7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aula6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula6.Designer.cs">
+      <DependentUpon>Aula6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Aula5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +109,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Aula1.resx">
       <DependentUpon>Aula1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aula7.resx">
+      <DependentUpon>Aula7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aula6.resx">
+      <DependentUpon>Aula6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Aula5.resx">
       <DependentUpon>Aula5.cs</DependentUpon>
@@ -454,6 +472,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\coconut water.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apple.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banana.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grape.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\he eats banana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\he eats grape.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\he eats mango.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\he eats orange.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\he eats.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mango.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pineapple.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\she eats apple.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\she eats pineapple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\she eats strawberry.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\she eats.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strswberry.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apple1.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

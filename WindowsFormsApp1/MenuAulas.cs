@@ -84,5 +84,27 @@ namespace WindowsFormsApp1
 
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MenuPrincipal novo = new MenuPrincipal();
+            novo.Visible = false;
+            //axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
+            Aula6 nova = new Aula6();
+            nova.Show();
+
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MenuPrincipal novo = new MenuPrincipal();
+            novo.Visible = false;
+            //axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
+            Aula7 nova = new Aula7();
+            nova.Show();
+
+            this.Hide();
+        }
     }
 }
