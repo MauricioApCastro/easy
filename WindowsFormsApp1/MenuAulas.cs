@@ -106,5 +106,16 @@ namespace WindowsFormsApp1
 
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MenuPrincipal novo = new MenuPrincipal();
+            novo.Visible = false;
+            //axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
+            Aula8 nova = new Aula8();
+            nova.Show();
+
+            this.Hide();
+        }
     }
 }

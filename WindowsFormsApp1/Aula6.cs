@@ -168,7 +168,7 @@ namespace WindowsFormsApp1
 
             btEscrever.Enabled = false;
             btFalar.Enabled = false;
-           // btProximo.Enabled = false;
+           btProximo.Enabled = false;
 
             pictureBox1.Image = Properties.Resources.apple1;
             sd = listaAudio[0];//audio
@@ -205,7 +205,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.strswberry;
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
@@ -222,7 +222,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.banana;
                     sd = listaAudio[2];//audio
                     txtPt.Text = listaPortugues[2];//legenda 
@@ -241,7 +241,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.grape;
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
@@ -273,7 +273,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                  btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.orange;
                     sd = listaAudio[5];//audio
                     txtPt.Text = listaPortugues[5];//legenda 
@@ -306,7 +306,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.pineapple;
                     sd = listaAudio[7];//audio
                     txtPt.Text = listaPortugues[7];//legenda 
@@ -340,7 +340,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.limon;
                     sd = listaAudio[9];//audio
                     txtPt.Text = listaPortugues[9];//legenda 
@@ -431,7 +431,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.she_eats_strawberry;
@@ -469,7 +469,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(816, 550);//tela inteira
-                    pictureBox1.Image = Properties.Resources.he_eats_banana;
+                    pictureBox1.Image = Properties.Resources.apple1;
                     sd = listaAudio[0];//audio
                     txtPt.Text = listaPortugues[0];//legenda 
                     txtEn.Text = listaIngles[0];//legenda inglês
@@ -519,7 +519,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                  btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.grape;
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
@@ -551,7 +551,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.orange;
                     sd = listaAudio[5];//audio
                     txtPt.Text = listaPortugues[5];//legenda 
@@ -600,7 +600,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                     btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.she_eats_strawberry;
                     sd = listaAudio[8];//audio
                     txtPt.Text = listaPortugues[8];//legenda 
@@ -748,7 +748,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(816, 550);//tela inteira
-                    pictureBox1.Image = Properties.Resources.he_eats_banana;
+                    pictureBox1.Image = Properties.Resources.apple1;
                     sd = listaAudio[0];//audio
                     txtPt.Text = listaPortugues[0];//legenda 
                     txtEn.Text = listaIngles[0];//legenda inglês
@@ -1018,6 +1018,7 @@ namespace WindowsFormsApp1
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
+                    this.Close();
                     break;
 
 

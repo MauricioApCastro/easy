@@ -164,7 +164,7 @@ namespace WindowsFormsApp1
 
             btEscrever.Enabled = false;
             btFalar.Enabled = false;
-            // btProximo.Enabled = false;
+             btProximo.Enabled = false;
 
             pictureBox1.Image = Properties.Resources.ACHOCOLATADO;
             sd = listaAudio[0];//audio
@@ -201,7 +201,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    //btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.MILK_SHAKE;
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
@@ -218,7 +218,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    //btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.VITAMINA;
                     sd = listaAudio[2];//audio
                     txtPt.Text = listaPortugues[2];//legenda 
@@ -237,7 +237,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    //btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.CHOCOLATE_QUENTE;
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
@@ -253,7 +253,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    //btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.CHA_GELADO;
                     sd = listaAudio[4];//audio
                     txtPt.Text = listaPortugues[4];//legenda 
@@ -269,7 +269,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.LIMONADA;
                     sd = listaAudio[5];//audio
                     txtPt.Text = listaPortugues[5];//legenda 
@@ -285,7 +285,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.ELA_VITAMINA;
                     sd = listaAudio[6];//audio
                     txtPt.Text = listaPortugues[6];//legenda 
@@ -316,7 +316,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.ELA_MILK_SHAKE;
@@ -334,7 +334,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.I_drink_coffee;
                     pictureBox2.Image = Properties.Resources.I_drink_tea;
                     sd = listaAudio[9];//audio
@@ -352,7 +352,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
 
 
                     pictureBox1.Image = Properties.Resources.I_drink_wine;
@@ -403,7 +403,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.ELA_VITAMINA;
@@ -438,7 +438,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    //btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.ACHOCOLATADO;
                     sd = listaAudio[0];//audio
                     txtPt.Text = listaPortugues[0];//legenda 
@@ -453,7 +453,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    //btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.MILK_SHAKE;
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
@@ -470,7 +470,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    //btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.VITAMINA;
                     sd = listaAudio[2];//audio
                     txtPt.Text = listaPortugues[2];//legenda 
@@ -489,7 +489,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    //btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.CHOCOLATE_QUENTE;
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
@@ -505,7 +505,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    //btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.CHA_GELADO;
                     sd = listaAudio[4];//audio
                     txtPt.Text = listaPortugues[4];//legenda 
@@ -521,7 +521,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.LIMONADA;
                     sd = listaAudio[5];//audio
                     txtPt.Text = listaPortugues[5];//legenda 
@@ -537,7 +537,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.ELA_VITAMINA;
                     sd = listaAudio[6];//audio
                     txtPt.Text = listaPortugues[6];//legenda 
@@ -568,7 +568,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.ELA_MILK_SHAKE;
@@ -586,7 +586,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.I_drink_coffee;
                     pictureBox2.Image = Properties.Resources.I_drink_tea;
                     sd = listaAudio[9];//audio
@@ -604,7 +604,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
 
 
                     pictureBox1.Image = Properties.Resources.I_drink_wine;
@@ -655,7 +655,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.ELA_VITAMINA;
@@ -690,7 +690,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    //btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.MILK_SHAKE;
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
@@ -707,7 +707,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    //btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.VITAMINA;
                     sd = listaAudio[2];//audio
                     txtPt.Text = listaPortugues[2];//legenda 
@@ -726,7 +726,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    //btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.CHOCOLATE_QUENTE;
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
@@ -742,7 +742,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    //btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.CHA_GELADO;
                     sd = listaAudio[4];//audio
                     txtPt.Text = listaPortugues[4];//legenda 
@@ -758,7 +758,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.LIMONADA;
                     sd = listaAudio[5];//audio
                     txtPt.Text = listaPortugues[5];//legenda 
@@ -774,7 +774,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.ELA_VITAMINA;
                     sd = listaAudio[6];//audio
                     txtPt.Text = listaPortugues[6];//legenda 
@@ -805,7 +805,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.ELA_MILK_SHAKE;
@@ -823,7 +823,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.I_drink_coffee;
                     pictureBox2.Image = Properties.Resources.I_drink_tea;
                     sd = listaAudio[9];//audio
@@ -841,7 +841,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
 
 
                     pictureBox1.Image = Properties.Resources.I_drink_wine;
@@ -892,7 +892,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    // btProximo.Enabled = false;
+                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.ELA_VITAMINA;

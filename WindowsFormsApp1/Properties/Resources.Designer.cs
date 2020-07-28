@@ -403,6 +403,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap he_dislike_ice_cream {
+            get {
+                object obj = ResourceManager.GetObject("he dislike ice cream", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap he_drinks_soda {
             get {
                 object obj = ResourceManager.GetObject("he drinks soda", resourceCulture);
@@ -473,9 +483,39 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap he_hatas_orange {
+            get {
+                object obj = ResourceManager.GetObject("he hatas orange", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap he_hates_soup {
+            get {
+                object obj = ResourceManager.GetObject("he hates soup", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hot_dog {
             get {
                 object obj = ResourceManager.GetObject("hot dog", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap I_dislike_to_drink_coffee {
+            get {
+                object obj = ResourceManager.GetObject("I dislike to drink coffee", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -863,6 +903,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap I_hate_to_eat_apple {
+            get {
+                object obj = ResourceManager.GetObject("I hate to eat apple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap I_hate_to_eat_banana_and_corn_flakes {
+            get {
+                object obj = ResourceManager.GetObject("I hate to eat banana and corn flakes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ice_cream {
             get {
                 object obj = ResourceManager.GetObject("ice cream", resourceCulture);
@@ -1086,6 +1146,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap she_eats_strawberry {
             get {
                 object obj = ResourceManager.GetObject("she eats strawberry", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap She_hates_cocoa {
+            get {
+                object obj = ResourceManager.GetObject("She hates cocoa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

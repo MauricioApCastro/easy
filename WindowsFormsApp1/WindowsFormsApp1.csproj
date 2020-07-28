@@ -57,6 +57,12 @@
     <Compile Include="Aula1.Designer.cs">
       <DependentUpon>Aula1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aula8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula8.Designer.cs">
+      <DependentUpon>Aula8.cs</DependentUpon>
+    </Compile>
     <Compile Include="Aula7.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Aula1.resx">
       <DependentUpon>Aula1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aula8.resx">
+      <DependentUpon>Aula8.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Aula7.resx">
       <DependentUpon>Aula7.cs</DependentUpon>
@@ -526,6 +535,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\apple1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\he dislike ice cream.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\he hatas orange.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\he hates soup.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I dislike to drink coffee.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I hate to eat apple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I hate to eat banana and corn flakes.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\She hates cocoa.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

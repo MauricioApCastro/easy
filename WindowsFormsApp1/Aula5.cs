@@ -41,7 +41,7 @@ namespace WindowsFormsApp1
 "audio//french fries.wav",
 "audio//I eat pie and you eat hot dog.wav",
 "audio//You eat ice cream and I eat cake.wav",
-"audio//I eat snacks and you eat potato chips.wav",
+"audio//I eat snacks and you eat french fries.wav",
 "audio//I eat cornflakes and you eat bread.wav",
 "audio//You eat cake and I eat hamburger.wav",
 "audio//I eat salad and you eat egg.wav",
@@ -50,7 +50,7 @@ namespace WindowsFormsApp1
 "audio//I eat pancake and you milk.wav",
 "audio//You drink coffee and I eat bacon.wav",
 "audio//I eat chicken and you eat sausage.wav",
-"audio//I drink coconut milk and you drink tea.wav",
+"audio//I drink coconut water and you drink tea.wav",
 "audio//I drink chocolate and eat cake.wav",
 "audio//I eat salad and drink lemonade.wav",
         };
@@ -66,7 +66,7 @@ namespace WindowsFormsApp1
 "French fries",
 "I eat pie and you eat hot dog",
 "You eat ice cream and I eat cake",
-"I eat snacks and you eat potato chips",
+"I eat snacks and you eat french fries",
 "I eat cornflakes and you eat bread",
 "You eat cake and I eat hamburger",
 "I eat salad and you eat egg",
@@ -101,7 +101,7 @@ namespace WindowsFormsApp1
 "Eu como panqueca e você leite",
 "Você bebe café e eu como bacon",
 "Eu como frango e você come linguiça",
-"Eu bebo leite de coco e você bebe chá",
+"Eu bebo água de coco e você bebe chá",
 "Eu bebo achocolatado e como bolo",
 "Eu como salada e bebo limonda",
 
@@ -183,7 +183,7 @@ namespace WindowsFormsApp1
 
             btEscrever.Enabled = false;
             btFalar.Enabled = false;
-           // btProximo.Enabled = false;
+            btProximo.Enabled = false;
 
             pictureBox1.Image = Properties.Resources.pie;
             sd = listaAudio[0];//audio
@@ -220,7 +220,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.hot_dog;
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
@@ -256,7 +256,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.corn_flakes;
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
@@ -304,7 +304,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.snacks;
                     sd = listaAudio[6];//audio
                     txtPt.Text = listaPortugues[6];//legenda 
@@ -336,7 +336,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.i_eat_pie;
@@ -356,7 +356,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.ice_cream;
@@ -374,7 +374,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.snacks;
@@ -392,7 +392,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.corn_flakes;
@@ -489,7 +489,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.i_eat_pancake;
@@ -526,7 +526,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.i_eat_chicken;
@@ -546,7 +546,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.coconut_water;
@@ -564,7 +564,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(408, 275);//metade da tela
                     pictureBox1.Image = Properties.Resources.ACHOCOLATADO;
@@ -654,7 +654,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.corn_flakes;
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
@@ -1409,6 +1409,7 @@ namespace WindowsFormsApp1
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
+                    this.Close();
                     break;
 
 

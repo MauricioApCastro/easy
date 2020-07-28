@@ -205,7 +205,7 @@ namespace WindowsFormsApp1
 
             btEscrever.Enabled = false;
             btFalar.Enabled = false;
-           // btProximo.Enabled = false;
+            btProximo.Enabled = false;
             pictureBox1.Image = Properties.Resources.coffee;
 
             sd = listaAudio[0];//audio
@@ -509,7 +509,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.coffee;
                     sd = listaAudio[0];//audio
                     txtPt.Text = listaPortugues[0];//legenda 
