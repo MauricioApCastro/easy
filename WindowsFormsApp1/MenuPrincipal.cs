@@ -15,6 +15,7 @@ namespace WindowsFormsApp1
         public MenuPrincipal()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void btOuvir_Click(object sender, EventArgs e)

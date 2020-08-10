@@ -1749,5 +1749,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void txtPt_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

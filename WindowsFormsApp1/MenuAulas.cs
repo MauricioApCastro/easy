@@ -15,7 +15,8 @@ namespace WindowsFormsApp1
         public MenuAulas()
         {
             InitializeComponent();
-            
+            this.WindowState = FormWindowState.Maximized;
+
         }
 
         private void btOuvir_Click(object sender, EventArgs e)

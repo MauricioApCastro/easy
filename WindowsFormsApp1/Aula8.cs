@@ -233,7 +233,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                    pictureBox1.ClientSize = new Size(282,195) ;//metade da tela
                     pictureBox1.Image = Properties.Resources.bread;
                     pictureBox2.Image = Properties.Resources.cheese;
                     sd = listaAudio[2];//audio
@@ -251,7 +251,7 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                    btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(816, 550);//tela inteira
+                    pictureBox1.ClientSize = new Size(564,390);//tela inteira
                     pictureBox1.Image = Properties.Resources.apple1;
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
