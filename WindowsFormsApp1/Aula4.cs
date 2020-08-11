@@ -194,7 +194,7 @@ namespace WindowsFormsApp1
             sd = listaAudio[0];//audio
             txtPt.Text = listaPortugues[0];//legenda 
             txtEn.Text = listaIngles[0];//legenda inglês
-         
+
             timerFalar.Stop();
             timerEscrever.Stop();
             textBoxAluno.Focus();
@@ -208,7 +208,7 @@ namespace WindowsFormsApp1
             c = 0;
             int silvinha = num;
             var x = num;
-         
+
             var result = Convert.ToString(x);
             lbPagina.Text = result;
             timerOuvir.Enabled = true;
@@ -230,7 +230,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
                     txtEn.Text = listaIngles[1];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -247,7 +247,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[2];//audio
                     txtPt.Text = listaPortugues[2];//legenda 
                     txtEn.Text = listaIngles[2];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -266,7 +266,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
                     txtEn.Text = listaIngles[3];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -282,7 +282,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[4];//audio
                     txtPt.Text = listaPortugues[4];//legenda 
                     txtEn.Text = listaIngles[4];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -298,7 +298,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[5];//audio
                     txtPt.Text = listaPortugues[5];//legenda 
                     txtEn.Text = listaIngles[5];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -314,7 +314,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[6];//audio
                     txtPt.Text = listaPortugues[6];//legenda 
                     txtEn.Text = listaIngles[6];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -326,12 +326,12 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.fish;
                     sd = listaAudio[7];//audio
                     txtPt.Text = listaPortugues[7];//legenda 
                     txtEn.Text = listaIngles[7];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -341,12 +341,12 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                  btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.meat;
                     sd = listaAudio[8];//audio
                     txtPt.Text = listaPortugues[8];//legenda 
                     txtEn.Text = listaIngles[8];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -363,7 +363,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[9];//audio
                     txtPt.Text = listaPortugues[9];//legenda 
                     txtEn.Text = listaIngles[9];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -378,7 +378,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[10];//audio
                     txtPt.Text = listaPortugues[10];//legenda 
                     txtEn.Text = listaIngles[10];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -393,7 +393,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[11];//audio
                     txtPt.Text = listaPortugues[11];//legenda 
                     txtEn.Text = listaIngles[11];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -408,7 +408,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[12];//audio
                     txtPt.Text = listaPortugues[12];//legenda 
                     txtEn.Text = listaIngles[12];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -423,7 +423,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[13];//audio
                     txtPt.Text = listaPortugues[13];//legenda 
                     txtEn.Text = listaIngles[13];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -440,7 +440,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[14];//audio
                     txtPt.Text = listaPortugues[14];//legenda 
                     txtEn.Text = listaIngles[14];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -459,7 +459,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[15];//audio
                     txtPt.Text = listaPortugues[15];//legenda 
                     txtEn.Text = listaIngles[15];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -470,12 +470,12 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_pork;
                     sd = listaAudio[16];//audio
                     txtPt.Text = listaPortugues[16];//legenda 
                     txtEn.Text = listaIngles[16];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -486,12 +486,12 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_chicken;
                     sd = listaAudio[17];//audio
                     txtPt.Text = listaPortugues[17];//legenda 
                     txtEn.Text = listaIngles[17];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -507,7 +507,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[18];//audio
                     txtPt.Text = listaPortugues[18];//legenda 
                     txtEn.Text = listaIngles[18];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -524,7 +524,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[19];//audio
                     txtPt.Text = listaPortugues[19];//legenda 
                     txtEn.Text = listaIngles[19];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -539,7 +539,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[20];//audio
                     txtPt.Text = listaPortugues[20];//legenda 
                     txtEn.Text = listaIngles[20];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -551,12 +551,12 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_stack;
                     sd = listaAudio[21];//audio
                     txtPt.Text = listaPortugues[21];//legenda 
                     txtEn.Text = listaIngles[21];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -566,12 +566,12 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_barbecue;
                     sd = listaAudio[22];//audio
                     txtPt.Text = listaPortugues[22];//legenda 
                     txtEn.Text = listaIngles[22];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -586,7 +586,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[23];//audio
                     txtPt.Text = listaPortugues[23];//legenda 
                     txtEn.Text = listaIngles[23];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -596,12 +596,12 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.rice;
                     sd = listaAudio[0];//audio
                     txtPt.Text = listaPortugues[0];//legenda 
                     txtEn.Text = listaIngles[0];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -616,7 +616,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
                     txtEn.Text = listaIngles[1];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -633,7 +633,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[2];//audio
                     txtPt.Text = listaPortugues[2];//legenda 
                     txtEn.Text = listaIngles[2];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -652,7 +652,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
                     txtEn.Text = listaIngles[3];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -668,7 +668,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[4];//audio
                     txtPt.Text = listaPortugues[4];//legenda 
                     txtEn.Text = listaIngles[4];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -684,7 +684,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[5];//audio
                     txtPt.Text = listaPortugues[5];//legenda 
                     txtEn.Text = listaIngles[5];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -700,7 +700,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[6];//audio
                     txtPt.Text = listaPortugues[6];//legenda 
                     txtEn.Text = listaIngles[6];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -717,7 +717,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[7];//audio
                     txtPt.Text = listaPortugues[7];//legenda 
                     txtEn.Text = listaIngles[7];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -732,7 +732,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[8];//audio
                     txtPt.Text = listaPortugues[8];//legenda 
                     txtEn.Text = listaIngles[8];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -749,7 +749,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[9];//audio
                     txtPt.Text = listaPortugues[9];//legenda 
                     txtEn.Text = listaIngles[9];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -764,7 +764,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[10];//audio
                     txtPt.Text = listaPortugues[10];//legenda 
                     txtEn.Text = listaIngles[10];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -779,7 +779,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[11];//audio
                     txtPt.Text = listaPortugues[11];//legenda 
                     txtEn.Text = listaIngles[11];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -794,7 +794,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[12];//audio
                     txtPt.Text = listaPortugues[12];//legenda 
                     txtEn.Text = listaIngles[12];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -809,7 +809,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[13];//audio
                     txtPt.Text = listaPortugues[13];//legenda 
                     txtEn.Text = listaIngles[13];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -826,7 +826,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[14];//audio
                     txtPt.Text = listaPortugues[14];//legenda 
                     txtEn.Text = listaIngles[14];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -845,7 +845,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[15];//audio
                     txtPt.Text = listaPortugues[15];//legenda 
                     txtEn.Text = listaIngles[15];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -861,7 +861,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[16];//audio
                     txtPt.Text = listaPortugues[16];//legenda 
                     txtEn.Text = listaIngles[16];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -877,7 +877,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[17];//audio
                     txtPt.Text = listaPortugues[17];//legenda 
                     txtEn.Text = listaIngles[17];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -893,7 +893,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[18];//audio
                     txtPt.Text = listaPortugues[18];//legenda 
                     txtEn.Text = listaIngles[18];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -910,7 +910,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[19];//audio
                     txtPt.Text = listaPortugues[19];//legenda 
                     txtEn.Text = listaIngles[19];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -925,7 +925,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[20];//audio
                     txtPt.Text = listaPortugues[20];//legenda 
                     txtEn.Text = listaIngles[20];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -942,7 +942,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[21];//audio
                     txtPt.Text = listaPortugues[21];//legenda 
                     txtEn.Text = listaIngles[21];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -957,7 +957,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[22];//audio
                     txtPt.Text = listaPortugues[22];//legenda 
                     txtEn.Text = listaIngles[22];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -972,7 +972,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[23];//audio
                     txtPt.Text = listaPortugues[23];//legenda 
                     txtEn.Text = listaIngles[23];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -987,7 +987,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[0];//audio
                     txtPt.Text = listaPortugues[0];//legenda 
                     txtEn.Text = listaIngles[0];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1002,7 +1002,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
                     txtEn.Text = listaIngles[1];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1019,7 +1019,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[2];//audio
                     txtPt.Text = listaPortugues[2];//legenda 
                     txtEn.Text = listaIngles[2];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1038,7 +1038,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
                     txtEn.Text = listaIngles[3];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1054,7 +1054,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[4];//audio
                     txtPt.Text = listaPortugues[4];//legenda 
                     txtEn.Text = listaIngles[4];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1070,7 +1070,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[5];//audio
                     txtPt.Text = listaPortugues[5];//legenda 
                     txtEn.Text = listaIngles[5];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1086,7 +1086,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[6];//audio
                     txtPt.Text = listaPortugues[6];//legenda 
                     txtEn.Text = listaIngles[6];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1103,7 +1103,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[7];//audio
                     txtPt.Text = listaPortugues[7];//legenda 
                     txtEn.Text = listaIngles[7];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1118,7 +1118,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[8];//audio
                     txtPt.Text = listaPortugues[8];//legenda 
                     txtEn.Text = listaIngles[8];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1135,7 +1135,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[9];//audio
                     txtPt.Text = listaPortugues[9];//legenda 
                     txtEn.Text = listaIngles[9];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1150,7 +1150,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[10];//audio
                     txtPt.Text = listaPortugues[10];//legenda 
                     txtEn.Text = listaIngles[10];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1165,7 +1165,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[11];//audio
                     txtPt.Text = listaPortugues[11];//legenda 
                     txtEn.Text = listaIngles[11];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1180,7 +1180,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[12];//audio
                     txtPt.Text = listaPortugues[12];//legenda 
                     txtEn.Text = listaIngles[12];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1195,7 +1195,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[13];//audio
                     txtPt.Text = listaPortugues[13];//legenda 
                     txtEn.Text = listaIngles[13];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1212,7 +1212,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[14];//audio
                     txtPt.Text = listaPortugues[14];//legenda 
                     txtEn.Text = listaIngles[14];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1231,7 +1231,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[15];//audio
                     txtPt.Text = listaPortugues[15];//legenda 
                     txtEn.Text = listaIngles[15];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1247,7 +1247,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[16];//audio
                     txtPt.Text = listaPortugues[16];//legenda 
                     txtEn.Text = listaIngles[16];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1263,7 +1263,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[17];//audio
                     txtPt.Text = listaPortugues[17];//legenda 
                     txtEn.Text = listaIngles[17];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1279,7 +1279,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[18];//audio
                     txtPt.Text = listaPortugues[18];//legenda 
                     txtEn.Text = listaIngles[18];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1296,7 +1296,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[19];//audio
                     txtPt.Text = listaPortugues[19];//legenda 
                     txtEn.Text = listaIngles[19];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1311,7 +1311,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[20];//audio
                     txtPt.Text = listaPortugues[20];//legenda 
                     txtEn.Text = listaIngles[20];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1328,7 +1328,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[21];//audio
                     txtPt.Text = listaPortugues[21];//legenda 
                     txtEn.Text = listaIngles[21];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1343,7 +1343,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[22];//audio
                     txtPt.Text = listaPortugues[22];//legenda 
                     txtEn.Text = listaIngles[22];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1358,7 +1358,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[23];//audio
                     txtPt.Text = listaPortugues[23];//legenda 
                     txtEn.Text = listaIngles[23];//legenda inglês
-                 
+
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1375,7 +1375,7 @@ namespace WindowsFormsApp1
         void Sre_Reconhecimento(object sender, SpeechRecognizedEventArgs e)
         {
             i++;
-         
+
             frase = e.Result.Text;
             legenda = txtEn.Text;
             lbAudio.Text = frase;
@@ -1386,7 +1386,7 @@ namespace WindowsFormsApp1
             if ((lbAudio.Text) == (txtEn.Text) && (lblGravando.Text.Equals("gravando")))
             {
 
-               
+
                 textBoxAluno.Enabled = true;
                 timerFalar.Stop();
                 timerEscrever.Start();
@@ -1413,7 +1413,7 @@ namespace WindowsFormsApp1
         {
 
 
-         
+
             timerOuvir.Stop();
             btOuvir.BackColor = Color.Aqua;
             timerFalar.Start();
@@ -1446,7 +1446,7 @@ namespace WindowsFormsApp1
 
         private void TimerMensagem_Tick(object sender, EventArgs e)
         {
-            lbProfessor.ForeColor = lbProfessor.ForeColor == Color.Red ? Color.White : Color.Red;
+
         }
 
         private void btFalar_Click(object sender, EventArgs e)
@@ -1457,7 +1457,7 @@ namespace WindowsFormsApp1
             if (lbAudio.Text.Equals(txtEn.Text))
             {
 
-               
+
                 textBoxAluno.Enabled = true;
                 timerFalar.Stop();
                 timerEscrever.Start();
@@ -1477,7 +1477,7 @@ namespace WindowsFormsApp1
                 if (c > 3)
                 {
 
-                   
+
                     textBoxAluno.Enabled = true;
                     timerFalar.Stop();
                     timerEscrever.Start();
@@ -1487,12 +1487,11 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = true;
                     TimerMensagem.Stop();
                     btFalar.BackColor = Color.Aqua;
-                    lbProfessor.Enabled = false;
+
                     c = 0;
                 }
                 else
                 {
-                    lbProfessor.Text = "Fale novamente!!!";
                 }
 
 
@@ -1519,7 +1518,7 @@ namespace WindowsFormsApp1
             if (txtEn.Text.Equals(textBoxAluno.Text.TrimEnd()))
             {
 
-                lbProfessor.ForeColor = Color.Green;
+
                 btEscrever.Text = "CORRETO";
                 btEscrever.BackColor = Color.Aqua;
                 timerEscrever.Stop();
@@ -1530,7 +1529,7 @@ namespace WindowsFormsApp1
             else
             {
                 TimerMensagem.Start();
-                lbProfessor.ForeColor = Color.Red;
+
                 btEscrever.Text = "REPETIR";
 
                 btProximo.Enabled = false;
@@ -1605,7 +1604,7 @@ namespace WindowsFormsApp1
             lblGravando.Text = "gravando";
             if (c > 3)
             {
-               
+
                 textBoxAluno.Enabled = true;
                 timerFalar.Stop();
                 timerEscrever.Start();
