@@ -253,9 +253,9 @@
             this.Controls.Add(this.btEscrever);
             this.Controls.Add(this.btFalar);
             this.Controls.Add(this.btOuvir);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.txtPt);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Aula6";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

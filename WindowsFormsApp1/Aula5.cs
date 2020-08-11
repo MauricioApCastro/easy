@@ -237,7 +237,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                  btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.hambuger;
                     sd = listaAudio[2];//audio
                     txtPt.Text = listaPortugues[2];//legenda 
@@ -256,7 +256,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                  btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.corn_flakes;
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
@@ -272,7 +272,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.cake;
                     sd = listaAudio[4];//audio
                     txtPt.Text = listaPortugues[4];//legenda 
@@ -288,7 +288,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                  btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.ice_cream;
                     sd = listaAudio[5];//audio
                     txtPt.Text = listaPortugues[5];//legenda 
@@ -304,7 +304,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.snacks;
                     sd = listaAudio[6];//audio
                     txtPt.Text = listaPortugues[6];//legenda 
@@ -320,8 +320,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.french_fries;
                     sd = listaAudio[7];//audio
                     txtPt.Text = listaPortugues[7];//legenda 
@@ -336,7 +335,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                  btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                      pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_pie;
@@ -374,7 +373,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                      pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.snacks;
@@ -392,7 +391,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                      pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.corn_flakes;
@@ -410,7 +409,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                      pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_cake;
@@ -448,7 +447,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                      pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_barbecue;
@@ -470,7 +469,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                      pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.rice;
@@ -489,7 +488,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                  btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                      pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_pancake;
@@ -507,7 +506,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                 btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                      pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.I_drink_coffee;
@@ -526,7 +525,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                 btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                      pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_chicken;
@@ -546,7 +545,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                      pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.coconut_water;
@@ -603,7 +602,7 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                      btProximo.Enabled = false;
- pictureBox1.ClientSize = new Size(564,390) ;//tela inteira
+                    pictureBox1.ClientSize = new Size(564,390) ;//tela inteira
                     pictureBox1.Image = Properties.Resources.hot_dog;
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
@@ -1495,7 +1494,7 @@ namespace WindowsFormsApp1
 
         private void TimerMensagem_Tick(object sender, EventArgs e)
         {
-            lbProfessor.ForeColor = lbProfessor.ForeColor == Color.Red ? Color.White : Color.Red;
+            
         }
 
         private void btFalar_Click(object sender, EventArgs e)
@@ -1536,12 +1535,12 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = true;
                     TimerMensagem.Stop();
                     btFalar.BackColor = Color.Aqua;
-                    lbProfessor.Enabled = false;
+                    
                     c = 0;
                 }
                 else
                 {
-                    lbProfessor.Text = "Fale novamente!!!";
+                    
                 }
 
 
@@ -1568,7 +1567,7 @@ namespace WindowsFormsApp1
             if (txtEn.Text.Equals(textBoxAluno.Text.TrimEnd()))
             {
 
-                lbProfessor.ForeColor = Color.Green;
+                
                 btEscrever.Text = "CORRETO";
                 btEscrever.BackColor = Color.Aqua;
                 timerEscrever.Stop();
@@ -1579,7 +1578,7 @@ namespace WindowsFormsApp1
             else
             {
                 TimerMensagem.Start();
-                lbProfessor.ForeColor = Color.Red;
+                
                 btEscrever.Text = "REPETIR";
 
                 btProximo.Enabled = false;
@@ -1668,6 +1667,11 @@ namespace WindowsFormsApp1
                 btFalar.Text = "CORRETO";
                 c = 0;
             }
+
+        }
+
+        private void lbAudio_Click(object sender, EventArgs e)
+        {
 
         }
     }
