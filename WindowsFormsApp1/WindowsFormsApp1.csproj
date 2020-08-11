@@ -557,5 +557,11 @@
   <ItemGroup>
     <None Include="Resources\She hates cocoa.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banana1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I drink juice1.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

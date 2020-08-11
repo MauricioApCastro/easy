@@ -189,7 +189,7 @@ namespace WindowsFormsApp1
             sd = listaAudio[0];//audio
             txtPt.Text = listaPortugues[0];//legenda 
             txtEn.Text = listaIngles[0];//legenda inglês
-            lbProfessor.Text = "";
+         
             timerFalar.Stop();
             timerEscrever.Stop();
             textBoxAluno.Focus();
@@ -203,7 +203,7 @@ namespace WindowsFormsApp1
             c = 0;
             int silvinha = num;
             var x = num;
-            lbProfessor.Text = "";
+         
             var result = Convert.ToString(x);
             lbPagina.Text = result;
             timerOuvir.Enabled = true;
@@ -225,7 +225,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
                     txtEn.Text = listaIngles[1];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -242,7 +242,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[2];//audio
                     txtPt.Text = listaPortugues[2];//legenda 
                     txtEn.Text = listaIngles[2];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -261,7 +261,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
                     txtEn.Text = listaIngles[3];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -277,7 +277,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[4];//audio
                     txtPt.Text = listaPortugues[4];//legenda 
                     txtEn.Text = listaIngles[4];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -293,7 +293,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[5];//audio
                     txtPt.Text = listaPortugues[5];//legenda 
                     txtEn.Text = listaIngles[5];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -309,7 +309,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[6];//audio
                     txtPt.Text = listaPortugues[6];//legenda 
                     txtEn.Text = listaIngles[6];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -326,7 +326,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[7];//audio
                     txtPt.Text = listaPortugues[7];//legenda 
                     txtEn.Text = listaIngles[7];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -338,13 +338,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                    btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_pie;
                     pictureBox2.Image = Properties.Resources.i_eat_hot_dog;
                     sd = listaAudio[8];//audio
                     txtPt.Text = listaPortugues[8];//legenda 
                     txtEn.Text = listaIngles[8];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -358,13 +358,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.ice_cream;
                     pictureBox2.Image = Properties.Resources.cake;
                     sd = listaAudio[9];//audio
                     txtPt.Text = listaPortugues[9];//legenda 
                     txtEn.Text = listaIngles[9];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -376,13 +376,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.snacks;
                     pictureBox2.Image = Properties.Resources.i_eat_french_fries;
                     sd = listaAudio[10];//audio
                     txtPt.Text = listaPortugues[10];//legenda 
                     txtEn.Text = listaIngles[10];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -394,13 +394,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.corn_flakes;
                     pictureBox2.Image = Properties.Resources.i_eat_bread;
                     sd = listaAudio[11];//audio
                     txtPt.Text = listaPortugues[11];//legenda 
                     txtEn.Text = listaIngles[11];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -412,13 +412,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                      btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_cake;
                     pictureBox2.Image = Properties.Resources.hambuger;
                     sd = listaAudio[12];//audio
                     txtPt.Text = listaPortugues[12];//legenda 
                     txtEn.Text = listaIngles[12];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -430,13 +430,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                      btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.salad;
                     pictureBox2.Image = Properties.Resources.i_eat_egg;
                     sd = listaAudio[13];//audio
                     txtPt.Text = listaPortugues[13];//legenda 
                     txtEn.Text = listaIngles[13];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -450,13 +450,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_barbecue;
                     pictureBox2.Image = Properties.Resources.i_eat_fish;
                     sd = listaAudio[14];//audio
                     txtPt.Text = listaPortugues[14];//legenda 
                     txtEn.Text = listaIngles[14];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -472,13 +472,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                      btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.rice;
                     pictureBox2.Image = Properties.Resources.i_eat_beam;
                     sd = listaAudio[15];//audio
                     txtPt.Text = listaPortugues[15];//legenda 
                     txtEn.Text = listaIngles[15];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -491,13 +491,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                    btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_pancake;
                     pictureBox2.Image = Properties.Resources.I_drink_milk;
                     sd = listaAudio[16];//audio
                     txtPt.Text = listaPortugues[16];//legenda 
                     txtEn.Text = listaIngles[16];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -509,13 +509,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.I_drink_coffee;
                     pictureBox2.Image = Properties.Resources.i_eat_bacon;
                     sd = listaAudio[17];//audio
                     txtPt.Text = listaPortugues[17];//legenda 
                     txtEn.Text = listaIngles[17];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -528,13 +528,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                    btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_chicken;
                     pictureBox2.Image = Properties.Resources.i_eat_sausage;
                     sd = listaAudio[18];//audio
                     txtPt.Text = listaPortugues[18];//legenda 
                     txtEn.Text = listaIngles[18];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -548,13 +548,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.coconut_water;
                     pictureBox2.Image = Properties.Resources.I_drink_tea;
                     sd = listaAudio[19];//audio
                     txtPt.Text = listaPortugues[19];//legenda 
                     txtEn.Text = listaIngles[19];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -566,13 +566,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.ACHOCOLATADO;
                     pictureBox2.Image = Properties.Resources.i_eat_cake;
                     sd = listaAudio[20];//audio
                     txtPt.Text = listaPortugues[20];//legenda 
                     txtEn.Text = listaIngles[20];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -586,13 +586,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.salad;
                     pictureBox2.Image = Properties.Resources.she_drinks_lemonade;
                     sd = listaAudio[21];//audio
                     txtPt.Text = listaPortugues[21];//legenda 
                     txtEn.Text = listaIngles[21];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -603,12 +603,12 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                      btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(816, 550);//tela inteira
+ pictureBox1.ClientSize = new Size(564,390) ;//tela inteira
                     pictureBox1.Image = Properties.Resources.hot_dog;
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
                     txtEn.Text = listaIngles[1];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -623,7 +623,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
                     txtEn.Text = listaIngles[1];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -640,7 +640,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[2];//audio
                     txtPt.Text = listaPortugues[2];//legenda 
                     txtEn.Text = listaIngles[2];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -659,7 +659,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
                     txtEn.Text = listaIngles[3];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -675,7 +675,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[4];//audio
                     txtPt.Text = listaPortugues[4];//legenda 
                     txtEn.Text = listaIngles[4];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -691,7 +691,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[5];//audio
                     txtPt.Text = listaPortugues[5];//legenda 
                     txtEn.Text = listaIngles[5];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -707,7 +707,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[6];//audio
                     txtPt.Text = listaPortugues[6];//legenda 
                     txtEn.Text = listaIngles[6];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -724,7 +724,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[7];//audio
                     txtPt.Text = listaPortugues[7];//legenda 
                     txtEn.Text = listaIngles[7];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -736,13 +736,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_pie;
                     pictureBox2.Image = Properties.Resources.i_eat_hot_dog;
                     sd = listaAudio[8];//audio
                     txtPt.Text = listaPortugues[8];//legenda 
                     txtEn.Text = listaIngles[8];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -756,13 +756,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.ice_cream;
                     pictureBox2.Image = Properties.Resources.cake;
                     sd = listaAudio[9];//audio
                     txtPt.Text = listaPortugues[9];//legenda 
                     txtEn.Text = listaIngles[9];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -774,13 +774,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.snacks;
                     pictureBox2.Image = Properties.Resources.i_eat_french_fries;
                     sd = listaAudio[10];//audio
                     txtPt.Text = listaPortugues[10];//legenda 
                     txtEn.Text = listaIngles[10];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -792,13 +792,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.corn_flakes;
                     pictureBox2.Image = Properties.Resources.i_eat_bread;
                     sd = listaAudio[11];//audio
                     txtPt.Text = listaPortugues[11];//legenda 
                     txtEn.Text = listaIngles[11];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -810,13 +810,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_cake;
                     pictureBox2.Image = Properties.Resources.hambuger;
                     sd = listaAudio[12];//audio
                     txtPt.Text = listaPortugues[12];//legenda 
                     txtEn.Text = listaIngles[12];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -828,13 +828,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.salad;
                     pictureBox2.Image = Properties.Resources.i_eat_egg;
                     sd = listaAudio[13];//audio
                     txtPt.Text = listaPortugues[13];//legenda 
                     txtEn.Text = listaIngles[13];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -848,13 +848,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_barbecue;
                     pictureBox2.Image = Properties.Resources.i_eat_fish;
                     sd = listaAudio[14];//audio
                     txtPt.Text = listaPortugues[14];//legenda 
                     txtEn.Text = listaIngles[14];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -870,13 +870,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.rice;
                     pictureBox2.Image = Properties.Resources.i_eat_beam;
                     sd = listaAudio[15];//audio
                     txtPt.Text = listaPortugues[15];//legenda 
                     txtEn.Text = listaIngles[15];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -889,13 +889,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_pancake;
                     pictureBox2.Image = Properties.Resources.I_drink_milk;
                     sd = listaAudio[16];//audio
                     txtPt.Text = listaPortugues[16];//legenda 
                     txtEn.Text = listaIngles[16];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -907,13 +907,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.I_drink_coffee;
                     pictureBox2.Image = Properties.Resources.i_eat_bacon;
                     sd = listaAudio[17];//audio
                     txtPt.Text = listaPortugues[17];//legenda 
                     txtEn.Text = listaIngles[17];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -926,13 +926,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_chicken;
                     pictureBox2.Image = Properties.Resources.i_eat_sausage;
                     sd = listaAudio[18];//audio
                     txtPt.Text = listaPortugues[18];//legenda 
                     txtEn.Text = listaIngles[18];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -946,13 +946,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.coconut_water;
                     pictureBox2.Image = Properties.Resources.I_drink_tea;
                     sd = listaAudio[19];//audio
                     txtPt.Text = listaPortugues[19];//legenda 
                     txtEn.Text = listaIngles[19];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -964,13 +964,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.ACHOCOLATADO;
                     pictureBox2.Image = Properties.Resources.i_eat_cake;
                     sd = listaAudio[20];//audio
                     txtPt.Text = listaPortugues[20];//legenda 
                     txtEn.Text = listaIngles[20];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -984,13 +984,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.salad;
                     pictureBox2.Image = Properties.Resources.she_drinks_lemonade;
                     sd = listaAudio[21];//audio
                     txtPt.Text = listaPortugues[21];//legenda 
                     txtEn.Text = listaIngles[21];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1001,12 +1001,12 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(816, 550);//tela inteira
+ pictureBox1.ClientSize = new Size(564,390) ;//tela inteira
                     pictureBox1.Image = Properties.Resources.hot_dog;
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
                     txtEn.Text = listaIngles[1];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1022,7 +1022,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
                     txtEn.Text = listaIngles[1];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1039,7 +1039,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[2];//audio
                     txtPt.Text = listaPortugues[2];//legenda 
                     txtEn.Text = listaIngles[2];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1058,7 +1058,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
                     txtEn.Text = listaIngles[3];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1074,7 +1074,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[4];//audio
                     txtPt.Text = listaPortugues[4];//legenda 
                     txtEn.Text = listaIngles[4];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1090,7 +1090,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[5];//audio
                     txtPt.Text = listaPortugues[5];//legenda 
                     txtEn.Text = listaIngles[5];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1106,7 +1106,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[6];//audio
                     txtPt.Text = listaPortugues[6];//legenda 
                     txtEn.Text = listaIngles[6];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1123,7 +1123,7 @@ namespace WindowsFormsApp1
                     sd = listaAudio[7];//audio
                     txtPt.Text = listaPortugues[7];//legenda 
                     txtEn.Text = listaIngles[7];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1135,13 +1135,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_pie;
                     pictureBox2.Image = Properties.Resources.i_eat_hot_dog;
                     sd = listaAudio[8];//audio
                     txtPt.Text = listaPortugues[8];//legenda 
                     txtEn.Text = listaIngles[8];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1155,13 +1155,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.ice_cream;
                     pictureBox2.Image = Properties.Resources.cake;
                     sd = listaAudio[9];//audio
                     txtPt.Text = listaPortugues[9];//legenda 
                     txtEn.Text = listaIngles[9];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1173,13 +1173,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.snacks;
                     pictureBox2.Image = Properties.Resources.i_eat_french_fries;
                     sd = listaAudio[10];//audio
                     txtPt.Text = listaPortugues[10];//legenda 
                     txtEn.Text = listaIngles[10];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1191,13 +1191,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.corn_flakes;
                     pictureBox2.Image = Properties.Resources.i_eat_bread;
                     sd = listaAudio[11];//audio
                     txtPt.Text = listaPortugues[11];//legenda 
                     txtEn.Text = listaIngles[11];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1209,13 +1209,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_cake;
                     pictureBox2.Image = Properties.Resources.hambuger;
                     sd = listaAudio[12];//audio
                     txtPt.Text = listaPortugues[12];//legenda 
                     txtEn.Text = listaIngles[12];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1227,13 +1227,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.salad;
                     pictureBox2.Image = Properties.Resources.i_eat_egg;
                     sd = listaAudio[13];//audio
                     txtPt.Text = listaPortugues[13];//legenda 
                     txtEn.Text = listaIngles[13];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1247,13 +1247,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_barbecue;
                     pictureBox2.Image = Properties.Resources.i_eat_fish;
                     sd = listaAudio[14];//audio
                     txtPt.Text = listaPortugues[14];//legenda 
                     txtEn.Text = listaIngles[14];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1269,13 +1269,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.rice;
                     pictureBox2.Image = Properties.Resources.i_eat_beam;
                     sd = listaAudio[15];//audio
                     txtPt.Text = listaPortugues[15];//legenda 
                     txtEn.Text = listaIngles[15];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1288,13 +1288,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_pancake;
                     pictureBox2.Image = Properties.Resources.I_drink_milk;
                     sd = listaAudio[16];//audio
                     txtPt.Text = listaPortugues[16];//legenda 
                     txtEn.Text = listaIngles[16];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1306,13 +1306,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.I_drink_coffee;
                     pictureBox2.Image = Properties.Resources.i_eat_bacon;
                     sd = listaAudio[17];//audio
                     txtPt.Text = listaPortugues[17];//legenda 
                     txtEn.Text = listaIngles[17];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1325,13 +1325,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.i_eat_chicken;
                     pictureBox2.Image = Properties.Resources.i_eat_sausage;
                     sd = listaAudio[18];//audio
                     txtPt.Text = listaPortugues[18];//legenda 
                     txtEn.Text = listaIngles[18];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1345,13 +1345,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.coconut_water;
                     pictureBox2.Image = Properties.Resources.I_drink_tea;
                     sd = listaAudio[19];//audio
                     txtPt.Text = listaPortugues[19];//legenda 
                     txtEn.Text = listaIngles[19];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1363,13 +1363,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.ACHOCOLATADO;
                     pictureBox2.Image = Properties.Resources.i_eat_cake;
                     sd = listaAudio[20];//audio
                     txtPt.Text = listaPortugues[20];//legenda 
                     txtEn.Text = listaIngles[20];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1383,13 +1383,13 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(408, 275);//metade da tela
+                     pictureBox1.ClientSize = new Size(282,390) ;
                     pictureBox1.Image = Properties.Resources.salad;
                     pictureBox2.Image = Properties.Resources.she_drinks_lemonade;
                     sd = listaAudio[21];//audio
                     txtPt.Text = listaPortugues[21];//legenda 
                     txtEn.Text = listaIngles[21];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1400,12 +1400,12 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(816, 550);//tela inteira
+ pictureBox1.ClientSize = new Size(564,390) ;//tela inteira
                     pictureBox1.Image = Properties.Resources.hot_dog;
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
                     txtEn.Text = listaIngles[1];//legenda inglês
-                    lbProfessor.Text = "";
+                 
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
@@ -1424,7 +1424,7 @@ namespace WindowsFormsApp1
         void Sre_Reconhecimento(object sender, SpeechRecognizedEventArgs e)
         {
             i++;
-            lbProfessor.Text = "";
+         
             frase = e.Result.Text;
             legenda = txtEn.Text;
             lbAudio.Text = frase;
@@ -1435,7 +1435,7 @@ namespace WindowsFormsApp1
             if ((lbAudio.Text) == (txtEn.Text) && (lblGravando.Text.Equals("gravando")))
             {
 
-                lbProfessor.Visible = true;
+               
                 textBoxAluno.Enabled = true;
                 timerFalar.Stop();
                 timerEscrever.Start();
@@ -1462,7 +1462,7 @@ namespace WindowsFormsApp1
         {
 
 
-            lbProfessor.Text = "";
+         
             timerOuvir.Stop();
             btOuvir.BackColor = Color.Aqua;
             timerFalar.Start();
@@ -1506,7 +1506,7 @@ namespace WindowsFormsApp1
             if (lbAudio.Text.Equals(txtEn.Text))
             {
 
-                lbProfessor.Visible = true;
+               
                 textBoxAluno.Enabled = true;
                 timerFalar.Stop();
                 timerEscrever.Start();
@@ -1526,7 +1526,7 @@ namespace WindowsFormsApp1
                 if (c > 3)
                 {
 
-                    lbProfessor.Visible = true;
+                   
                     textBoxAluno.Enabled = true;
                     timerFalar.Stop();
                     timerEscrever.Start();
@@ -1654,7 +1654,7 @@ namespace WindowsFormsApp1
             lblGravando.Text = "gravando";
             if (c > 3)
             {
-                lbProfessor.Visible = true;
+               
                 textBoxAluno.Enabled = true;
                 timerFalar.Stop();
                 timerEscrever.Start();
