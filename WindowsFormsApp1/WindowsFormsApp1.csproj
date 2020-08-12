@@ -51,59 +51,113 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aula1.cs">
+    <Compile Include="Aula1M1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aula1.Designer.cs">
-      <DependentUpon>Aula1.cs</DependentUpon>
+    <Compile Include="Aula1M1.Designer.cs">
+      <DependentUpon>Aula1M1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aula8.cs">
+    <Compile Include="Aula7M2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aula8.Designer.cs">
-      <DependentUpon>Aula8.cs</DependentUpon>
+    <Compile Include="Aula7M2.Designer.cs">
+      <DependentUpon>Aula7M2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aula7.cs">
+    <Compile Include="Aula6M2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aula7.Designer.cs">
-      <DependentUpon>Aula7.cs</DependentUpon>
+    <Compile Include="Aula6M2.Designer.cs">
+      <DependentUpon>Aula6M2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aula6.cs">
+    <Compile Include="Aula5M2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aula6.Designer.cs">
-      <DependentUpon>Aula6.cs</DependentUpon>
+    <Compile Include="Aula5M2.Designer.cs">
+      <DependentUpon>Aula5M2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aula5.cs">
+    <Compile Include="Aula4M2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aula5.Designer.cs">
-      <DependentUpon>Aula5.cs</DependentUpon>
+    <Compile Include="Aula4M2.Designer.cs">
+      <DependentUpon>Aula4M2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aula4.cs">
+    <Compile Include="Aula3M2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aula4.Designer.cs">
-      <DependentUpon>Aula4.cs</DependentUpon>
+    <Compile Include="Aula3M2.Designer.cs">
+      <DependentUpon>Aula3M2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aula3.cs">
+    <Compile Include="Aula3M2 .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aula3.Designer.cs">
-      <DependentUpon>Aula3.cs</DependentUpon>
+    <Compile Include="Aula3M2 .Designer.cs">
+      <DependentUpon>Aula3M2 .cs</DependentUpon>
     </Compile>
-    <Compile Include="Aula2.cs">
+    <Compile Include="Aula2M2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aula2.Designer.cs">
-      <DependentUpon>Aula2.cs</DependentUpon>
+    <Compile Include="Aula2M2.Designer.cs">
+      <DependentUpon>Aula2M2.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuAulas.cs">
+    <Compile Include="Aula1M2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuAulas.Designer.cs">
-      <DependentUpon>MenuAulas.cs</DependentUpon>
+    <Compile Include="Aula1M2.Designer.cs">
+      <DependentUpon>Aula1M2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aula8M1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula8M1.Designer.cs">
+      <DependentUpon>Aula8M1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aula7M1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula7M1.Designer.cs">
+      <DependentUpon>Aula7M1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aula6M1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula6M1.Designer.cs">
+      <DependentUpon>Aula6M1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aula5M1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula5M1.Designer.cs">
+      <DependentUpon>Aula5M1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aula4M1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula4M1.Designer.cs">
+      <DependentUpon>Aula4M1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aula3M1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula3M1.Designer.cs">
+      <DependentUpon>Aula3M1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aula2M1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula2M1.Designer.cs">
+      <DependentUpon>Aula2M1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAulaM2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAulaM2.Designer.cs">
+      <DependentUpon>MenuAulaM2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAulaM1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAulaM1.Designer.cs">
+      <DependentUpon>MenuAulaM1.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -113,32 +167,59 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Aula1.resx">
-      <DependentUpon>Aula1.cs</DependentUpon>
+    <EmbeddedResource Include="Aula1M1.resx">
+      <DependentUpon>Aula1M1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aula8.resx">
-      <DependentUpon>Aula8.cs</DependentUpon>
+    <EmbeddedResource Include="Aula7M2.resx">
+      <DependentUpon>Aula7M2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aula7.resx">
-      <DependentUpon>Aula7.cs</DependentUpon>
+    <EmbeddedResource Include="Aula6M2.resx">
+      <DependentUpon>Aula6M2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aula6.resx">
-      <DependentUpon>Aula6.cs</DependentUpon>
+    <EmbeddedResource Include="Aula5M2.resx">
+      <DependentUpon>Aula5M2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aula5.resx">
-      <DependentUpon>Aula5.cs</DependentUpon>
+    <EmbeddedResource Include="Aula4M2.resx">
+      <DependentUpon>Aula4M2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aula4.resx">
-      <DependentUpon>Aula4.cs</DependentUpon>
+    <EmbeddedResource Include="Aula3M2.resx">
+      <DependentUpon>Aula3M2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aula3.resx">
-      <DependentUpon>Aula3.cs</DependentUpon>
+    <EmbeddedResource Include="Aula3M2 .resx">
+      <DependentUpon>Aula3M2 .cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aula2.resx">
-      <DependentUpon>Aula2.cs</DependentUpon>
+    <EmbeddedResource Include="Aula2M2.resx">
+      <DependentUpon>Aula2M2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuAulas.resx">
-      <DependentUpon>MenuAulas.cs</DependentUpon>
+    <EmbeddedResource Include="Aula1M2.resx">
+      <DependentUpon>Aula1M2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aula8M1.resx">
+      <DependentUpon>Aula8M1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aula7M1.resx">
+      <DependentUpon>Aula7M1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aula6M1.resx">
+      <DependentUpon>Aula6M1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aula5M1.resx">
+      <DependentUpon>Aula5M1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aula4M1.resx">
+      <DependentUpon>Aula4M1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aula3M1.resx">
+      <DependentUpon>Aula3M1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aula2M1.resx">
+      <DependentUpon>Aula2M1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAulaM2.resx">
+      <DependentUpon>MenuAulaM2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAulaM1.resx">
+      <DependentUpon>MenuAulaM1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
@@ -562,6 +643,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\I drink juice1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beet.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brocolli.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carriot.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garlic.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat brocolli.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat carriot.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat garlic.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat tomato.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat lettuce.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat potato.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lettuce.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i eat onion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onion.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potato.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomato.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\she eats beet.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

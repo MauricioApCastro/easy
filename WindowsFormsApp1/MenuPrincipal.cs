@@ -20,7 +20,7 @@ namespace WindowsFormsApp1
 
         private void btOuvir_Click(object sender, EventArgs e)
         {
-            MenuAulas f = new MenuAulas();
+            MenuAulaM1 f = new MenuAulaM1();
             f.Show();
             
             
@@ -43,6 +43,8 @@ namespace WindowsFormsApp1
 
         private void button6_Click(object sender, EventArgs e)
         {
+            MenuAulaM2 f = new MenuAulaM2();
+            f.Show();
 
         }
     }
