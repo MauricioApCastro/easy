@@ -45,7 +45,7 @@ namespace WindowsFormsApp1
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
             //axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
-            Aula03 nova = new Aula03();
+            Aula2M2 nova = new Aula2M2();
             nova.Show();
 
             this.Hide();

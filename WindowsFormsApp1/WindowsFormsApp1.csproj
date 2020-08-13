@@ -692,5 +692,92 @@
   <ItemGroup>
     <None Include="Resources\she eats beet.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eight.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eighteen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eighty.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eleven.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fifteen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fifty.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\five.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forty.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\four.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fourteen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nine.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nineteen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ninety.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\one hudred.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\one.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seven.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seventeen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seventy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\six.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sixteen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sixty.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ten.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thirteen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thirty.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\three.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twelve.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twenty.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\two.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zero.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

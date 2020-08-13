@@ -235,12 +235,10 @@ namespace WindowsFormsApp1
             btEscrever.Enabled = false;
             btFalar.Enabled = false;
              btProximo.Enabled = false;
-
-            pictureBox1.Image = Properties.Resources.I_dislike_to_drink_coffee;
+            pictureBox1.Image = Properties.Resources.zero;
             sd = listaAudio[0];//audio
             txtPt.Text = listaPortugues[0];//legenda 
             txtEn.Text = listaIngles[0];//legenda inglês
-
             timerFalar.Stop();
             timerEscrever.Stop();
             textBoxAluno.Focus();
@@ -265,12 +263,1593 @@ namespace WindowsFormsApp1
             switch (silvinha)
 
             {
+                case 1:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                   btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.one;
+                    sd = listaAudio[1];//audio
+                    txtPt.Text = listaPortugues[1];//legenda 
+                    txtEn.Text = listaIngles[1];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 2:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.two;
+                    sd = listaAudio[2];//audio
+                    txtPt.Text = listaPortugues[2];//legenda 
+                    txtEn.Text = listaIngles[2];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 3:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.three;
+                    sd = listaAudio[3];//audio
+                    txtPt.Text = listaPortugues[3];//legenda 
+                    txtEn.Text = listaIngles[3];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 4:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.four;
+                    sd = listaAudio[4];//audio
+                    txtPt.Text = listaPortugues[4];//legenda 
+                    txtEn.Text = listaIngles[4];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 5:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.five;
+                    sd = listaAudio[5];//audio
+                    txtPt.Text = listaPortugues[5];//legenda 
+                    txtEn.Text = listaIngles[5];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 6:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.six;
+                    sd = listaAudio[6];//audio
+                    txtPt.Text = listaPortugues[6];//legenda 
+                    txtEn.Text = listaIngles[6];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 7:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.seven;
+                    sd = listaAudio[7];//audio
+                    txtPt.Text = listaPortugues[7];//legenda 
+                    txtEn.Text = listaIngles[7];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 8:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.eight;
+                    sd = listaAudio[8];//audio
+                    txtPt.Text = listaPortugues[8];//legenda 
+                    txtEn.Text = listaIngles[8];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 9:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.nine;
+                    sd = listaAudio[9];//audio
+                    txtPt.Text = listaPortugues[9];//legenda 
+                    txtEn.Text = listaIngles[9];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 10:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.ten;
+                    sd = listaAudio[10];//audio
+                    txtPt.Text = listaPortugues[10];//legenda 
+                    txtEn.Text = listaIngles[10];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 11:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.eleven;
+                    sd = listaAudio[11];//audio
+                    txtPt.Text = listaPortugues[11];//legenda 
+                    txtEn.Text = listaIngles[11];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 12:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.twelve;
+                    sd = listaAudio[12];//audio
+                    txtPt.Text = listaPortugues[12];//legenda 
+                    txtEn.Text = listaIngles[12];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 13:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.thirteen;
+                    sd = listaAudio[13];//audio
+                    txtPt.Text = listaPortugues[13];//legenda 
+                    txtEn.Text = listaIngles[13];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 14:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.fourteen;
+                    sd = listaAudio[14];//audio
+                    txtPt.Text = listaPortugues[14];//legenda 
+                    txtEn.Text = listaIngles[14];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 15:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.fifteen;
+                    sd = listaAudio[15];//audio
+                    txtPt.Text = listaPortugues[15];//legenda 
+                    txtEn.Text = listaIngles[15];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 16:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.sixteen;
+                    sd = listaAudio[16];//audio
+                    txtPt.Text = listaPortugues[16];//legenda 
+                    txtEn.Text = listaIngles[16];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 17:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.seventeen;
+                    sd = listaAudio[17];//audio
+                    txtPt.Text = listaPortugues[17];//legenda 
+                    txtEn.Text = listaIngles[17];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 18:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.eighteen;
+                    sd = listaAudio[18];//audio
+                    txtPt.Text = listaPortugues[18];//legenda 
+                    txtEn.Text = listaIngles[18];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 19:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.nineteen;
+                    sd = listaAudio[19];//audio
+                    txtPt.Text = listaPortugues[19];//legenda 
+                    txtEn.Text = listaIngles[19];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 20:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.twenty;
+                    sd = listaAudio[20];//audio
+                    txtPt.Text = listaPortugues[20];//legenda 
+                    txtEn.Text = listaIngles[20];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 21:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.thirty;
+                    sd = listaAudio[21];//audio
+                    txtPt.Text = listaPortugues[21];//legenda 
+                    txtEn.Text = listaIngles[21];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 22:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.forty;
+                    sd = listaAudio[22];//audio
+                    txtPt.Text = listaPortugues[22];//legenda 
+                    txtEn.Text = listaIngles[22];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 23:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.fifty;
+                    sd = listaAudio[23];//audio
+                    txtPt.Text = listaPortugues[23];//legenda 
+                    txtEn.Text = listaIngles[23];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 24:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.sixty;
+                    sd = listaAudio[24];//audio
+                    txtPt.Text = listaPortugues[24];//legenda 
+                    txtEn.Text = listaIngles[24];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 25:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.seventy;
+                    sd = listaAudio[25];//audio
+                    txtPt.Text = listaPortugues[25];//legenda 
+                    txtEn.Text = listaIngles[25];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 26:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.eighty;
+                    sd = listaAudio[26];//audio
+                    txtPt.Text = listaPortugues[26];//legenda 
+                    txtEn.Text = listaIngles[26];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 27:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.ninety;
+                    sd = listaAudio[27];//audio
+                    txtPt.Text = listaPortugues[27];//legenda 
+                    txtEn.Text = listaIngles[27];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 28:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                     btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.one_hudred;
+                    sd = listaAudio[28];//audio
+                    txtPt.Text = listaPortugues[28];//legenda 
+                    txtEn.Text = listaIngles[28];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 29:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.two;
+                    pictureBox2.Image = Properties.Resources.potato;
+                    sd = listaAudio[29];//audio
+                    txtPt.Text = listaPortugues[29];//legenda 
+                    txtEn.Text = listaIngles[29];//legenda inglês
 
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+
+                case 30:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.one;
+                    pictureBox2.Image = Properties.Resources.carriot;
+                    sd = listaAudio[30];//audio
+                    txtPt.Text = listaPortugues[30];//legenda 
+                    txtEn.Text = listaIngles[30];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 31:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.three;
+                    pictureBox2.Image = Properties.Resources.onion;
+                    sd = listaAudio[31];//audio
+                    txtPt.Text = listaPortugues[31];//legenda 
+                    txtEn.Text = listaIngles[31];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 32:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.six;
+                    pictureBox2.Image = Properties.Resources.lettuce;
+                    sd = listaAudio[32];//audio
+                    txtPt.Text = listaPortugues[32];//legenda 
+                    txtEn.Text = listaIngles[32];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 33:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.four;
+                    pictureBox2.Image = Properties.Resources.tomato;
+                    sd = listaAudio[33];//audio
+                    txtPt.Text = listaPortugues[33];//legenda 
+                    txtEn.Text = listaIngles[33];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 34:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.nine;
+                    pictureBox2.Image = Properties.Resources.brocolli;
+                    sd = listaAudio[34];//audio
+                    txtPt.Text = listaPortugues[34];//legenda 
+                    txtEn.Text = listaIngles[34];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 35:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.ten;
+                    pictureBox2.Image = Properties.Resources.garlic;
+                    sd = listaAudio[35];//audio
+                    txtPt.Text = listaPortugues[35];//legenda 
+                    txtEn.Text = listaIngles[35];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 36:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.seven;
+                    pictureBox2.Image = Properties.Resources.beet;
+                    sd = listaAudio[36];//audio
+                    txtPt.Text = listaPortugues[36];//legenda 
+                    txtEn.Text = listaIngles[36];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 37:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.five;
+                    pictureBox2.Image = Properties.Resources.nine;
+                    sd = listaAudio[37];//audio
+                    txtPt.Text = listaPortugues[37];//legenda 
+                    txtEn.Text = listaIngles[37];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 38:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.seven;
+                    pictureBox2.Image = Properties.Resources.potato;
+                    sd = listaAudio[38];//audio
+                    txtPt.Text = listaPortugues[38];//legenda 
+                    txtEn.Text = listaIngles[38];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 39:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    pictureBox2.Visible = false;
+                    pictureBox1.ClientSize = new Size(564, 390);//tela inteira
+                    pictureBox1.Image = Properties.Resources.zero;
+                    btProximo.Enabled = false;
+                    sd = listaAudio[0];//audio                 
+                    txtPt.Text = listaPortugues[0];//legenda 
+                    txtEn.Text = listaIngles[0];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 40:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.one;
+                    sd = listaAudio[1];//audio
+                    txtPt.Text = listaPortugues[1];//legenda 
+                    txtEn.Text = listaIngles[1];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 41:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.two;
+                    sd = listaAudio[2];//audio
+                    txtPt.Text = listaPortugues[2];//legenda 
+                    txtEn.Text = listaIngles[2];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 42:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.three;
+                    sd = listaAudio[3];//audio
+                    txtPt.Text = listaPortugues[3];//legenda 
+                    txtEn.Text = listaIngles[3];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 43:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.four;
+                    sd = listaAudio[4];//audio
+                    txtPt.Text = listaPortugues[4];//legenda 
+                    txtEn.Text = listaIngles[4];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 44:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.five;
+                    sd = listaAudio[5];//audio
+                    txtPt.Text = listaPortugues[5];//legenda 
+                    txtEn.Text = listaIngles[5];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 45:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.six;
+                    sd = listaAudio[6];//audio
+                    txtPt.Text = listaPortugues[6];//legenda 
+                    txtEn.Text = listaIngles[6];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 46:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.seven;
+                    sd = listaAudio[7];//audio
+                    txtPt.Text = listaPortugues[7];//legenda 
+                    txtEn.Text = listaIngles[7];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 47:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.eight;
+                    sd = listaAudio[8];//audio
+                    txtPt.Text = listaPortugues[8];//legenda 
+                    txtEn.Text = listaIngles[8];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 48:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.nine;
+                    sd = listaAudio[9];//audio
+                    txtPt.Text = listaPortugues[9];//legenda 
+                    txtEn.Text = listaIngles[9];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 49:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.ten;
+                    sd = listaAudio[10];//audio
+                    txtPt.Text = listaPortugues[10];//legenda 
+                    txtEn.Text = listaIngles[10];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 50:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.eleven;
+                    sd = listaAudio[11];//audio
+                    txtPt.Text = listaPortugues[11];//legenda 
+                    txtEn.Text = listaIngles[11];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 51:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.twelve;
+                    sd = listaAudio[12];//audio
+                    txtPt.Text = listaPortugues[12];//legenda 
+                    txtEn.Text = listaIngles[12];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 52:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.thirteen;
+                    sd = listaAudio[13];//audio
+                    txtPt.Text = listaPortugues[13];//legenda 
+                    txtEn.Text = listaIngles[13];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 53:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.fourteen;
+                    sd = listaAudio[14];//audio
+                    txtPt.Text = listaPortugues[14];//legenda 
+                    txtEn.Text = listaIngles[14];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 54:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.fifteen;
+                    sd = listaAudio[15];//audio
+                    txtPt.Text = listaPortugues[15];//legenda 
+                    txtEn.Text = listaIngles[15];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 55:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.sixteen;
+                    sd = listaAudio[16];//audio
+                    txtPt.Text = listaPortugues[16];//legenda 
+                    txtEn.Text = listaIngles[16];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 56:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.seventeen;
+                    sd = listaAudio[17];//audio
+                    txtPt.Text = listaPortugues[17];//legenda 
+                    txtEn.Text = listaIngles[17];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 57:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.eighteen;
+                    sd = listaAudio[18];//audio
+                    txtPt.Text = listaPortugues[18];//legenda 
+                    txtEn.Text = listaIngles[18];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 58:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.nineteen;
+                    sd = listaAudio[19];//audio
+                    txtPt.Text = listaPortugues[19];//legenda 
+                    txtEn.Text = listaIngles[19];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 59:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.twenty;
+                    sd = listaAudio[20];//audio
+                    txtPt.Text = listaPortugues[20];//legenda 
+                    txtEn.Text = listaIngles[20];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 60:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.thirty;
+                    sd = listaAudio[21];//audio
+                    txtPt.Text = listaPortugues[21];//legenda 
+                    txtEn.Text = listaIngles[21];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 61:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.forty;
+                    sd = listaAudio[22];//audio
+                    txtPt.Text = listaPortugues[22];//legenda 
+                    txtEn.Text = listaIngles[22];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 62:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.fifty;
+                    sd = listaAudio[23];//audio
+                    txtPt.Text = listaPortugues[23];//legenda 
+                    txtEn.Text = listaIngles[23];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 63:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.sixty;
+                    sd = listaAudio[24];//audio
+                    txtPt.Text = listaPortugues[24];//legenda 
+                    txtEn.Text = listaIngles[24];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 64:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.seventy;
+                    sd = listaAudio[25];//audio
+                    txtPt.Text = listaPortugues[25];//legenda 
+                    txtEn.Text = listaIngles[25];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 65:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.eighty;
+                    sd = listaAudio[26];//audio
+                    txtPt.Text = listaPortugues[26];//legenda 
+                    txtEn.Text = listaIngles[26];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 66:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.ninety;
+                    sd = listaAudio[27];//audio
+                    txtPt.Text = listaPortugues[27];//legenda 
+                    txtEn.Text = listaIngles[27];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 67:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.one_hudred;
+                    sd = listaAudio[28];//audio
+                    txtPt.Text = listaPortugues[28];//legenda 
+                    txtEn.Text = listaIngles[28];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 68:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.two;
+                    pictureBox2.Image = Properties.Resources.potato;
+                    sd = listaAudio[29];//audio
+                    txtPt.Text = listaPortugues[29];//legenda 
+                    txtEn.Text = listaIngles[29];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+
+                case 69:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.one;
+                    pictureBox2.Image = Properties.Resources.carriot;
+                    sd = listaAudio[30];//audio
+                    txtPt.Text = listaPortugues[30];//legenda 
+                    txtEn.Text = listaIngles[30];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 70:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.three;
+                    pictureBox2.Image = Properties.Resources.onion;
+                    sd = listaAudio[31];//audio
+                    txtPt.Text = listaPortugues[31];//legenda 
+                    txtEn.Text = listaIngles[31];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 71:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.six;
+                    pictureBox2.Image = Properties.Resources.lettuce;
+                    sd = listaAudio[32];//audio
+                    txtPt.Text = listaPortugues[32];//legenda 
+                    txtEn.Text = listaIngles[32];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 72:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.four;
+                    pictureBox2.Image = Properties.Resources.tomato;
+                    sd = listaAudio[33];//audio
+                    txtPt.Text = listaPortugues[33];//legenda 
+                    txtEn.Text = listaIngles[33];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 73:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.nine;
+                    pictureBox2.Image = Properties.Resources.brocolli;
+                    sd = listaAudio[34];//audio
+                    txtPt.Text = listaPortugues[34];//legenda 
+                    txtEn.Text = listaIngles[34];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 74:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.ten;
+                    pictureBox2.Image = Properties.Resources.garlic;
+                    sd = listaAudio[35];//audio
+                    txtPt.Text = listaPortugues[35];//legenda 
+                    txtEn.Text = listaIngles[35];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 75:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.seven;
+                    pictureBox2.Image = Properties.Resources.beet;
+                    sd = listaAudio[36];//audio
+                    txtPt.Text = listaPortugues[36];//legenda 
+                    txtEn.Text = listaIngles[36];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 76:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.five;
+                    pictureBox2.Image = Properties.Resources.nine;
+                    sd = listaAudio[37];//audio
+                    txtPt.Text = listaPortugues[37];//legenda 
+                    txtEn.Text = listaIngles[37];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 77:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.seven;
+                    pictureBox2.Image = Properties.Resources.potato;
+                    sd = listaAudio[38];//audio
+                    txtPt.Text = listaPortugues[38];//legenda 
+                    txtEn.Text = listaIngles[38];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 78:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    pictureBox2.Visible = false;
+                    pictureBox1.ClientSize = new Size(564, 390);//tela inteira
+                    pictureBox1.Image = Properties.Resources.zero;
+                    btProximo.Enabled = false;
+                    sd = listaAudio[0];//audio                 
+                    txtPt.Text = listaPortugues[0];//legenda 
+                    txtEn.Text = listaIngles[0];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 79:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.one;
+                    sd = listaAudio[1];//audio
+                    txtPt.Text = listaPortugues[1];//legenda 
+                    txtEn.Text = listaIngles[1];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 80:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.two;
+                    sd = listaAudio[2];//audio
+                    txtPt.Text = listaPortugues[2];//legenda 
+                    txtEn.Text = listaIngles[2];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 81:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.three;
+                    sd = listaAudio[3];//audio
+                    txtPt.Text = listaPortugues[3];//legenda 
+                    txtEn.Text = listaIngles[3];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 82:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.four;
+                    sd = listaAudio[4];//audio
+                    txtPt.Text = listaPortugues[4];//legenda 
+                    txtEn.Text = listaIngles[4];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 83:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.five;
+                    sd = listaAudio[5];//audio
+                    txtPt.Text = listaPortugues[5];//legenda 
+                    txtEn.Text = listaIngles[5];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 84:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.six;
+                    sd = listaAudio[6];//audio
+                    txtPt.Text = listaPortugues[6];//legenda 
+                    txtEn.Text = listaIngles[6];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 85:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.seven;
+                    sd = listaAudio[7];//audio
+                    txtPt.Text = listaPortugues[7];//legenda 
+                    txtEn.Text = listaIngles[7];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 86:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.eight;
+                    sd = listaAudio[8];//audio
+                    txtPt.Text = listaPortugues[8];//legenda 
+                    txtEn.Text = listaIngles[8];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 87:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.nine;
+                    sd = listaAudio[9];//audio
+                    txtPt.Text = listaPortugues[9];//legenda 
+                    txtEn.Text = listaIngles[9];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 88:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.ten;
+                    sd = listaAudio[10];//audio
+                    txtPt.Text = listaPortugues[10];//legenda 
+                    txtEn.Text = listaIngles[10];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 89:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.eleven;
+                    sd = listaAudio[11];//audio
+                    txtPt.Text = listaPortugues[11];//legenda 
+                    txtEn.Text = listaIngles[11];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 90:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.twelve;
+                    sd = listaAudio[12];//audio
+                    txtPt.Text = listaPortugues[12];//legenda 
+                    txtEn.Text = listaIngles[12];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 91:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.thirteen;
+                    sd = listaAudio[13];//audio
+                    txtPt.Text = listaPortugues[13];//legenda 
+                    txtEn.Text = listaIngles[13];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 92:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.fourteen;
+                    sd = listaAudio[14];//audio
+                    txtPt.Text = listaPortugues[14];//legenda 
+                    txtEn.Text = listaIngles[14];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 93:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.fifteen;
+                    sd = listaAudio[15];//audio
+                    txtPt.Text = listaPortugues[15];//legenda 
+                    txtEn.Text = listaIngles[15];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 94:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.sixteen;
+                    sd = listaAudio[16];//audio
+                    txtPt.Text = listaPortugues[16];//legenda 
+                    txtEn.Text = listaIngles[16];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 95:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.seventeen;
+                    sd = listaAudio[17];//audio
+                    txtPt.Text = listaPortugues[17];//legenda 
+                    txtEn.Text = listaIngles[17];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 96:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.eighteen;
+                    sd = listaAudio[18];//audio
+                    txtPt.Text = listaPortugues[18];//legenda 
+                    txtEn.Text = listaIngles[18];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 97:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.nineteen;
+                    sd = listaAudio[19];//audio
+                    txtPt.Text = listaPortugues[19];//legenda 
+                    txtEn.Text = listaIngles[19];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 98:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.twenty;
+                    sd = listaAudio[20];//audio
+                    txtPt.Text = listaPortugues[20];//legenda 
+                    txtEn.Text = listaIngles[20];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 99:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.thirty;
+                    sd = listaAudio[21];//audio
+                    txtPt.Text = listaPortugues[21];//legenda 
+                    txtEn.Text = listaIngles[21];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 100:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.forty;
+                    sd = listaAudio[22];//audio
+                    txtPt.Text = listaPortugues[22];//legenda 
+                    txtEn.Text = listaIngles[22];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 101:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.fifty;
+                    sd = listaAudio[23];//audio
+                    txtPt.Text = listaPortugues[23];//legenda 
+                    txtEn.Text = listaIngles[23];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 102:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.sixty;
+                    sd = listaAudio[24];//audio
+                    txtPt.Text = listaPortugues[24];//legenda 
+                    txtEn.Text = listaIngles[24];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 103:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.seventy;
+                    sd = listaAudio[25];//audio
+                    txtPt.Text = listaPortugues[25];//legenda 
+                    txtEn.Text = listaIngles[25];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 104:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.eighty;
+                    sd = listaAudio[26];//audio
+                    txtPt.Text = listaPortugues[26];//legenda 
+                    txtEn.Text = listaIngles[26];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 105:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.ninety;
+                    sd = listaAudio[27];//audio
+                    txtPt.Text = listaPortugues[27];//legenda 
+                    txtEn.Text = listaIngles[27];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 106:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.one_hudred;
+                    sd = listaAudio[28];//audio
+                    txtPt.Text = listaPortugues[28];//legenda 
+                    txtEn.Text = listaIngles[28];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 107:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.two;
+                    pictureBox2.Image = Properties.Resources.potato;
+                    sd = listaAudio[29];//audio
+                    txtPt.Text = listaPortugues[29];//legenda 
+                    txtEn.Text = listaIngles[29];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+
+                case 108:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.one;
+                    pictureBox2.Image = Properties.Resources.carriot;
+                    sd = listaAudio[30];//audio
+                    txtPt.Text = listaPortugues[30];//legenda 
+                    txtEn.Text = listaIngles[30];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 109:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.three;
+                    pictureBox2.Image = Properties.Resources.onion;
+                    sd = listaAudio[31];//audio
+                    txtPt.Text = listaPortugues[31];//legenda 
+                    txtEn.Text = listaIngles[31];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 110:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.six;
+                    pictureBox2.Image = Properties.Resources.lettuce;
+                    sd = listaAudio[32];//audio
+                    txtPt.Text = listaPortugues[32];//legenda 
+                    txtEn.Text = listaIngles[32];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 111:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.four;
+                    pictureBox2.Image = Properties.Resources.tomato;
+                    sd = listaAudio[33];//audio
+                    txtPt.Text = listaPortugues[33];//legenda 
+                    txtEn.Text = listaIngles[33];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 112:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.nine;
+                    pictureBox2.Image = Properties.Resources.brocolli;
+                    sd = listaAudio[34];//audio
+                    txtPt.Text = listaPortugues[34];//legenda 
+                    txtEn.Text = listaIngles[34];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 113:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.ten;
+                    pictureBox2.Image = Properties.Resources.garlic;
+                    sd = listaAudio[35];//audio
+                    txtPt.Text = listaPortugues[35];//legenda 
+                    txtEn.Text = listaIngles[35];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 114:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.seven;
+                    pictureBox2.Image = Properties.Resources.beet;
+                    sd = listaAudio[36];//audio
+                    txtPt.Text = listaPortugues[36];//legenda 
+                    txtEn.Text = listaIngles[36];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 115:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.five;
+                    pictureBox2.Image = Properties.Resources.nine;
+                    sd = listaAudio[37];//audio
+                    txtPt.Text = listaPortugues[37];//legenda 
+                    txtEn.Text = listaIngles[37];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 116:
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(282, 390);
+                    pictureBox1.Image = Properties.Resources.seven;
+                    pictureBox2.Image = Properties.Resources.potato;
+                    sd = listaAudio[38];//audio
+                    txtPt.Text = listaPortugues[38];//legenda 
+                    txtEn.Text = listaIngles[38];//legenda inglês
+
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    this.Close();
+                    break;
                
-
-
-
-
 
 
 
