@@ -165,7 +165,7 @@ namespace WindowsFormsApp1
 
             btEscrever.Enabled = false;
             btFalar.Enabled = false;
-           // btProximo.Enabled = false;
+            btProximo.Enabled = false;
             pictureBox1.Image = Properties.Resources.potato;
             sd = listaAudio[0];//audio
             txtPt.Text = listaPortugues[0];//legenda 
@@ -198,7 +198,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                 //   btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.carriot;
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
@@ -212,7 +212,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                 //   btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.onion;
                     sd = listaAudio[2];//audio
                     txtPt.Text = listaPortugues[2];//legenda 
@@ -226,7 +226,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                //    btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.garlic;
                     sd = listaAudio[3];//audio
                     txtPt.Text = listaPortugues[3];//legenda 
@@ -239,7 +239,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                 //   btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.tomato;
                     sd = listaAudio[4];//audio
                     txtPt.Text = listaPortugues[4];//legenda 
@@ -252,7 +252,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                 //   btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.brocolli;
                     sd = listaAudio[5];//audio
                     txtPt.Text = listaPortugues[5];//legenda 
@@ -265,7 +265,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                  //  btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.beet;
                     sd = listaAudio[6];//audio
                     txtPt.Text = listaPortugues[6];//legenda 
@@ -278,7 +278,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                  //  btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.lettuce;
                     sd = listaAudio[7];//audio
                     txtPt.Text = listaPortugues[7];//legenda 
@@ -291,7 +291,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                  //  btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_potato;
                     sd = listaAudio[8];//audio
                     txtPt.Text = listaPortugues[8];//legenda 
@@ -304,7 +304,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                  //  btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_carriot;
                     sd = listaAudio[9];//audio
                     txtPt.Text = listaPortugues[9];//legenda 
@@ -317,7 +317,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                  //  btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_onion;
                     sd = listaAudio[10];//audio
                     txtPt.Text = listaPortugues[10];//legenda 
@@ -330,7 +330,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                 //   btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_garlic;
                     sd = listaAudio[11];//audio
                     txtPt.Text = listaPortugues[11];//legenda 
@@ -343,7 +343,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                //   btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_tomato;
                     sd = listaAudio[12];//audio
                     txtPt.Text = listaPortugues[12];//legenda 
@@ -356,7 +356,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                //    btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_brocolli;
                     sd = listaAudio[13];//audio
                     txtPt.Text = listaPortugues[13];//legenda 
@@ -369,7 +369,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                  //  btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.she_eats_beet;
                     sd = listaAudio[14];//audio
                     txtPt.Text = listaPortugues[14];//legenda 
@@ -382,7 +382,7 @@ namespace WindowsFormsApp1
 
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-              //      btProximo.Enabled = false;
+                    btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_lettuce;
                     sd = listaAudio[15];//audio
                     txtPt.Text = listaPortugues[15];//legenda 
@@ -391,7 +391,426 @@ namespace WindowsFormsApp1
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
                     break;
+                case 16:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.potato;
+                    sd = listaAudio[0];//audio
+                    txtPt.Text = listaPortugues[0];//legenda 
+                    txtEn.Text = listaIngles[0];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 17:
 
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.carriot;
+                    sd = listaAudio[1];//audio
+                    txtPt.Text = listaPortugues[1];//legenda 
+                    txtEn.Text = listaIngles[1];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+
+                case 18:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.onion;
+                    sd = listaAudio[2];//audio
+                    txtPt.Text = listaPortugues[2];//legenda 
+                    txtEn.Text = listaIngles[2];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+
+                case 19:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.garlic;
+                    sd = listaAudio[3];//audio
+                    txtPt.Text = listaPortugues[3];//legenda 
+                    txtEn.Text = listaIngles[3];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 20:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.tomato;
+                    sd = listaAudio[4];//audio
+                    txtPt.Text = listaPortugues[4];//legenda 
+                    txtEn.Text = listaIngles[4];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 21:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.brocolli;
+                    sd = listaAudio[5];//audio
+                    txtPt.Text = listaPortugues[5];//legenda 
+                    txtEn.Text = listaIngles[5];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 22:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.beet;
+                    sd = listaAudio[6];//audio
+                    txtPt.Text = listaPortugues[6];//legenda 
+                    txtEn.Text = listaIngles[6];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 23:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.lettuce;
+                    sd = listaAudio[7];//audio
+                    txtPt.Text = listaPortugues[7];//legenda 
+                    txtEn.Text = listaIngles[7];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 24:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_potato;
+                    sd = listaAudio[8];//audio
+                    txtPt.Text = listaPortugues[8];//legenda 
+                    txtEn.Text = listaIngles[8];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 25:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_carriot;
+                    sd = listaAudio[9];//audio
+                    txtPt.Text = listaPortugues[9];//legenda 
+                    txtEn.Text = listaIngles[9];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 26:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_onion;
+                    sd = listaAudio[10];//audio
+                    txtPt.Text = listaPortugues[10];//legenda 
+                    txtEn.Text = listaIngles[10];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 27:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_garlic;
+                    sd = listaAudio[11];//audio
+                    txtPt.Text = listaPortugues[11];//legenda 
+                    txtEn.Text = listaIngles[11];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 28:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_tomato;
+                    sd = listaAudio[12];//audio
+                    txtPt.Text = listaPortugues[12];//legenda 
+                    txtEn.Text = listaIngles[12];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 29:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_brocolli;
+                    sd = listaAudio[13];//audio
+                    txtPt.Text = listaPortugues[13];//legenda 
+                    txtEn.Text = listaIngles[13];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 30:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.she_eats_beet;
+                    sd = listaAudio[14];//audio
+                    txtPt.Text = listaPortugues[14];//legenda 
+                    txtEn.Text = listaIngles[14];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 31:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_lettuce;
+                    sd = listaAudio[15];//audio
+                    txtPt.Text = listaPortugues[15];//legenda 
+                    txtEn.Text = listaIngles[15];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 32:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.potato;
+                    sd = listaAudio[0];//audio
+                    txtPt.Text = listaPortugues[0];//legenda 
+                    txtEn.Text = listaIngles[0];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 33:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.carriot;
+                    sd = listaAudio[1];//audio
+                    txtPt.Text = listaPortugues[1];//legenda 
+                    txtEn.Text = listaIngles[1];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+
+                case 34:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.onion;
+                    sd = listaAudio[2];//audio
+                    txtPt.Text = listaPortugues[2];//legenda 
+                    txtEn.Text = listaIngles[2];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+
+                case 35:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.garlic;
+                    sd = listaAudio[3];//audio
+                    txtPt.Text = listaPortugues[3];//legenda 
+                    txtEn.Text = listaIngles[3];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 36:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.tomato;
+                    sd = listaAudio[4];//audio
+                    txtPt.Text = listaPortugues[4];//legenda 
+                    txtEn.Text = listaIngles[4];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 37:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.brocolli;
+                    sd = listaAudio[5];//audio
+                    txtPt.Text = listaPortugues[5];//legenda 
+                    txtEn.Text = listaIngles[5];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 38:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.beet;
+                    sd = listaAudio[6];//audio
+                    txtPt.Text = listaPortugues[6];//legenda 
+                    txtEn.Text = listaIngles[6];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 39:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.lettuce;
+                    sd = listaAudio[7];//audio
+                    txtPt.Text = listaPortugues[7];//legenda 
+                    txtEn.Text = listaIngles[7];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 40:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_potato;
+                    sd = listaAudio[8];//audio
+                    txtPt.Text = listaPortugues[8];//legenda 
+                    txtEn.Text = listaIngles[8];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 41:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_carriot;
+                    sd = listaAudio[9];//audio
+                    txtPt.Text = listaPortugues[9];//legenda 
+                    txtEn.Text = listaIngles[9];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 42:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_onion;
+                    sd = listaAudio[10];//audio
+                    txtPt.Text = listaPortugues[10];//legenda 
+                    txtEn.Text = listaIngles[10];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 43:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_garlic;
+                    sd = listaAudio[11];//audio
+                    txtPt.Text = listaPortugues[11];//legenda 
+                    txtEn.Text = listaIngles[11];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 44:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_tomato;
+                    sd = listaAudio[12];//audio
+                    txtPt.Text = listaPortugues[12];//legenda 
+                    txtEn.Text = listaIngles[12];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 45:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_brocolli;
+                    sd = listaAudio[13];//audio
+                    txtPt.Text = listaPortugues[13];//legenda 
+                    txtEn.Text = listaIngles[13];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 46:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.she_eats_beet;
+                    sd = listaAudio[14];//audio
+                    txtPt.Text = listaPortugues[14];//legenda 
+                    txtEn.Text = listaIngles[14];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 47:
+
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.i_eat_lettuce;
+                    sd = listaAudio[15];//audio
+                    txtPt.Text = listaPortugues[15];//legenda 
+                    txtEn.Text = listaIngles[15];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    this.Close();
+                    break;
+                
 
             }
         }
