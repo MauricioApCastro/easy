@@ -31,16 +31,96 @@ namespace WindowsFormsApp1
         //Arrays
         public String[] listaAudio =
         {
-            
+"audio//red.wav",
+"audio//blue.wav",
+"audio//green.wav",
+"audio//yellow.wav",
+"audio//black.wav",
+"audio//White.wav",
+"audio//Brown.wav",
+"audio//rose.wav",
+"audio//purple.wav",
+"audio//orange.wav",
+"audio//light red.wav",
+"audio//dark yellow.wav",
+"audio//light brown.wav",
+"audio//light orange.wav",
+"audio//dark pink.wav",
+"audio//light purple.wav",
+"audio//dark orange.wav",
+"audio//dark brown.wav",
+"audio//dark yellow.wav",
+"audio//light green.wav",
+"audio//light blue.wav",
+"audio//Dark purple.wav",
+"audio//dark blue.wav",
+"audio//dark green.wav",
+"audio//two red apples.wav",
+"audio//yellow banana.wav",
+"audio//ten pink cakes.wav",
 
         };
         public String[] listaIngles =
         {
-         
+"red",
+"blue",
+"green",
+"yellow",
+"black",
+"White",
+"Brown",
+"rose",
+"purple",
+"orange",
+"light red",
+"dark yellow",
+"light brown",
+"light orange",
+"dark pink",
+"light purple",
+"dark orange",
+"dark brown",
+"dark yellow",
+"light green",
+"light blue",
+"Dark purple",
+"dark blue",
+"dark green",
+"two red apples",
+"yellow banana",
+"ten pink cakes",
+
         };
         public String[] listaPortugues =
 {
-         
+
+            "vermelho",
+"azul ",
+"verde",
+"amarelo",
+"preto",
+"branco",
+"marrom",
+"rosa",
+"roxo",
+"laranja",
+"vermelho claro",
+"amarelo escuro",
+"marrom claro",
+"laranja claro",
+"rosa escuro",
+"roxo claro",
+"laranja escuro",
+"marrom escuro",
+"amarelo escuro",
+"verde claro",
+"azul claro",
+"roxo escuro",
+"azul escuro",
+"verde escuro",
+"duas maças vermelhas",
+"banana amarela",
+"dez bolos rosa",
         };
 
 
@@ -118,13 +198,11 @@ namespace WindowsFormsApp1
 
             btEscrever.Enabled = false;
             btFalar.Enabled = false;
-             btProximo.Enabled = false;
-
-            pictureBox1.Image = Properties.Resources.I_dislike_to_drink_coffee;
+           //  btProximo.Enabled = false;
+          //pictureBox1.Image = Properties.Resources.red;
             sd = listaAudio[0];//audio
             txtPt.Text = listaPortugues[0];//legenda 
             txtEn.Text = listaIngles[0];//legenda inglês
-
             timerFalar.Stop();
             timerEscrever.Stop();
             textBoxAluno.Focus();
@@ -149,15 +227,116 @@ namespace WindowsFormsApp1
             switch (silvinha)
 
             {
-
-               
-
-
-
-
-
-
-
+                case 1:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                  //  btProximo.Enabled = false;
+                     pictureBox1.Image = Properties.Resources.blue;
+                    sd = listaAudio[1];//audio
+                    txtPt.Text = listaPortugues[1];//legenda 
+                    txtEn.Text = listaIngles[1];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 2:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                  //  btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.green;
+                    sd = listaAudio[2];//audio
+                    txtPt.Text = listaPortugues[2];//legenda 
+                    txtEn.Text = listaIngles[2];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 3:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                  //  btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.yellow;
+                    sd = listaAudio[3];//audio
+                    txtPt.Text = listaPortugues[3];//legenda 
+                    txtEn.Text = listaIngles[3];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 4:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                   // btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.black;
+                    sd = listaAudio[4];//audio
+                    txtPt.Text = listaPortugues[4];//legenda 
+                    txtEn.Text = listaIngles[4];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 5:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                   // btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.white;
+                    sd = listaAudio[5];//audio
+                    txtPt.Text = listaPortugues[5];//legenda 
+                    txtEn.Text = listaIngles[5];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 6:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                  //  btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.brown;
+                    sd = listaAudio[6];//audio
+                    txtPt.Text = listaPortugues[6];//legenda 
+                    txtEn.Text = listaIngles[6];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 7:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                  //  btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.pink;
+                    sd = listaAudio[7];//audio
+                    txtPt.Text = listaPortugues[7];//legenda 
+                    txtEn.Text = listaIngles[7];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 8:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                  //  btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.purple;
+                    sd = listaAudio[8];//audio
+                    txtPt.Text = listaPortugues[8];//legenda 
+                    txtEn.Text = listaIngles[8];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 9:
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                   // btProximo.Enabled = false;
+                    pictureBox1.Image = Properties.Resources.orange1;
+                    sd = listaAudio[9];//audio
+                    txtPt.Text = listaPortugues[9];//legenda 
+                    txtEn.Text = listaIngles[9];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                
+              
             }
         }
         void Sre_Reconhecimento(object sender, SpeechRecognizedEventArgs e)
@@ -402,6 +581,11 @@ namespace WindowsFormsApp1
                 btFalar.Text = "CORRETO";
                 c = 0;
             }
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
         }
     }

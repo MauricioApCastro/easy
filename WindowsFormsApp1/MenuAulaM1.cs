@@ -23,10 +23,9 @@ namespace WindowsFormsApp1
         {
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible=false;
-            axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
+            axWindowsMediaPlayer1.URL = "video/M1A1V1.mp4";
             Aula1M1 nova = new Aula1M1();
             nova.Show();
-           
             this.Hide();
         }
 
@@ -44,7 +43,7 @@ namespace WindowsFormsApp1
         {
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
-            //axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
+            axWindowsMediaPlayer1.URL = "video/M1A2V2.mp4";
             Aula03 nova = new Aula03();
             nova.Show();
 
@@ -57,7 +56,7 @@ namespace WindowsFormsApp1
         {
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
-            //axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
+            axWindowsMediaPlayer1.URL = "video/M1A3V3.mp4";
             Aula3M1 nova = new Aula3M1();
             nova.Show();
 
@@ -68,7 +67,7 @@ namespace WindowsFormsApp1
         {
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
-            //axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
+            axWindowsMediaPlayer1.URL = "video/M1A4V4.mp4";
             Aula4M1 nova = new Aula4M1();
             nova.Show();
 
@@ -79,7 +78,7 @@ namespace WindowsFormsApp1
         {
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
-            //axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
+            axWindowsMediaPlayer1.URL = "video/M1A5V5.mp4";
             Aula5M1 nova = new Aula5M1();
             nova.Show();
 
@@ -90,7 +89,7 @@ namespace WindowsFormsApp1
         {
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
-            //axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
+            axWindowsMediaPlayer1.URL = "video/M1A6V6.mp4";
             Aula6M1 nova = new Aula6M1();
             nova.Show();
 
@@ -101,7 +100,7 @@ namespace WindowsFormsApp1
         {
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
-            //axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
+            axWindowsMediaPlayer1.URL = "video/M1A7V7.mp4";
             Aula7M1 nova = new Aula7M1();
             nova.Show();
 
@@ -112,7 +111,7 @@ namespace WindowsFormsApp1
         {
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
-            //axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
+            axWindowsMediaPlayer1.URL = "video/M1A8V8.mp4";
             Aula8M1 nova = new Aula8M1();
             nova.Show();
 

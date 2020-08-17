@@ -779,5 +779,32 @@
   <ItemGroup>
     <None Include="Resources\zero.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brown.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purple.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
