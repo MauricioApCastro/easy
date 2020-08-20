@@ -312,9 +312,6 @@
     <None Include="Resources\water.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\wine.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\I drink.gif" />
   </ItemGroup>
   <ItemGroup>
@@ -780,31 +777,85 @@
     <None Include="Resources\zero.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\blue.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\black.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\brown.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\green.gif" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\orange1.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pink.gif" />
+    <None Include="Resources\black.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\purple.gif" />
+    <None Include="Resources\blue.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\white.gif" />
+    <None Include="Resources\brown.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\yellow.gif" />
+    <None Include="Resources\dark blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark brown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark green.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark orange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark pink.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark purple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark yellow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light brown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light green.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light orange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ligth purple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marrom.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

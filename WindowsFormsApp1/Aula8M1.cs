@@ -218,7 +218,6 @@ namespace WindowsFormsApp1
                     sd = listaAudio[1];//audio
                     txtPt.Text = listaPortugues[1];//legenda 
                     txtEn.Text = listaIngles[1];//legenda inglês
-
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();

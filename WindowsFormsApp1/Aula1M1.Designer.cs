@@ -140,7 +140,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.I_drink;
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.yellow;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(564, 390);
@@ -232,7 +232,7 @@
             this.txtEn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.txtEn.UseCompatibleTextRendering = true;
             // 
-            // Aula1
+            // Aula1M1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -251,7 +251,7 @@
             this.Controls.Add(this.btOuvir);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
-            this.Name = "Aula1";
+            this.Name = "Aula1M1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Aula1_Load);
