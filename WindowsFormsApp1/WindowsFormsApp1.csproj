@@ -6,11 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{22D5A5D8-11DC-4A70-84EF-D11E7FF6ECC6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp1</RootNamespace>
-    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <RootNamespace>English</RootNamespace>
+    <AssemblyName>English</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo_ArA_2.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Speech, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -227,17 +230,11 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -856,6 +853,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\marrom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark brown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light brown1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bye.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good morning.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good evening.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good bye.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good afternoon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good night.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hello.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thank you.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thanks.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo_ArA_2.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
