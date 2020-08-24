@@ -57,6 +57,12 @@
     <Compile Include="Aula1M1.Designer.cs">
       <DependentUpon>Aula1M1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aula3M2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aula3M2.Designer.cs">
+      <DependentUpon>Aula3M2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Aula7M2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,18 +86,6 @@
     </Compile>
     <Compile Include="Aula4M2.Designer.cs">
       <DependentUpon>Aula4M2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Aula3M2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Aula3M2.Designer.cs">
-      <DependentUpon>Aula3M2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Aula3M2 .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Aula3M2 .Designer.cs">
-      <DependentUpon>Aula3M2 .cs</DependentUpon>
     </Compile>
     <Compile Include="Aula2M2.cs">
       <SubType>Form</SubType>
@@ -170,6 +164,9 @@
     <EmbeddedResource Include="Aula1M1.resx">
       <DependentUpon>Aula1M1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Aula3M2.resx">
+      <DependentUpon>Aula3M2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Aula7M2.resx">
       <DependentUpon>Aula7M2.cs</DependentUpon>
     </EmbeddedResource>
@@ -181,12 +178,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Aula4M2.resx">
       <DependentUpon>Aula4M2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Aula3M2.resx">
-      <DependentUpon>Aula3M2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Aula3M2 .resx">
-      <DependentUpon>Aula3M2 .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Aula2M2.resx">
       <DependentUpon>Aula2M2.cs</DependentUpon>
