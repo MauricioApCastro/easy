@@ -17,7 +17,6 @@ namespace WindowsFormsApp1
     public partial class Aula4M2 : Form
     {
         //variáveis
-        int numero;
         string frase = "teste";
         string legenda;
         string sd;//variável do áudio
@@ -32,44 +31,16 @@ namespace WindowsFormsApp1
         //Arrays
         public String[] listaAudio =
         {
-
-"audio//Good morning.wav",
-"audio//Good afternoon.wav",
-"audio//Good evening.wav",
-"audio//Good night.wav",
-"audio//Hi.wav",
-"audio//Hello.wav",
-"audio//Good bye.wav",
-"audio//Thank you.wav",
-"audio//thanks.wav",
-
+            
 
         };
         public String[] listaIngles =
         {
-         "Good morning",
-"Good afternoon",
-"Good evening",
-"Good nightt",
-"Hi",
-"Hello",
-"Good bye",
-"Thank you",
-"thanks",
-
+         
         };
         public String[] listaPortugues =
 {
-            "Bom dia",
-"Boa tarde",
-"Boa noite (chegando)",
-"Boa noite (despedida)",
-"Oi",
-"Olá",
-"Adeus/tchau",
-"Obrigado você",
-"Obrigado  ",
-
+         
         };
 
 
@@ -144,15 +115,15 @@ namespace WindowsFormsApp1
         {
             //case 0
 
-            numero = 0;
+
             btEscrever.Enabled = false;
             btFalar.Enabled = false;
-            btProximo.Enabled = false;
+             btProximo.Enabled = false;
 
-            pictureBox1.Image = Properties.Resources.good_morning;
-            sd = listaAudio[numero];//audio
-            txtPt.Text = listaPortugues[numero];//legenda 
-            txtEn.Text = listaIngles[numero];//legenda inglês
+            pictureBox1.Image = Properties.Resources.I_dislike_to_drink_coffee;
+            sd = listaAudio[0];//audio
+            txtPt.Text = listaPortugues[0];//legenda 
+            txtEn.Text = listaIngles[0];//legenda inglês
 
             timerFalar.Stop();
             timerEscrever.Stop();
@@ -178,412 +149,10 @@ namespace WindowsFormsApp1
             switch (silvinha)
 
             {
-                case 1:
-                    numero = 1;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_afternoon;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 2:
-                    numero = 2;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_evening;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 3:
-                    numero = 3;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_night;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 4:
-                    numero = 4;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.hi;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 5:
-                    numero = 5;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.hello;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 6:
-                    numero = 6;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_bye;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 7:
-                    numero = 7;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.thank_you;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 8:
-                    numero = 8;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.thanks;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 9:
-                    numero = 0;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_morning;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 10:
-                    numero = 1;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_afternoon;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 11:
-                    numero = 2;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_evening;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 12:
-                    numero = 3;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_night;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 13:
-                    numero = 4;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.hi;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 14:
-                    numero = 5;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.hello;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 15:
-                    numero = 6;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_bye;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 16:
-                    numero = 7;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.thank_you;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 17:
-                    numero = 8;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.thanks;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 18:
-                    numero = 0;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_morning;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 19:
-                    numero = 1;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_afternoon;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 20:
-                    numero = 2;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_evening;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 21:
-                    numero = 3;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_night;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 22:
-                    numero = 4;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.hi;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 23:
-                    numero = 5;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.hello;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 24:
-                    numero = 6;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_bye;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 25:
-                    numero = 7;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.thank_you;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 26:
-                    numero = 8;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.thanks;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 27:
-                    numero = 0;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.Image = Properties.Resources.good_morning;
-                    sd = listaAudio[numero];//audio
-                    txtPt.Text = listaPortugues[numero];//legenda 
-                    txtEn.Text = listaIngles[numero];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    this.Close();
-                    break;
+
+               
+
+
 
 
 
