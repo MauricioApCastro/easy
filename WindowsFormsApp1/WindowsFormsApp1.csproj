@@ -848,5 +848,41 @@
   <ItemGroup>
     <None Include="Resources\marrom.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bye.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good morning.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good evening.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good bye.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good afternoon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good night.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hello.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thank you.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thanks.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
