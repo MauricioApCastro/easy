@@ -884,5 +884,29 @@
   <ItemGroup>
     <None Include="Resources\thanks.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excusa me.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good to see you.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\how are you.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my name is.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nice to meet you.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\please.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\what%27s you name.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
