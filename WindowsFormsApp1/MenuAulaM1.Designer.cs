@@ -46,11 +46,15 @@
             // btOuvir
             // 
             this.btOuvir.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btOuvir.BackColor = System.Drawing.Color.Aqua;
-            this.btOuvir.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btOuvir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.btOuvir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btOuvir.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btOuvir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btOuvir.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.btOuvir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
             this.btOuvir.Location = new System.Drawing.Point(180, 60);
             this.btOuvir.Name = "btOuvir";
-            this.btOuvir.Size = new System.Drawing.Size(294, 83);
+            this.btOuvir.Size = new System.Drawing.Size(294, 104);
             this.btOuvir.TabIndex = 2;
             this.btOuvir.Text = "Aula 1";
             this.btOuvir.UseVisualStyleBackColor = false;
@@ -59,11 +63,16 @@
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button1.BackColor = System.Drawing.Color.Aqua;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button1.FlatAppearance.BorderSize = 3;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
             this.button1.Location = new System.Drawing.Point(522, 568);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(294, 83);
+            this.button1.Size = new System.Drawing.Size(294, 104);
             this.button1.TabIndex = 3;
             this.button1.Text = "Aula 8";
             this.button1.UseVisualStyleBackColor = false;
@@ -72,11 +81,16 @@
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button2.BackColor = System.Drawing.Color.Aqua;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button2.FlatAppearance.BorderSize = 3;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
             this.button2.Location = new System.Drawing.Point(180, 568);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(294, 83);
+            this.button2.Size = new System.Drawing.Size(294, 104);
             this.button2.TabIndex = 4;
             this.button2.Text = "Aula 7";
             this.button2.UseVisualStyleBackColor = false;
@@ -85,11 +99,16 @@
             // button3
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button3.BackColor = System.Drawing.Color.Aqua;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button3.FlatAppearance.BorderSize = 3;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
             this.button3.Location = new System.Drawing.Point(522, 401);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(294, 83);
+            this.button3.Size = new System.Drawing.Size(294, 104);
             this.button3.TabIndex = 5;
             this.button3.Text = "Aula 6";
             this.button3.UseVisualStyleBackColor = false;
@@ -98,11 +117,16 @@
             // button4
             // 
             this.button4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button4.BackColor = System.Drawing.Color.Aqua;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button4.FlatAppearance.BorderSize = 3;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
             this.button4.Location = new System.Drawing.Point(180, 401);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(294, 83);
+            this.button4.Size = new System.Drawing.Size(294, 104);
             this.button4.TabIndex = 6;
             this.button4.Text = "Aula 5";
             this.button4.UseVisualStyleBackColor = false;
@@ -111,11 +135,16 @@
             // button5
             // 
             this.button5.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button5.BackColor = System.Drawing.Color.Aqua;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button5.FlatAppearance.BorderSize = 3;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
             this.button5.Location = new System.Drawing.Point(522, 225);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(294, 83);
+            this.button5.Size = new System.Drawing.Size(294, 104);
             this.button5.TabIndex = 7;
             this.button5.Text = "Aula 4";
             this.button5.UseVisualStyleBackColor = false;
@@ -124,11 +153,16 @@
             // button6
             // 
             this.button6.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button6.BackColor = System.Drawing.Color.Aqua;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button6.FlatAppearance.BorderSize = 3;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
             this.button6.Location = new System.Drawing.Point(180, 225);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(294, 83);
+            this.button6.Size = new System.Drawing.Size(294, 104);
             this.button6.TabIndex = 8;
             this.button6.Text = "Aula 3";
             this.button6.UseVisualStyleBackColor = false;
@@ -137,11 +171,16 @@
             // button7
             // 
             this.button7.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button7.BackColor = System.Drawing.Color.Aqua;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button7.FlatAppearance.BorderSize = 3;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
             this.button7.Location = new System.Drawing.Point(522, 60);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(294, 83);
+            this.button7.Size = new System.Drawing.Size(294, 104);
             this.button7.TabIndex = 9;
             this.button7.Text = "Aula 2";
             this.button7.UseVisualStyleBackColor = false;
@@ -168,11 +207,12 @@
             this.axWindowsMediaPlayer2.Size = new System.Drawing.Size(75, 23);
             this.axWindowsMediaPlayer2.TabIndex = 11;
             // 
-            // MenuAulas
+            // MenuAulaM1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(101)))), ((int)(((byte)(217)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 729);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -184,7 +224,7 @@
             this.Controls.Add(this.btOuvir);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.axWindowsMediaPlayer2);
-            this.Name = "MenuAulas";
+            this.Name = "MenuAulaM1";
             this.Text = "MenuAulas";
             this.Load += new System.EventHandler(this.MenuAulas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();

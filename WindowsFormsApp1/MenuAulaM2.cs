@@ -102,8 +102,8 @@ namespace WindowsFormsApp1
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
             //axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
-            Aula7M1 nova = new Aula7M1();
-            nova.Show();
+          //  Aula7M1 nova = new Aula7M1();
+            //nova.Show();
 
             this.Hide();
         }
@@ -113,8 +113,8 @@ namespace WindowsFormsApp1
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
             //axWindowsMediaPlayer1.URL = "C:/Users/Mauricio/source/repos/Easy/WindowsFormsApp1/gifs/video.mp4";
-            Aula8M1 nova = new Aula8M1();
-            nova.Show();
+         //   Aula7M1 nova = new Aula7M1();
+           // nova.Show();
 
             this.Hide();
         }

@@ -44,8 +44,8 @@ namespace WindowsFormsApp1
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
             axWindowsMediaPlayer1.URL = "video/M1A2V2.mp4";
-            Aula03 nova = new Aula03();
-            nova.Show();
+            Aula2M1 nova = new Aula2M1();
+              nova.Show();
 
             this.Hide();
 
@@ -102,7 +102,7 @@ namespace WindowsFormsApp1
             novo.Visible = false;
             axWindowsMediaPlayer1.URL = "video/M1A7V7.mp4";
             Aula7M1 nova = new Aula7M1();
-            nova.Show();
+           nova.Show();
 
             this.Hide();
         }

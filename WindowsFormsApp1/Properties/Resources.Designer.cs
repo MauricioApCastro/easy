@@ -613,6 +613,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap forward_arrow_right_11166 {
+            get {
+                object obj = ResourceManager.GetObject("forward_arrow_right_11166", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap forward_arrow_right_111661 {
+            get {
+                object obj = ResourceManager.GetObject("forward_arrow_right_111661", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap four {
             get {
                 object obj = ResourceManager.GetObject("four", resourceCulture);
@@ -1403,6 +1423,36 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LAYOUT_FUNDO {
+            get {
+                object obj = ResourceManager.GetObject("LAYOUT FUNDO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LAYOUT_FUNDO1 {
+            get {
+                object obj = ResourceManager.GetObject("LAYOUT FUNDO1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LAYOUT_FUNDO2 {
+            get {
+                object obj = ResourceManager.GetObject("LAYOUT FUNDO2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lettuce {
             get {
                 object obj = ResourceManager.GetObject("lettuce", resourceCulture);
@@ -1586,6 +1636,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap ninety {
             get {
                 object obj = ResourceManager.GetObject("ninety", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOVO_LOGO {
+            get {
+                object obj = ResourceManager.GetObject("NOVO LOGO", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1976,6 +2036,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap tea {
             get {
                 object obj = ResourceManager.GetObject("tea", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tela2 {
+            get {
+                object obj = ResourceManager.GetObject("tela2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
