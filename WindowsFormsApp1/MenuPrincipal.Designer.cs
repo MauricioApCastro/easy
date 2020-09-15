@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -41,9 +40,6 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
-            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
-            this.btApresentacion = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -56,7 +52,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 35F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
-            this.button1.Location = new System.Drawing.Point(336, 336);
+            this.button1.Location = new System.Drawing.Point(337, 259);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(295, 83);
             this.button1.TabIndex = 2;
@@ -74,7 +70,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Comic Sans MS", 35F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
-            this.button2.Location = new System.Drawing.Point(675, 336);
+            this.button2.Location = new System.Drawing.Point(676, 259);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(280, 83);
             this.button2.TabIndex = 3;
@@ -92,7 +88,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Comic Sans MS", 35F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
-            this.button3.Location = new System.Drawing.Point(675, 596);
+            this.button3.Location = new System.Drawing.Point(676, 519);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(280, 83);
             this.button3.TabIndex = 4;
@@ -110,7 +106,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Comic Sans MS", 35F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
-            this.button4.Location = new System.Drawing.Point(27, 336);
+            this.button4.Location = new System.Drawing.Point(28, 259);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(281, 83);
             this.button4.TabIndex = 5;
@@ -128,7 +124,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Comic Sans MS", 35F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
-            this.button5.Location = new System.Drawing.Point(675, 201);
+            this.button5.Location = new System.Drawing.Point(676, 124);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(280, 83);
             this.button5.TabIndex = 6;
@@ -146,7 +142,7 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Comic Sans MS", 35F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
-            this.button6.Location = new System.Drawing.Point(336, 201);
+            this.button6.Location = new System.Drawing.Point(337, 124);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(295, 83);
             this.button6.TabIndex = 7;
@@ -164,7 +160,7 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Comic Sans MS", 35F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
-            this.button7.Location = new System.Drawing.Point(27, 596);
+            this.button7.Location = new System.Drawing.Point(28, 519);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(281, 83);
             this.button7.TabIndex = 8;
@@ -182,7 +178,7 @@
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Comic Sans MS", 35F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
-            this.button8.Location = new System.Drawing.Point(27, 463);
+            this.button8.Location = new System.Drawing.Point(28, 386);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(281, 83);
             this.button8.TabIndex = 9;
@@ -200,7 +196,7 @@
             this.btOuvir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btOuvir.Font = new System.Drawing.Font("Comic Sans MS", 35F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btOuvir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
-            this.btOuvir.Location = new System.Drawing.Point(27, 201);
+            this.btOuvir.Location = new System.Drawing.Point(28, 124);
             this.btOuvir.Name = "btOuvir";
             this.btOuvir.Size = new System.Drawing.Size(281, 83);
             this.btOuvir.TabIndex = 1;
@@ -219,7 +215,7 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Comic Sans MS", 35F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
-            this.button9.Location = new System.Drawing.Point(336, 463);
+            this.button9.Location = new System.Drawing.Point(337, 386);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(295, 83);
             this.button9.TabIndex = 12;
@@ -237,7 +233,7 @@
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Comic Sans MS", 35F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
-            this.button10.Location = new System.Drawing.Point(336, 596);
+            this.button10.Location = new System.Drawing.Point(337, 519);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(295, 83);
             this.button10.TabIndex = 11;
@@ -255,41 +251,13 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Comic Sans MS", 35F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
-            this.button11.Location = new System.Drawing.Point(675, 463);
+            this.button11.Location = new System.Drawing.Point(676, 386);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(280, 83);
             this.button11.TabIndex = 10;
             this.button11.Text = "Módulo 09";
             this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // axWindowsMediaPlayer1
-            // 
-            this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(525, 90);
-            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
-            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(75, 23);
-            this.axWindowsMediaPlayer1.TabIndex = 14;
-            // 
-            // btApresentacion
-            // 
-            this.btApresentacion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btApresentacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.btApresentacion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btApresentacion.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btApresentacion.FlatAppearance.BorderSize = 3;
-            this.btApresentacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btApresentacion.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.btApresentacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(75)))), ((int)(((byte)(217)))));
-            this.btApresentacion.Location = new System.Drawing.Point(265, 44);
-            this.btApresentacion.Name = "btApresentacion";
-            this.btApresentacion.Size = new System.Drawing.Size(487, 107);
-            this.btApresentacion.TabIndex = 13;
-            this.btApresentacion.Text = "Apresentação";
-            this.btApresentacion.UseVisualStyleBackColor = false;
-            this.btApresentacion.Click += new System.EventHandler(this.button12_Click);
             // 
             // MenuPrincipal
             // 
@@ -298,7 +266,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(101)))), ((int)(((byte)(217)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 729);
-            this.Controls.Add(this.btApresentacion);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button11);
@@ -311,11 +278,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btOuvir);
-            this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Name = "MenuPrincipal";
             this.Text = "Menu Principal";
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -333,8 +298,6 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
-        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
-        private System.Windows.Forms.Button btApresentacion;
     }
 }
 

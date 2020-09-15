@@ -65,7 +65,7 @@ namespace WindowsFormsApp1
 "She drinks lemonade and " +
      "he drinks tea",
 "He drinks soda",
-"She drinks smothie and iced tea",
+"She drinks smoothie and iced tea",
 "I drink milk shake",
         };
         public String[] listaPortugues =
@@ -662,7 +662,7 @@ namespace WindowsFormsApp1
 
             c++;
             lbAudio.Text = "";
-            btFalar.Text = "Falar";
+            btFalar.Text = "Falando";
             lblGravando.Text = "gravando";
             if (c > 3)
             {

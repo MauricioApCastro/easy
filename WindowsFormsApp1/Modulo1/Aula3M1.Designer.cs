@@ -120,11 +120,11 @@
             this.lbPagina.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbPagina.AutoSize = true;
             this.lbPagina.BackColor = System.Drawing.Color.Transparent;
-            this.lbPagina.Font = new System.Drawing.Font("Microsoft Sans Serif", 80.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPagina.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lbPagina.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.lbPagina.Location = new System.Drawing.Point(873, 420);
+            this.lbPagina.Location = new System.Drawing.Point(894, 481);
             this.lbPagina.Name = "lbPagina";
-            this.lbPagina.Size = new System.Drawing.Size(110, 120);
+            this.lbPagina.Size = new System.Drawing.Size(77, 90);
             this.lbPagina.TabIndex = 25;
             this.lbPagina.Text = "0";
             this.lbPagina.Visible = false;
@@ -155,7 +155,7 @@
             this.textBoxAluno.Cursor = System.Windows.Forms.Cursors.Hand;
             this.textBoxAluno.Font = new System.Drawing.Font("Comic Sans MS", 39.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBoxAluno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.textBoxAluno.Location = new System.Drawing.Point(3, 589);
+            this.textBoxAluno.Location = new System.Drawing.Point(12, 572);
             this.textBoxAluno.MaxLength = 100;
             this.textBoxAluno.Multiline = true;
             this.textBoxAluno.Name = "textBoxAluno";
@@ -171,7 +171,7 @@
             this.txtEn.BackColor = System.Drawing.Color.Transparent;
             this.txtEn.Font = new System.Drawing.Font("Comic Sans MS", 39.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.txtEn.ForeColor = System.Drawing.Color.Red;
-            this.txtEn.Location = new System.Drawing.Point(3, 438);
+            this.txtEn.Location = new System.Drawing.Point(12, 421);
             this.txtEn.Name = "txtEn";
             this.txtEn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtEn.Size = new System.Drawing.Size(850, 148);
@@ -219,22 +219,20 @@
             // 
             this.lbAudio.AutoSize = true;
             this.lbAudio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAudio.Location = new System.Drawing.Point(890, 589);
+            this.lbAudio.Location = new System.Drawing.Point(313, 188);
             this.lbAudio.Name = "lbAudio";
             this.lbAudio.Size = new System.Drawing.Size(59, 13);
             this.lbAudio.TabIndex = 32;
             this.lbAudio.Text = "texto audio";
-            this.lbAudio.Visible = false;
             // 
             // lblGravando
             // 
             this.lblGravando.AutoSize = true;
-            this.lblGravando.Location = new System.Drawing.Point(935, 660);
+            this.lblGravando.Location = new System.Drawing.Point(313, 205);
             this.lblGravando.Name = "lblGravando";
             this.lblGravando.Size = new System.Drawing.Size(35, 13);
             this.lblGravando.TabIndex = 37;
             this.lblGravando.Text = "label2";
-            this.lblGravando.Visible = false;
             this.lblGravando.Click += new System.EventHandler(this.lblGravando_Click);
             // 
             // pictureBox1
@@ -266,24 +264,25 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.tela2;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.LAYOUT_FUNDO;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 729);
-            this.Controls.Add(this.btProximo);
             this.Controls.Add(this.lbPagina);
             this.Controls.Add(this.txtEn);
             this.Controls.Add(this.btEscrever);
             this.Controls.Add(this.btFalar);
             this.Controls.Add(this.btOuvir);
-            this.Controls.Add(this.lblGravando);
-            this.Controls.Add(this.lbAudio);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.lbAudio);
+            this.Controls.Add(this.lblGravando);
+            this.Controls.Add(this.btProximo);
             this.Controls.Add(this.textBoxAluno);
             this.Controls.Add(this.txtPt);
             this.Name = "Aula3M1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Aula1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

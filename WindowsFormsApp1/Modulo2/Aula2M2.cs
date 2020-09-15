@@ -24,7 +24,7 @@ namespace WindowsFormsApp1
         int i;
         int c;
         // variaveis para voz
-        static CultureInfo ci = new CultureInfo("pt-Br");// linguagem utilizada
+        static CultureInfo ci = new CultureInfo("en-US");// linguagem utilizada
         static SpeechRecognitionEngine reconhecedor; // reconhecedor de voz
         SpeechSynthesizer resposta = new SpeechSynthesizer();// sintetizador de voz
 
@@ -257,7 +257,7 @@ namespace WindowsFormsApp1
             lbPagina.Text = result;
             timerOuvir.Enabled = true;
             lblGravando.Text = "";
-            btFalar.Text = "Falar";
+            btFalar.Text = "Falando";
             btEscrever.Text = "Escrever";
 
             switch (silvinha)
@@ -1901,7 +1901,7 @@ namespace WindowsFormsApp1
             btOuvir.BackColor = Color.Aqua;
             timerFalar.Start();
             btFalar.Enabled = true;
-            btFalar.Text = "Falar";
+            btFalar.Text = "Falando";
 
             {//audio
                 System.Media.SoundPlayer Tocar = new System.Media.SoundPlayer();//ativa o áudio

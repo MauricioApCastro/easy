@@ -34,7 +34,6 @@
             this.btFalar = new System.Windows.Forms.Button();
             this.btEscrever = new System.Windows.Forms.Button();
             this.lbPagina = new System.Windows.Forms.Label();
-            this.btProximo = new System.Windows.Forms.Button();
             this.textBoxAluno = new System.Windows.Forms.TextBox();
             this.txtEn = new System.Windows.Forms.Label();
             this.txtPt = new System.Windows.Forms.Label();
@@ -45,6 +44,7 @@
             this.lblGravando = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btProximo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -120,32 +120,15 @@
             this.lbPagina.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbPagina.AutoSize = true;
             this.lbPagina.BackColor = System.Drawing.Color.Transparent;
-            this.lbPagina.Font = new System.Drawing.Font("Microsoft Sans Serif", 80.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPagina.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lbPagina.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.lbPagina.Location = new System.Drawing.Point(873, 420);
+            this.lbPagina.Location = new System.Drawing.Point(896, 467);
             this.lbPagina.Name = "lbPagina";
-            this.lbPagina.Size = new System.Drawing.Size(110, 120);
+            this.lbPagina.Size = new System.Drawing.Size(77, 90);
             this.lbPagina.TabIndex = 25;
             this.lbPagina.Text = "0";
             this.lbPagina.Visible = false;
             this.lbPagina.Click += new System.EventHandler(this.lbPagina_Click);
-            // 
-            // btProximo
-            // 
-            this.btProximo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btProximo.BackColor = System.Drawing.Color.Transparent;
-            this.btProximo.FlatAppearance.BorderSize = 0;
-            this.btProximo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btProximo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btProximo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btProximo.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btProximo.Image = global::WindowsFormsApp1.Properties.Resources.forward_arrow_right_11166;
-            this.btProximo.Location = new System.Drawing.Point(859, 560);
-            this.btProximo.Name = "btProximo";
-            this.btProximo.Size = new System.Drawing.Size(143, 157);
-            this.btProximo.TabIndex = 26;
-            this.btProximo.UseVisualStyleBackColor = false;
-            this.btProximo.Click += new System.EventHandler(this.btProximo_Click);
             // 
             // textBoxAluno
             // 
@@ -155,7 +138,7 @@
             this.textBoxAluno.Cursor = System.Windows.Forms.Cursors.Hand;
             this.textBoxAluno.Font = new System.Drawing.Font("Comic Sans MS", 39.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBoxAluno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.textBoxAluno.Location = new System.Drawing.Point(3, 589);
+            this.textBoxAluno.Location = new System.Drawing.Point(12, 560);
             this.textBoxAluno.MaxLength = 100;
             this.textBoxAluno.Multiline = true;
             this.textBoxAluno.Name = "textBoxAluno";
@@ -171,7 +154,7 @@
             this.txtEn.BackColor = System.Drawing.Color.Transparent;
             this.txtEn.Font = new System.Drawing.Font("Comic Sans MS", 39.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.txtEn.ForeColor = System.Drawing.Color.Red;
-            this.txtEn.Location = new System.Drawing.Point(3, 438);
+            this.txtEn.Location = new System.Drawing.Point(12, 397);
             this.txtEn.Name = "txtEn";
             this.txtEn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtEn.Size = new System.Drawing.Size(850, 148);
@@ -187,7 +170,7 @@
             this.txtPt.BackColor = System.Drawing.Color.Transparent;
             this.txtPt.Font = new System.Drawing.Font("Comic Sans MS", 39.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.txtPt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.txtPt.Location = new System.Drawing.Point(12, 570);
+            this.txtPt.Location = new System.Drawing.Point(12, 560);
             this.txtPt.Name = "txtPt";
             this.txtPt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtPt.Size = new System.Drawing.Size(850, 150);
@@ -219,22 +202,20 @@
             // 
             this.lbAudio.AutoSize = true;
             this.lbAudio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAudio.Location = new System.Drawing.Point(890, 589);
+            this.lbAudio.Location = new System.Drawing.Point(313, 218);
             this.lbAudio.Name = "lbAudio";
             this.lbAudio.Size = new System.Drawing.Size(59, 13);
             this.lbAudio.TabIndex = 32;
             this.lbAudio.Text = "texto audio";
-            this.lbAudio.Visible = false;
             // 
             // lblGravando
             // 
             this.lblGravando.AutoSize = true;
-            this.lblGravando.Location = new System.Drawing.Point(935, 660);
+            this.lblGravando.Location = new System.Drawing.Point(313, 234);
             this.lblGravando.Name = "lblGravando";
             this.lblGravando.Size = new System.Drawing.Size(35, 13);
             this.lblGravando.TabIndex = 37;
             this.lblGravando.Text = "label2";
-            this.lblGravando.Visible = false;
             this.lblGravando.Click += new System.EventHandler(this.lblGravando_Click);
             // 
             // pictureBox1
@@ -242,7 +223,7 @@
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.he_hates_soup;
-            this.pictureBox1.Location = new System.Drawing.Point(60, 36);
+            this.pictureBox1.Location = new System.Drawing.Point(66, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(510, 382);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -253,7 +234,7 @@
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(316, 36);
+            this.pictureBox2.Location = new System.Drawing.Point(316, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(255, 382);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -261,12 +242,29 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // btProximo
+            // 
+            this.btProximo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btProximo.BackColor = System.Drawing.Color.Transparent;
+            this.btProximo.FlatAppearance.BorderSize = 0;
+            this.btProximo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btProximo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btProximo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btProximo.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btProximo.Image = global::WindowsFormsApp1.Properties.Resources.forward_arrow_right_11166;
+            this.btProximo.Location = new System.Drawing.Point(859, 560);
+            this.btProximo.Name = "btProximo";
+            this.btProximo.Size = new System.Drawing.Size(143, 157);
+            this.btProximo.TabIndex = 38;
+            this.btProximo.UseVisualStyleBackColor = false;
+            this.btProximo.Click += new System.EventHandler(this.btProximo_Click_1);
+            // 
             // Aula8M1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.tela2;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.LAYOUT_FUNDO;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 729);
             this.Controls.Add(this.btProximo);
@@ -275,15 +273,16 @@
             this.Controls.Add(this.btEscrever);
             this.Controls.Add(this.btFalar);
             this.Controls.Add(this.btOuvir);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lblGravando);
             this.Controls.Add(this.lbAudio);
             this.Controls.Add(this.textBoxAluno);
             this.Controls.Add(this.txtPt);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox2);
             this.Name = "Aula8M1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Aula1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -298,7 +297,6 @@
         private System.Windows.Forms.Button btFalar;
         private System.Windows.Forms.Button btEscrever;
         private System.Windows.Forms.Label lbPagina;
-        private System.Windows.Forms.Button btProximo;
         private System.Windows.Forms.TextBox textBoxAluno;
         private System.Windows.Forms.Label txtEn;
         private System.Windows.Forms.Label txtPt;
@@ -309,5 +307,6 @@
         private System.Windows.Forms.Label lbAudio;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblGravando;
+        private System.Windows.Forms.Button btProximo;
     }
 }
