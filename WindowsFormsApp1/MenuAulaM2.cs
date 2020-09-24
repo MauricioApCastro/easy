@@ -118,5 +118,66 @@ namespace WindowsFormsApp1
 
             this.Hide();
         }
+
+        private void btOuvir_Click_1(object sender, EventArgs e)
+        {
+            MenuPrincipal novo = new MenuPrincipal();
+            novo.Visible = false;
+            axWindowsMediaPlayer1.URL = "video/M2A1V.mp4";
+            Aula1M2 nova = new Aula1M2();
+            nova.Show();
+            this.Hide();
+        }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            MenuPrincipal novo = new MenuPrincipal();
+            novo.Visible = false;
+            axWindowsMediaPlayer1.URL = "video/M2A2V.mp4";
+            Aula2M2 nova = new Aula2M2();
+            nova.Show();
+            this.Hide();
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            MenuPrincipal novo = new MenuPrincipal();
+            novo.Visible = false;
+            axWindowsMediaPlayer1.URL = "video/M2A3V.mp4";
+            Aula3M2 nova = new Aula3M2();
+            nova.Show();
+            this.Hide();
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            MenuPrincipal novo = new MenuPrincipal();
+            novo.Visible = false;
+            axWindowsMediaPlayer1.URL = "video/M2A4V.mp4";
+            Aula4M2 nova = new Aula4M2();
+            nova.Show();
+            this.Hide();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            MenuPrincipal novo = new MenuPrincipal();
+            novo.Visible = false;
+            axWindowsMediaPlayer1.URL = "video/M2A5V.mp4";
+            Aula5M2 nova = new Aula5M2();
+            nova.Show();
+            this.Hide();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            MenuPrincipal novo = new MenuPrincipal();
+            novo.Visible = false;
+            axWindowsMediaPlayer1.URL = "video/M2A5V.mp4";
+            Aula6M2 nova = new Aula6M2();
+            nova.Show();
+            this.Hide();
+
+        }
     }
 }

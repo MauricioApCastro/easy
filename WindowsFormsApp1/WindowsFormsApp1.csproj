@@ -93,17 +93,11 @@
     <Compile Include="Modulo1\Aula7M1.Designer.cs">
       <DependentUpon>Aula7M1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modulo2\Aula3M2.cs">
+    <Compile Include="Modulo2\Aula2M2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulo2\Aula3M2.Designer.cs">
-      <DependentUpon>Aula3M2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Modulo2\Aula7M2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Modulo2\Aula7M2.Designer.cs">
-      <DependentUpon>Aula7M2.cs</DependentUpon>
+    <Compile Include="Modulo2\Aula2M2.Designer.cs">
+      <DependentUpon>Aula2M2.cs</DependentUpon>
     </Compile>
     <Compile Include="Modulo2\Aula6M2.cs">
       <SubType>Form</SubType>
@@ -122,18 +116,6 @@
     </Compile>
     <Compile Include="Modulo2\Aula4M2.Designer.cs">
       <DependentUpon>Aula4M2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Modulo2\Aula2M2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Modulo2\Aula2M2.Designer.cs">
-      <DependentUpon>Aula2M2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Modulo2\Aula1M2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Modulo2\Aula1M2.Designer.cs">
-      <DependentUpon>Aula1M2.cs</DependentUpon>
     </Compile>
     <Compile Include="Modulo1\Aula8M1.cs">
       <SubType>Form</SubType>
@@ -160,6 +142,18 @@
     <Compile Include="MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo2\Aula1M2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo2\Aula1M2.Designer.cs">
+      <DependentUpon>Aula1M2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo2\Aula3M2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo2\Aula3M2.Designer.cs">
+      <DependentUpon>Aula3M2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Modulo1\Aula1M1.resx">
@@ -183,11 +177,8 @@
     <EmbeddedResource Include="Modulo1\Aula7M1.resx">
       <DependentUpon>Aula7M1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modulo2\Aula3M2.resx">
-      <DependentUpon>Aula3M2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Modulo2\Aula7M2.resx">
-      <DependentUpon>Aula7M2.cs</DependentUpon>
+    <EmbeddedResource Include="Modulo2\Aula2M2.resx">
+      <DependentUpon>Aula2M2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo2\Aula6M2.resx">
       <DependentUpon>Aula6M2.cs</DependentUpon>
@@ -197,12 +188,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo2\Aula4M2.resx">
       <DependentUpon>Aula4M2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Modulo2\Aula2M2.resx">
-      <DependentUpon>Aula2M2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Modulo2\Aula1M2.resx">
-      <DependentUpon>Aula1M2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo1\Aula8M1.resx">
       <DependentUpon>Aula8M1.cs</DependentUpon>
@@ -215,6 +200,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo2\Aula1M2.resx">
+      <DependentUpon>Aula1M2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo2\Aula3M2.resx">
+      <DependentUpon>Aula3M2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -583,9 +574,6 @@
     <None Include="Resources\mango.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\orange.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\pineapple.gif" />
   </ItemGroup>
   <ItemGroup>
@@ -769,19 +757,7 @@
     <None Include="Resources\zero.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\brown.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\orange1.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\black.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\blue.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\brown.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\dark blue.jpg" />
@@ -824,9 +800,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ligth purple.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\orange.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pink.jpg" />
@@ -929,6 +902,96 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\NOVO LOGO.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark brown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark ping.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good and you.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\im fine thanks.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\really bad.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\see you soon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\take care.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\very bad.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\very good.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\well.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowl salad.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowl.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cup beer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cup sugar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cup water.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cup.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut tomatoes.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dink iced tea.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dish.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eat orange.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fork.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knife.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

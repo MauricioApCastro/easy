@@ -206,6 +206,7 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                      btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.I_dislike_to_drink_coffee; 
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
