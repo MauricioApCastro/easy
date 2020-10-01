@@ -179,5 +179,16 @@ namespace WindowsFormsApp1
             this.Hide();
 
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            MenuPrincipal novo = new MenuPrincipal();
+            novo.Visible = false;
+            axWindowsMediaPlayer1.URL = "video/M2A7V.mp4";
+            Aula7M2 nova = new Aula7M2();
+            nova.Show();
+            this.Hide();
+
+        }
     }
 }

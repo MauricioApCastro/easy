@@ -823,6 +823,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap glass {
+            get {
+                object obj = ResourceManager.GetObject("glass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap glass__1_ {
+            get {
+                object obj = ResourceManager.GetObject("glass (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap good_afternoon {
             get {
                 object obj = ResourceManager.GetObject("good afternoon", resourceCulture);
@@ -2013,9 +2033,29 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap rice_and_bean {
+            get {
+                object obj = ResourceManager.GetObject("rice and bean", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap salad {
             get {
                 object obj = ResourceManager.GetObject("salad", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap salt {
+            get {
+                object obj = ResourceManager.GetObject("salt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
