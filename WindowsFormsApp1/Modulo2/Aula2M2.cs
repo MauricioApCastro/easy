@@ -263,7 +263,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.zero;
                     sd = listaAudio[num];//audio
@@ -280,7 +280,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                     //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.one; 
                     sd = listaAudio[num];//audio
@@ -298,7 +298,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                     //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.two;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -315,7 +315,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.three;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -337,7 +337,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                     //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.four;
                     sd = listaAudio[num];//audio
@@ -357,7 +357,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                     //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.five;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -375,7 +375,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                     //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.six;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -395,7 +395,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                     //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.seven;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -412,7 +412,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.eight;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -431,7 +431,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.nine;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -449,7 +449,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.ten;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -466,7 +466,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.eleven;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -485,7 +485,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.twelve;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -502,7 +502,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.thirteen;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -518,7 +518,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.fourteen;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -534,7 +534,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.fifteen;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -554,7 +554,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                     //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.sixteen;
                     sd = listaAudio[num];//audio
@@ -571,7 +571,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.seventeen;
                     sd = listaAudio[num];//audio
@@ -588,7 +588,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.eighteen;
                     sd = listaAudio[num];//audio
@@ -605,7 +605,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.nineteen;
                     sd = listaAudio[num];//audio
@@ -622,7 +622,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.twenty;
                     sd = listaAudio[num];//audio
@@ -639,7 +639,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.thirty;
                     sd = listaAudio[num];//audio
@@ -656,7 +656,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.forty;
                     sd = listaAudio[num];//audio
@@ -673,7 +673,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.fifty;
                     sd = listaAudio[num];//audio
@@ -690,7 +690,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.sixty;
                     sd = listaAudio[num];//audio
@@ -707,7 +707,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.seventy;
                     sd = listaAudio[num];//audio
@@ -724,7 +724,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.eighty;
                     sd = listaAudio[num];//audio
@@ -741,7 +741,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.ninety;
                     sd = listaAudio[num];//audio
@@ -759,7 +759,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.one_hudred;
                     sd = listaAudio[num];//audio
@@ -777,7 +777,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
                     pictureBox1.Image = Properties.Resources.two;
@@ -796,7 +796,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
                     pictureBox1.Image = Properties.Resources.one;
@@ -815,7 +815,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
                     pictureBox1.Image = Properties.Resources.three;
@@ -834,7 +834,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
                     pictureBox1.Image = Properties.Resources.six;
@@ -854,7 +854,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
                     pictureBox1.Image = Properties.Resources.four;
@@ -873,7 +873,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
                     pictureBox1.Image = Properties.Resources.nine;
@@ -892,7 +892,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
                     pictureBox1.Image = Properties.Resources.ten;
@@ -911,7 +911,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
                     pictureBox1.Image = Properties.Resources.seven;
@@ -930,7 +930,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
                     pictureBox1.Image = Properties.Resources.potato;
@@ -949,7 +949,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
                     pictureBox1.Image = Properties.Resources.seven;
@@ -1116,7 +1116,7 @@ namespace WindowsFormsApp1
             else
             {
                 btEscrever.Text = "Corrigir";
-                 btProximo.Enabled = false;
+                 //btProximo.Enabled = false;
 
             }
         }
