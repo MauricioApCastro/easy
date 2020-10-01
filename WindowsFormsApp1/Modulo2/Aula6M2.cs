@@ -95,7 +95,7 @@ namespace WindowsFormsApp1
 "Bem, e você",
 "Carlos te vejo em breve",
 "Se cuida Maurício",
-"Desculpe, qua é o seu nome",
+"Desculpe, qual é o seu nome",
 "Bom te ver",
 "Prazer em conhecê-lo",
 "muito mal",
