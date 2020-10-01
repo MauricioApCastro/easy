@@ -86,8 +86,8 @@ namespace WindowsFormsApp1
         public String[] listaPortugues =
 {"Bom dia",
 "Boa tarde",
-"Boa noite (chegando)",
-"Boa noite (despedida)",
+"Boa noite - chegando",
+"Boa noite -despedida",
 "Oi",
 "Olá",
 "Adeus/tchau",
