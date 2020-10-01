@@ -214,6 +214,9 @@
   <data name="one hudred" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\one hudred.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="LAYOUT FUNDO2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LAYOUT FUNDO2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="coconut water" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coconut water.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -237,6 +240,9 @@
   </data>
   <data name="i eat corn flakes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\i eat corn flakes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green apple.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="glass (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\glass (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -303,9 +309,6 @@
   </data>
   <data name="excusa me" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\excusa me.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="apple1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\apple1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="he eats grape" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\he eats grape.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -394,8 +397,8 @@
   <data name="ten" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ten.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="i eat butter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\i eat butter.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ligth purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ligth purple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sixteen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sixteen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -424,8 +427,8 @@
   <data name="cup" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cup.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="i eat tomato" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\i eat tomato.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="i eat bread" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\i eat bread.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -436,11 +439,14 @@
   <data name="jam" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jam.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="i eats snacks" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\i eats snacks.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="i eat butter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i eat butter.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ELE CHOCOLATE QUENTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ELE CHOCOLATE QUENTE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grape.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dark green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dark green.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -459,6 +465,9 @@
   </data>
   <data name="thanks" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\thanks.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tea.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cup sugar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cup sugar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -489,6 +498,12 @@
   </data>
   <data name="eleven" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eleven.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salad tomato and lettuce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salad tomato and lettuce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellow peppers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellow peppers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="i eat stack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\i eat stack.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -571,8 +586,8 @@
   <data name="i eat soup" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\i eat soup.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grape" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grape.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="i eats snacks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i eats snacks.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="i eat pie" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\i eat pie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -583,8 +598,8 @@
   <data name="french fries" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\french fries.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LIMONADA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIMONADA.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="i eat tomato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i eat tomato.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="six" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\six.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -598,8 +613,8 @@
   <data name="four" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\four.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LAYOUT FUNDO2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LAYOUT FUNDO2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rice and bean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rice and bean.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CHA GELADO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CHA GELADO2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -736,9 +751,6 @@
   <data name="seven" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\seven.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\green.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pie" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -793,8 +805,8 @@
   <data name="ELA MILK SHAKE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ELA MILK SHAKE.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ligth purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ligth purple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="apple1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apple1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="forward_arrow_right_111661" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\forward_arrow_right_111661.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -850,13 +862,13 @@
   <data name="two" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\two.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tea.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LIMONADA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIMONADA.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="She hates cocoa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\She hates cocoa.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rice and bean" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rice and bean.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dish potato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dish potato.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

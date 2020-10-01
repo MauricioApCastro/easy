@@ -99,6 +99,12 @@
     <Compile Include="Modulo2\Aula2M2.Designer.cs">
       <DependentUpon>Aula2M2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo2\Aula8M2 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo2\Aula8M2 .Designer.cs">
+      <DependentUpon>Aula8M2 .cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulo2\Aula7M2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo2\Aula2M2.resx">
       <DependentUpon>Aula2M2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo2\Aula8M2 .resx">
+      <DependentUpon>Aula8M2 .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo2\Aula7M2.resx">
       <DependentUpon>Aula7M2.cs</DependentUpon>
@@ -1010,6 +1019,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\rice and bean.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green apple.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow peppers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salad tomato and lettuce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dish potato.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
