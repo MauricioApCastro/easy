@@ -195,7 +195,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.potato; 
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -212,7 +212,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.carriot;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -229,7 +229,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.onion;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -251,7 +251,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.garlic;
                     sd = listaAudio[num];//audio
@@ -271,7 +271,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.tomato;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -289,7 +289,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.brocolli;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -309,7 +309,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.beet;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -326,7 +326,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.lettuce;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -345,7 +345,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_potato;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -363,7 +363,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_carriot;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -380,7 +380,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_onion;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -399,7 +399,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_garlic;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -416,7 +416,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_tomato;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -432,7 +432,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.i_eat_brocolli;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -448,7 +448,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                   //btProximo.Enabled = false;
                     pictureBox1.Image = Properties.Resources.she_eats_beet;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -468,7 +468,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                     btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.i_eat_lettuce;
                     sd = listaAudio[num];//audio
@@ -631,7 +631,7 @@ namespace WindowsFormsApp1
             else
             {
                 btEscrever.Text = "Corrigir";
-                 btProximo.Enabled = false;
+                //btProximo.Enabled = false;
 
             }
         }
