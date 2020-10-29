@@ -155,11 +155,11 @@
             this.textBoxAluno.Cursor = System.Windows.Forms.Cursors.Hand;
             this.textBoxAluno.Font = new System.Drawing.Font("Comic Sans MS", 39.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBoxAluno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.textBoxAluno.Location = new System.Drawing.Point(3, 589);
+            this.textBoxAluno.Location = new System.Drawing.Point(12, 570);
             this.textBoxAluno.MaxLength = 100;
             this.textBoxAluno.Multiline = true;
             this.textBoxAluno.Name = "textBoxAluno";
-            this.textBoxAluno.Size = new System.Drawing.Size(850, 150);
+            this.textBoxAluno.Size = new System.Drawing.Size(850, 141);
             this.textBoxAluno.TabIndex = 27;
             this.textBoxAluno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBoxAluno.Visible = false;
@@ -171,7 +171,7 @@
             this.txtEn.BackColor = System.Drawing.Color.Transparent;
             this.txtEn.Font = new System.Drawing.Font("Comic Sans MS", 39.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.txtEn.ForeColor = System.Drawing.Color.Red;
-            this.txtEn.Location = new System.Drawing.Point(3, 438);
+            this.txtEn.Location = new System.Drawing.Point(12, 421);
             this.txtEn.Name = "txtEn";
             this.txtEn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtEn.Size = new System.Drawing.Size(850, 148);
@@ -190,7 +190,7 @@
             this.txtPt.Location = new System.Drawing.Point(12, 570);
             this.txtPt.Name = "txtPt";
             this.txtPt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtPt.Size = new System.Drawing.Size(850, 150);
+            this.txtPt.Size = new System.Drawing.Size(850, 148);
             this.txtPt.TabIndex = 28;
             this.txtPt.Text = "beber";
             this.txtPt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -275,11 +275,11 @@
             this.Controls.Add(this.btOuvir);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.textBoxAluno);
             this.Controls.Add(this.lbAudio);
             this.Controls.Add(this.lblGravando);
-            this.Controls.Add(this.txtPt);
             this.Controls.Add(this.btProximo);
+            this.Controls.Add(this.textBoxAluno);
+            this.Controls.Add(this.txtPt);
             this.Name = "Aula1M1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
