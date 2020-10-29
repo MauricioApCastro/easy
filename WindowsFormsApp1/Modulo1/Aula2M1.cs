@@ -59,7 +59,7 @@ namespace WindowsFormsApp1
 "lemonade",
 "She drinks smoothie",
 "He drinks hot chocolate",
-"she drinks milk shake and coffee",
+"She drinks milk shake and coffee",
 "He drinks coffee and she drinks tea",
 "She drinks wine and he drinks beer",
 "She drinks lemonade and " +

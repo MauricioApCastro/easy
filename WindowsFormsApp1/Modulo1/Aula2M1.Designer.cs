@@ -267,7 +267,6 @@
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.LAYOUT_FUNDO;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 729);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbPagina);
             this.Controls.Add(this.txtEn);
             this.Controls.Add(this.btEscrever);
@@ -279,6 +278,7 @@
             this.Controls.Add(this.btProximo);
             this.Controls.Add(this.textBoxAluno);
             this.Controls.Add(this.txtPt);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Aula2M1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
