@@ -71,7 +71,7 @@ namespace WindowsFormsApp1
 "a dish of rice with bean",
 "a glass of wine, please",
 "two cups beer",
-"let's  to eat orange",
+"let's to eat orange",
 "the bowl of salad",
 "let's to drink iced tea",
 
