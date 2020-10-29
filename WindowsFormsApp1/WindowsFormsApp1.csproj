@@ -81,11 +81,11 @@
     <Compile Include="Modulo1\Aula5M1.Designer.cs">
       <DependentUpon>Aula5M1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modulo1\AulaM6.cs">
+    <Compile Include="Modulo1\Aula6M1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulo1\AulaM6.Designer.cs">
-      <DependentUpon>AulaM6.cs</DependentUpon>
+    <Compile Include="Modulo1\Aula6M1.Designer.cs">
+      <DependentUpon>Aula6M1.cs</DependentUpon>
     </Compile>
     <Compile Include="Modulo1\Aula7M1.cs">
       <SubType>Form</SubType>
@@ -183,8 +183,8 @@
     <EmbeddedResource Include="Modulo1\Aula5M1.resx">
       <DependentUpon>Aula5M1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modulo1\AulaM6.resx">
-      <DependentUpon>AulaM6.cs</DependentUpon>
+    <EmbeddedResource Include="Modulo1\Aula6M1.resx">
+      <DependentUpon>Aula6M1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo1\Aula7M1.resx">
       <DependentUpon>Aula7M1.cs</DependentUpon>
