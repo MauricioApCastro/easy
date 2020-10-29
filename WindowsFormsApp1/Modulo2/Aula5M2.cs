@@ -75,7 +75,7 @@ namespace WindowsFormsApp1
 "Please, one bread and cheese",
 "Please nine green apple",
 "Please four bananas",
-"please 3 tomatos",
+"please 3 tomatoes",
 
 
         };
