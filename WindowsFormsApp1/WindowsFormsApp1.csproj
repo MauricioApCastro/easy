@@ -172,6 +172,12 @@
     <Compile Include="Modulo2\Aula3M2.Designer.cs">
       <DependentUpon>Aula3M2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo3\Aula2M3 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo3\Aula2M3 .Designer.cs">
+      <DependentUpon>Aula2M3 .cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulo3\Aula1M3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -240,11 +246,14 @@
     <EmbeddedResource Include="Modulo2\Aula3M2.resx">
       <DependentUpon>Aula3M2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Modulo3\Aula2M3 .resx">
+      <DependentUpon>Aula2M3 .cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Modulo3\Aula1M3.resx">
       <DependentUpon>Aula1M3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
+      <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
@@ -1103,6 +1112,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\YEAR.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\january.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\february.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\march.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\april.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\may.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\june.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\july.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\august.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\september.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\october.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\november.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\december.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carnaval.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\happy easter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valentines day.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\natal.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\independence day.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\halowen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thanksgiving.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
