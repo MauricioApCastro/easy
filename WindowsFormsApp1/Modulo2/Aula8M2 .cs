@@ -209,7 +209,7 @@ namespace WindowsFormsApp1
         private void btProximo_Click_1(object sender, EventArgs e)
 
         {
-
+            c = 0;
             timerOuvir.Start();
             contadorGeral++;//cada vez que clica adiciona 1           
             var x = contadorGeral;

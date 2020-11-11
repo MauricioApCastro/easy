@@ -1032,5 +1032,8 @@
   <ItemGroup>
     <None Include="Resources\dish potato.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modulo3\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
