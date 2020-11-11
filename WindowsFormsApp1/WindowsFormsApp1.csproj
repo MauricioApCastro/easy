@@ -51,6 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MenuAulaM3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAulaM3.Designer.cs">
+      <DependentUpon>MenuAulaM3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulo1\Aula1M1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,8 +172,17 @@
     <Compile Include="Modulo2\Aula3M2.Designer.cs">
       <DependentUpon>Aula3M2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo3\Aula1M3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo3\Aula1M3.Designer.cs">
+      <DependentUpon>Aula1M3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MenuAulaM3.resx">
+      <DependentUpon>MenuAulaM3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Modulo1\Aula1M1.resx">
       <DependentUpon>Aula1M1.cs</DependentUpon>
     </EmbeddedResource>
@@ -225,8 +240,11 @@
     <EmbeddedResource Include="Modulo2\Aula3M2.resx">
       <DependentUpon>Aula3M2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Modulo3\Aula1M3.resx">
+      <DependentUpon>Aula1M3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
@@ -1033,7 +1051,58 @@
     <None Include="Resources\dish potato.gif" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Modulo3\" />
+    <None Include="Resources\MONDAY.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TUESDAY.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wednesday.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thursday.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\friday.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturday.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunday.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i love monday.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I hate monday.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\happy week.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\happy week1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\happy day.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\happy new year.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i love friday.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\great.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\great week.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\month.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YEAR.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

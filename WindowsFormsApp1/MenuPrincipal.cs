@@ -50,6 +50,8 @@ namespace WindowsFormsApp1
 
         private void button5_Click(object sender, EventArgs e)
         {
+            MenuAulaM3 f = new MenuAulaM3();
+            f.Show();
 
         }
 
