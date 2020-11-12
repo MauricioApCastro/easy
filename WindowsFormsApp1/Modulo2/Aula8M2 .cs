@@ -30,7 +30,7 @@ namespace WindowsFormsApp1
         //Arrays
         public String[] listaAudio =
         {
-            "audio//Let’s cut twenty green apples.wav",
+ "audio//Let’s cut twenty green apples.wav",
 "audio//Forty yellow peppers.wav",
 "audio//Salad tomato and lettuce.wav",
 "audio//Four onions and seven carrots.wav",
@@ -69,7 +69,7 @@ namespace WindowsFormsApp1
 "Forty yellow peppers",
 "Salad tomato and lettuce",
 "Four onions and seven carrots",
-"Seventy oranges and ninety dark green limons",
+"Seventy oranges and ninety limons",
 "Good morning, how are you",
 "Good afternoon boy",
 "Good evening girl",
@@ -104,7 +104,7 @@ namespace WindowsFormsApp1
 "Quarenta pimentõs amarelos",
 "Salada de tomate e alface",
 "Quatro cebolas e sete cenouras",
-"Setenta laranjas e noventa limões verde escuro",
+"Setenta laranjas e noventa limões",
 "Bom dia, Como vai você",
 "Boa tarde, menino",
 "Boa noite, menina",
@@ -209,6 +209,9 @@ namespace WindowsFormsApp1
         private void btProximo_Click_1(object sender, EventArgs e)
 
         {
+           
+
+
             c = 0;
             timerOuvir.Start();
             contadorGeral++;//cada vez que clica adiciona 1           
@@ -320,8 +323,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.eat_orange;
-                    pictureBox2.Image = Properties.Resources.limon;
+                    pictureBox1.Image = Properties.Resources.orange1;
+                    pictureBox2.Image = Properties.Resources.limon1;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -348,6 +351,7 @@ namespace WindowsFormsApp1
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
+
                     break;
 
 

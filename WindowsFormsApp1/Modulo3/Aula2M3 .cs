@@ -257,8 +257,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
                     break;
 
-                    break;
-
+                    
 
 
                 case 3:
@@ -389,7 +388,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
                     break;
 
-                    break;
+                   
                 case 10:
                     num = 10;
                     textBoxAluno.Text = "";
@@ -641,7 +640,7 @@ namespace WindowsFormsApp1
 
         private void btOuvir_Click(object sender, EventArgs e)
         {
-
+            textBoxAluno.Visible = false;
             btOuvir.Font = new Font("Comic Sans MS", 48, (FontStyle.Bold & FontStyle.Italic), GraphicsUnit.Point);
             timerOuvir.Stop();
             timerFalar.Start();

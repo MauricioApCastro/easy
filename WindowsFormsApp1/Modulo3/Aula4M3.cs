@@ -252,8 +252,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
                     break;
 
-                    break;
-
+                   
 
 
                 case 3:
@@ -390,7 +389,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
                     break;
 
-                    break;
+                    
                 case 10:
                     num = 10;
                     textBoxAluno.Text = "";
