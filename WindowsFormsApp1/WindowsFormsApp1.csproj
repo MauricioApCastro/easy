@@ -172,6 +172,12 @@
     <Compile Include="Modulo2\Aula3M2.Designer.cs">
       <DependentUpon>Aula3M2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo3\Aula6M3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo3\Aula6M3.Designer.cs">
+      <DependentUpon>Aula6M3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulo3\Aula5M3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -263,6 +269,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo2\Aula3M2.resx">
       <DependentUpon>Aula3M2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo3\Aula6M3.resx">
+      <DependentUpon>Aula6M3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo3\Aula5M3.resx">
       <DependentUpon>Aula5M3.cs</DependentUpon>
@@ -1310,6 +1319,168 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\weekend.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prepare bean.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\make tea.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\make pancake.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\make juice.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\make hot chocolate.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\make coffee.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cook steak.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cook tomorrow.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cook rice.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cook potato.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cook brocolli.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bake.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bake pie.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bake cake.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bake bread.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cook.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\make.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prepare fish.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prepare chicken.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prepare meat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prepare rice.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prepare salad.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prepare.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beach1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flowers1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raim1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sun1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vacation1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wind1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fxjz.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cold1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fall1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heat1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summer1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\very cold1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\very heat1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winter1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afternoon %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\day %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\happy blue day.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ice cream1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juice orange1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midnight %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midday %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\morning %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nigth evening %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\see you midnight %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\take care %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\today %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomorrow %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tonight %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yesterday %281%29.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

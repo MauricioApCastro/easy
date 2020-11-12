@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuAulaM2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuAulaM3));
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -206,7 +206,7 @@
             this.axWindowsMediaPlayer2.Size = new System.Drawing.Size(75, 23);
             this.axWindowsMediaPlayer2.TabIndex = 21;
             // 
-            // MenuAulaM2
+            // MenuAulaM3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -222,7 +222,7 @@
             this.Controls.Add(this.btOuvir);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.axWindowsMediaPlayer2);
-            this.Name = "MenuAulaM2";
+            this.Name = "MenuAulaM3";
             this.Text = "MenuAulas";
             this.Load += new System.EventHandler(this.MenuAulas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
