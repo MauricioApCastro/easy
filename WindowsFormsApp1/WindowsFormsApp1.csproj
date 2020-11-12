@@ -172,6 +172,12 @@
     <Compile Include="Modulo2\Aula3M2.Designer.cs">
       <DependentUpon>Aula3M2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo3\Aula5M3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo3\Aula5M3.Designer.cs">
+      <DependentUpon>Aula5M3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulo3\Aula4M3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -257,6 +263,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo2\Aula3M2.resx">
       <DependentUpon>Aula3M2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo3\Aula5M3.resx">
+      <DependentUpon>Aula5M3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo3\Aula4M3.resx">
       <DependentUpon>Aula4M3.cs</DependentUpon>
@@ -1277,6 +1286,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\he hates cold.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beach.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flowers.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raim.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sun.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vacation.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wind.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weekend.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
