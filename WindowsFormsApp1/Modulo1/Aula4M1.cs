@@ -617,7 +617,22 @@ namespace WindowsFormsApp1
             }
             else
             {
-                this.Close();
+
+                textBoxAluno.Visible = false;
+                btOuvir.Enabled = false;
+                btEscrever.Enabled = false;
+                btFalar.Enabled = false;
+                lbPagina.Enabled = false;
+                //btProximo.Enabled = false;
+                pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                pictureBox1.Image = Properties.Resources.congratulation;
+                txtPt.Text = "";//legenda 
+                txtEn.Text = "Parabéns!!!. Agora faça os exercícios da apostila";//legenda inglês
+                System.Media.SoundPlayer Tocar = new System.Media.SoundPlayer();//ativa o áudio
+                sd = "audio//congratulations.wav";
+                Tocar.SoundLocation = sd;
+                Tocar.Load();
+                Tocar.Play();
             }
 
 

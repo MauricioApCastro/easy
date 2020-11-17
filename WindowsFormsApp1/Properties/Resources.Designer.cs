@@ -63,6 +63,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap _52_528217_orange_next_button_png {
+            get {
+                object obj = ResourceManager.GetObject("52-528217_orange-next-button-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap ACHOCOLATADO {
             get {
                 object obj = ResourceManager.GetObject("ACHOCOLATADO", resourceCulture);
@@ -353,6 +363,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap bye1 {
+            get {
+                object obj = ResourceManager.GetObject("bye1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap cake {
             get {
                 object obj = ResourceManager.GetObject("cake", resourceCulture);
@@ -476,6 +496,16 @@ namespace WindowsFormsApp1.Properties {
         public static System.Drawing.Bitmap cold1 {
             get {
                 object obj = ResourceManager.GetObject("cold1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap congratulation {
+            get {
+                object obj = ResourceManager.GetObject("congratulation", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1103,9 +1133,29 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap french_fries1 {
+            get {
+                object obj = ResourceManager.GetObject("french fries1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap friday {
             get {
                 object obj = ResourceManager.GetObject("friday", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap fundo_preto {
+            get {
+                object obj = ResourceManager.GetObject("fundo-preto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1203,6 +1253,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap good_morning1 {
+            get {
+                object obj = ResourceManager.GetObject("good morning1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap good_night {
             get {
                 object obj = ResourceManager.GetObject("good night", resourceCulture);
@@ -1266,6 +1326,16 @@ namespace WindowsFormsApp1.Properties {
         public static System.Drawing.Bitmap green_apple {
             get {
                 object obj = ResourceManager.GetObject("green apple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap green_apples {
+            get {
+                object obj = ResourceManager.GetObject("green apples", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1536,6 +1606,26 @@ namespace WindowsFormsApp1.Properties {
         public static System.Drawing.Bitmap how_are_you {
             get {
                 object obj = ResourceManager.GetObject("how are you", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap how_are_you1 {
+            get {
+                object obj = ResourceManager.GetObject("how are you1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap how_are_you2 {
+            get {
+                object obj = ResourceManager.GetObject("how are you2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2583,6 +2673,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap nice_to_meet_you1 {
+            get {
+                object obj = ResourceManager.GetObject("nice to meet you1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap nigth_evening {
             get {
                 object obj = ResourceManager.GetObject("nigth evening", resourceCulture);
@@ -3036,6 +3136,46 @@ namespace WindowsFormsApp1.Properties {
         public static System.Drawing.Bitmap september {
             get {
                 object obj = ResourceManager.GetObject("september", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap seta {
+            get {
+                object obj = ResourceManager.GetObject("seta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap seta_laranja {
+            get {
+                object obj = ResourceManager.GetObject("seta-laranja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap seta_laranja__1_ {
+            get {
+                object obj = ResourceManager.GetObject("seta-laranja (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap seta_laranja1 {
+            get {
+                object obj = ResourceManager.GetObject("seta-laranja1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3583,6 +3723,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap twenty1 {
+            get {
+                object obj = ResourceManager.GetObject("twenty1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap two {
             get {
                 object obj = ResourceManager.GetObject("two", resourceCulture);
@@ -3746,6 +3896,16 @@ namespace WindowsFormsApp1.Properties {
         public static System.Drawing.Bitmap what_s_you_name {
             get {
                 object obj = ResourceManager.GetObject("what\'s you name", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap what_s_your_name {
+            get {
+                object obj = ResourceManager.GetObject("what\'s your name", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

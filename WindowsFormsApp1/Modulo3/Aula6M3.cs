@@ -11,6 +11,7 @@ using System.Speech.Synthesis;
 using Microsoft.Speech.Recognition;
 using System.Globalization;
 using System.Threading;
+using System.Runtime.InteropServices;
 
 namespace WindowsFormsApp1
 {
@@ -119,6 +120,9 @@ namespace WindowsFormsApp1
         public Aula6M3()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None;
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+
 
             Init();
 
@@ -174,6 +178,20 @@ namespace WindowsFormsApp1
                 MessageBox.Show("ERRO ao criar a gramática: " + ex.Message);
             }
         }
+
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        private static extern IntPtr CreateRoundRectRgn
+       (
+           int nLeftRect,     // x-coordinate of upper-left corner
+           int nTopRect,      // y-coordinate of upper-left corner
+           int nRightRect,    // x-coordinate of lower-right corner
+           int nBottomRect,   // y-coordinate of lower-right corner
+           int nWidthEllipse, // height of ellipse
+           int nHeightEllipse // width of ellipse
+       );
+
+
+
         public void Init()
         {
             resposta.Volume = 100; // controla volume de saida

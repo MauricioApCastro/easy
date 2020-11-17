@@ -1488,5 +1488,53 @@
   <ItemGroup>
     <None Include="Resources\orange1.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seta2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52-528217_orange-next-button-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seta-laranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seta-laranja.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seta-laranja %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo-preto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\how are you11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good morning1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\how are you.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bye.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nice to meet you.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\what%27s your name.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\french fries.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green apples.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twenty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\congratulation.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
