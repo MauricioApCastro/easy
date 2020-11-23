@@ -2123,6 +2123,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap I_hate_onion_and_garlic {
+            get {
+                object obj = ResourceManager.GetObject("I hate onion and garlic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap I_hate_to_eat_apple {
             get {
                 object obj = ResourceManager.GetObject("I hate to eat apple", resourceCulture);
