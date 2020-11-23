@@ -222,7 +222,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.what_time_is_it;
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.night_evening;
             this.pictureBox1.Location = new System.Drawing.Point(66, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(510, 382);

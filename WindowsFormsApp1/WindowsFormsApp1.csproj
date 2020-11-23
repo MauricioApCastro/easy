@@ -1539,5 +1539,8 @@
   <ItemGroup>
     <None Include="Resources\I hate onion and garlic.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\night evening.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

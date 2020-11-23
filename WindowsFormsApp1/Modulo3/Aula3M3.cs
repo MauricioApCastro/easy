@@ -70,14 +70,14 @@ namespace WindowsFormsApp1
 "what time is it",
 "hours",
 "time",
-"tomorrow I eat rice and bean",
-"today I drink juice orange",
+"Tomorrow I eat rice and bean",
+"Today I drink juice orange",
 "Ice cream day",
 "See you midnight",
-"please, what time is it",
-"good to see you today",
-"great day",
-"bad day",
+"Please, what time is it",
+"Good to see you today",
+"Great day",
+"Bad day",
 
         };
         public String[] listaPortugues =
@@ -95,14 +95,14 @@ namespace WindowsFormsApp1
 "Que horas são",
 "horas",
 "tempo",
-"amanhã eu como arroz e feijão",
-"hoje eu bebo suco de laranja",
-"dia do sorvete",
+"Amanhã eu como arroz e feijão",
+"Hoje eu bebo suco de laranja",
+"Dia do sorvete",
 "Te vejo a meia-noite",
-"por favor, que horas são",
-"bom te ver hoje",
-"otimo dia",
-"péssimo dia",
+"Por favor, que horas são",
+"Bom te ver hoje",
+"Ótimo dia",
+"Péssimo dia",
 
 
 
@@ -333,7 +333,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.nigth_evening;
+                    pictureBox1.Image = Properties.Resources.night_evening;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
