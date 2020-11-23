@@ -172,6 +172,12 @@
     <Compile Include="Modulo2\Aula3M2.Designer.cs">
       <DependentUpon>Aula3M2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo3\Aula7M3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo3\Aula7M3.Designer.cs">
+      <DependentUpon>Aula7M3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulo3\Aula6M3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -269,6 +275,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo2\Aula3M2.resx">
       <DependentUpon>Aula3M2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo3\Aula7M3.resx">
+      <DependentUpon>Aula7M3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo3\Aula6M3.resx">
       <DependentUpon>Aula6M3.cs</DependentUpon>
@@ -1541,6 +1550,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\night evening.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\birthday.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\for.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\let%27s drink.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\let%27s eat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\let%27s.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\night evening1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\now.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outher.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beer saturday.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

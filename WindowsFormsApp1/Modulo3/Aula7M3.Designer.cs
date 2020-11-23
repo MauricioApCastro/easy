@@ -62,7 +62,7 @@
             this.btOuvir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btOuvir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btOuvir.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.btOuvir.ForeColor = System.Drawing.Color.Red;
+            this.btOuvir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btOuvir.Location = new System.Drawing.Point(582, 12);
             this.btOuvir.Name = "btOuvir";
             this.btOuvir.Size = new System.Drawing.Size(420, 116);
@@ -84,7 +84,7 @@
             this.btFalar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btFalar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btFalar.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.btFalar.ForeColor = System.Drawing.Color.Red;
+            this.btFalar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btFalar.Location = new System.Drawing.Point(582, 145);
             this.btFalar.Name = "btFalar";
             this.btFalar.Size = new System.Drawing.Size(420, 116);
@@ -106,7 +106,7 @@
             this.btEscrever.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btEscrever.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btEscrever.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.btEscrever.ForeColor = System.Drawing.Color.Red;
+            this.btEscrever.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btEscrever.Location = new System.Drawing.Point(582, 286);
             this.btEscrever.Name = "btEscrever";
             this.btEscrever.Size = new System.Drawing.Size(420, 116);
@@ -117,13 +117,14 @@
             // 
             // lbPagina
             // 
+            this.lbPagina.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbPagina.AutoSize = true;
             this.lbPagina.BackColor = System.Drawing.Color.Transparent;
-            this.lbPagina.Font = new System.Drawing.Font("Comic Sans MS", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPagina.ForeColor = System.Drawing.Color.Red;
-            this.lbPagina.Location = new System.Drawing.Point(12, 12);
+            this.lbPagina.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.lbPagina.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.lbPagina.Location = new System.Drawing.Point(896, 467);
             this.lbPagina.Name = "lbPagina";
-            this.lbPagina.Size = new System.Drawing.Size(43, 50);
+            this.lbPagina.Size = new System.Drawing.Size(77, 90);
             this.lbPagina.TabIndex = 25;
             this.lbPagina.Text = "0";
             this.lbPagina.Visible = false;
@@ -132,11 +133,11 @@
             // textBoxAluno
             // 
             this.textBoxAluno.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBoxAluno.BackColor = System.Drawing.Color.White;
+            this.textBoxAluno.BackColor = System.Drawing.Color.LightPink;
             this.textBoxAluno.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxAluno.Cursor = System.Windows.Forms.Cursors.Hand;
             this.textBoxAluno.Font = new System.Drawing.Font("Comic Sans MS", 39.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.textBoxAluno.ForeColor = System.Drawing.Color.Black;
+            this.textBoxAluno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.textBoxAluno.Location = new System.Drawing.Point(12, 560);
             this.textBoxAluno.MaxLength = 100;
             this.textBoxAluno.Multiline = true;
@@ -168,7 +169,7 @@
             this.txtPt.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.txtPt.BackColor = System.Drawing.Color.Transparent;
             this.txtPt.Font = new System.Drawing.Font("Comic Sans MS", 39.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.txtPt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.txtPt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.txtPt.Location = new System.Drawing.Point(12, 560);
             this.txtPt.Name = "txtPt";
             this.txtPt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -221,7 +222,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.beer_saturday;
             this.pictureBox1.Location = new System.Drawing.Point(66, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(510, 382);
@@ -244,13 +245,13 @@
             // btProximo
             // 
             this.btProximo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btProximo.BackColor = System.Drawing.Color.Black;
-            this.btProximo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btProximo.BackColor = System.Drawing.Color.Transparent;
             this.btProximo.FlatAppearance.BorderSize = 0;
             this.btProximo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btProximo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btProximo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btProximo.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btProximo.Image = global::WindowsFormsApp1.Properties.Resources.forward_arrow_right_11166;
             this.btProximo.Location = new System.Drawing.Point(859, 560);
             this.btProximo.Name = "btProximo";
             this.btProximo.Size = new System.Drawing.Size(143, 157);
@@ -262,7 +263,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.LAYOUT_FUNDO;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 729);
             this.Controls.Add(this.btProximo);

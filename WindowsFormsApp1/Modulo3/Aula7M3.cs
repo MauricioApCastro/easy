@@ -11,6 +11,7 @@ using System.Speech.Synthesis;
 using Microsoft.Speech.Recognition;
 using System.Globalization;
 using System.Threading;
+using System.Runtime.InteropServices;
 
 namespace WindowsFormsApp1
 {
@@ -30,96 +31,76 @@ namespace WindowsFormsApp1
         //Arrays
         public String[] listaAudio =
         {
-       "audio//to make.wav",
-"audio//to prepare.wav",
-"audio//to cook.wav",
-"audio//to bake.wav",
-"audio//I make coffee and tea.wav",
-"audio//He makes a juice.wav",
-"audio//You make limonade.wav",
-"audio//She makes hot chocolate.wav",
-"audio//I make pancake tomorrow.wav",
-"audio//I prepare salad and you meat.wav",
-"audio//He prepares chicken and fish.wav",
-"audio//She prepares rice and bean.wav",
-"audio//You prepare soup and I egg.wav",
-"audio//I prepare rice today.wav",
-"audio//I cook steak and rice.wav",
-"audio//He cooks potatoes and carrots.wav",
-"audio//She cooks meat and salad.wav",
-"audio//You cook tomorrow.wav",
-"audio//I bake a cake.wav",
-"audio//You bake a pie and prepare a juice.wav",
-"audio//She bakes bread.wav",
-"audio//He bakes cake and bread.wav",
-"audio//Saturday I bake cake.wav",
-"audio//Sunday is barbecue day.wav",
+            "audio//Let's.wav",
+"audio//now.wav",
+"audio//for.wav",
+"audio//other(s).wav",
+"audio//birthday.wav",
+"audio//Let’s bake a cake Tuesday.wav",
+"audio//Let’s eat now.wav",
+"audio//Let’s drink now.wav",
+"audio//Other day.wav",
+"audio//Let’s eat cheese today.wav",
+"audio//Let’s prepare a pie for christmas.wav",
+"audio//Birthday cake.wav",
+"audio//Let’s make a birthday cake.wav",
+"audio//Let’s drink wine now.wav",
+"audio//Let’s cook soup Monday.wav",
+"audio//Let's eat bread with cheese.wav",
+"audio//Let's drink beer Saturday.wav",
+"audio//Let's make chocolate cake now.wav",
+
 
         };
         public String[] listaIngles =
         {
-         "to make",
-"to prepare",
-"to cook",
-"to bake",
-"I make coffee and tea",
-"He makes a juice",
-"You make limonade",
-"She makes hot chocolate",
-"I make pancake tomorrow",
-"I prepare salad and you meat",
-"He prepares chicken and fish",
-"She prepares rice and bean",
-"You prepare soup and I egg",
-"I prepare rice today",
-"I cook steak and rice",
-"He cooks potatoes and carrots",
-"She cooks meat and salad",
-"You cook tomorrow",
-"I bake a cake",
-"You bake a pie and prepare a juice",
-"She bakes bread",
-"He bakes cake and bread",
-"Saturday I bake cake",
-"Sunday is barbecue day",
+            "Let's",
+"now",
+"for",
+"others",
+"birthday",
+"Let's bake a cake Tuesday",
+"Let's eat now",
+"Let's drink now",
+"Other day",
+"Let's eat cheese today",
+"Let's prepare a pie for christmas",
+"Birthday cake",
+"Let's make a birthday cake",
+"Let's drink wine now",
+"Let's cook soup Monday",
+"Let's eat bread with cheese",
+"Let's drink beer Saturday",
+"Let's make chocolate cake now",
 
         };
         public String[] listaPortugues =
 {
-            "fazer",
-"preparar",
-"cozinhar",
-"assar",
-"eu faço café e chá",
-"Ele faz um suco",
-"Você faz uma limonada",
-"Ela faz chocolate quente",
-"Eu faço panqueca amanhã",
-"Eu preparo a salada e você a carne",
-"Ele faz frango e peixe",
-"Ela faz arroz e feijão",
-"Você faz sopa e eu faço ovo",
-"Eu faço o arroz hoje",
-"Eu cozinho bife e arroz",
-"Ele cozinha batatas e cenouras",
-"Ela cozinha carne e salada",
-"Você cozinha amanhã",
-"Eu asso um bolo",
-"Voce assa uma torta e faz um suco",
-"Ela assa pão",
-"Ele assa bolo e pão",
-"Sábado eu asso bolo",
-"Domingo é dia de churrasco",
-
-
-
+            "Vamos",
+"agora",
+"para ",
+"outros",
+"aniversário",
+"vamos fazer um bolo terça-feira",
+"Vamos comer agora",
+"Vamos beber agora",
+"Outro dia",
+"Vamos comer queijo hoje",
+"Vamos preparar uma torta para o Natal",
+"bolo de aniversário",
+"Vamos fazer um bolo de aniversário",
+"Vamos beber vinho agora",
+"Vamos fazer sopa Segunda-feira",
+"Vamos comer pão com queijo",
+"Vamos beber cerveja sábado",
+"Vamos fazer um bolo de chocolate agora",
         };
 
 
         public Aula7M3()
         {
             InitializeComponent();
-
+           
             Init();
 
 
@@ -174,6 +155,9 @@ namespace WindowsFormsApp1
                 MessageBox.Show("ERRO ao criar a gramática: " + ex.Message);
             }
         }
+
+       
+
         public void Init()
         {
             resposta.Volume = 100; // controla volume de saida
@@ -220,7 +204,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.make;
+                    pictureBox1.Image = Properties.Resources.let_s;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -239,7 +223,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.prepare;
+                    pictureBox1.Image = Properties.Resources.now;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -257,7 +241,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.cook;
+                    pictureBox1.Image = Properties.Resources._for;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -266,10 +250,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
                     break;
 
-                   
-
-
-
+                  
                 case 3:
                     num = 3;
                     textBoxAluno.Text = "";
@@ -278,7 +259,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.bake;
+                    pictureBox1.Image = Properties.Resources.outher;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -286,10 +267,6 @@ namespace WindowsFormsApp1
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
                     break;
-
-
-
-
 
 
                 case 4:
@@ -299,10 +276,8 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
-                    pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.make_coffee;
-                    pictureBox2.Image = Properties.Resources.make_tea;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.birthday;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -321,8 +296,10 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.make_juice;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
+                    pictureBox1.Image = Properties.Resources.bake_cake;
+                    pictureBox2.Image = Properties.Resources.TUESDAY;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -342,8 +319,10 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.LIMONADA;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
+                    pictureBox1.Image = Properties.Resources.let_s_eat;
+                    pictureBox2.Image = Properties.Resources.now;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -359,8 +338,10 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.make_hot_chocolate;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
+                    pictureBox1.Image = Properties.Resources.let_s_drink;
+                    pictureBox2.Image = Properties.Resources.now;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -376,10 +357,8 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
-                    pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.make_pancake;
-                    pictureBox2.Image = Properties.Resources.tomorrow;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.day;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -399,8 +378,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.salad;
-                    pictureBox2.Image = Properties.Resources.meat;
+                    pictureBox1.Image = Properties.Resources.let_s_eat;
+                    pictureBox2.Image = Properties.Resources.cheesse;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -419,8 +398,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.prepare_chicken;
-                    pictureBox2.Image = Properties.Resources.prepare_fish;
+                    pictureBox1.Image = Properties.Resources.bake_pie;
+                    pictureBox2.Image = Properties.Resources.natal;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -440,8 +419,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.prepare_rice;
-                    pictureBox2.Image = Properties.Resources.prepare_bean;
+                    pictureBox1.Image = Properties.Resources.birthday;
+                    pictureBox2.Image = Properties.Resources.cake;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -459,8 +438,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.soup;
-                    pictureBox2.Image = Properties.Resources.egg;
+                    pictureBox1.Image = Properties.Resources.bake_cake;
+                    pictureBox2.Image = Properties.Resources.birthday;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -480,8 +459,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.prepare_rice;
-                    pictureBox2.Image = Properties.Resources.today;
+                    pictureBox1.Image = Properties.Resources.let_s_drink;
+                    pictureBox2.Image = Properties.Resources.wine;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -499,8 +478,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.cook_steak;
-                    pictureBox2.Image = Properties.Resources.rice;
+                    pictureBox1.Image = Properties.Resources.soup;
+                    pictureBox2.Image = Properties.Resources.I_hate_monday;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -517,8 +496,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.cook_potato;
-                    pictureBox2.Image = Properties.Resources.carriot;
+                    pictureBox1.Image = Properties.Resources.bread;
+                    pictureBox2.Image = Properties.Resources.cheesse;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -530,134 +509,32 @@ namespace WindowsFormsApp1
                 case 16:
                     num = 16;
                     textBoxAluno.Text = "";
+                    textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
-                    pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.prepare_meat;
-                    pictureBox2.Image = Properties.Resources.prepare_salad;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.beer_saturday;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
+
+
                     break;
                 case 17:
                     num = 17;
                     textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.cook_tomorrow;
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 18:
-                    num = 18;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.bake_cake;
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 19:
-                    num = 19;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.bake_pie;
-                    pictureBox2.Image = Properties.Resources.make_juice;
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 20:
-                    num = 20;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.bake_bread;
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 21:
-                    num = 21;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.cake;
-                    pictureBox2.Image = Properties.Resources.bread;
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 22:
-                    num = 22;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.saturday;
-                    pictureBox2.Image = Properties.Resources.bake_cake;
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 23:
-                    num = 23;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.sunday;
-                    pictureBox2.Image = Properties.Resources.barbecue;
+                    pictureBox1.Image = Properties.Resources.beer_saturday;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -666,15 +543,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
                     break;
 
-
-
-
-
-
-
-
+                 
             }
-            int quantidadeCasos = 23;
+            int quantidadeCasos = 17;
             if (numeroVezes < 3)
             {
                 if (contadorCasos <= quantidadeCasos - 1)
@@ -715,8 +586,7 @@ namespace WindowsFormsApp1
                 timerEscrever.Start();
                 timerOuvir.Stop();
                 textBoxAluno.Visible = true;
-                btOuvir.ForeColor = Color.Green;
-                
+
                 textBoxAluno.Select();
                 btEscrever.Enabled = true;
                 btFalar.Text = "Correto";
