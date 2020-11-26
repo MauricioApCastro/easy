@@ -651,7 +651,7 @@ namespace WindowsFormsApp1
                 btEscrever.Enabled = false;
                 btFalar.Enabled = false;
                 lbPagina.Enabled = false;
-                //btProximo.Enabled = false;
+                ////btProximo.Enabled = false;
                 pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                 pictureBox1.Image = Properties.Resources.congratulation;
                 txtPt.Text = "";//legenda 

@@ -210,6 +210,7 @@ namespace WindowsFormsApp1
 
         {
 
+            c = 0;
             timerOuvir.Start();
             contadorGeral++;//cada vez que clica adiciona 1           
             var x = contadorGeral;
@@ -787,6 +788,7 @@ namespace WindowsFormsApp1
         private void btOuvir_Click(object sender, EventArgs e)
         {
 
+            textBoxAluno.Visible = false;
             btOuvir.Font = new Font("Comic Sans MS", 48, (FontStyle.Bold & FontStyle.Italic), GraphicsUnit.Point);
             timerOuvir.Stop();
             timerFalar.Start();

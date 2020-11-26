@@ -172,6 +172,12 @@
     <Compile Include="Modulo2\Aula3M2.Designer.cs">
       <DependentUpon>Aula3M2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo3\Aula8M3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo3\Aula8M3.Designer.cs">
+      <DependentUpon>Aula8M3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulo3\Aula7M3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -275,6 +281,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo2\Aula3M2.resx">
       <DependentUpon>Aula3M2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo3\Aula8M3.resx">
+      <DependentUpon>Aula8M3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo3\Aula7M3.resx">
       <DependentUpon>Aula7M3.cs</DependentUpon>

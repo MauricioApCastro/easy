@@ -239,7 +239,6 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.I_drink_tea;
             this.pictureBox1.Location = new System.Drawing.Point(60, 36);
             this.pictureBox1.Name = "pictureBox1";
@@ -273,13 +272,13 @@
             this.Controls.Add(this.btEscrever);
             this.Controls.Add(this.btFalar);
             this.Controls.Add(this.btOuvir);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.lbAudio);
-            this.Controls.Add(this.lblGravando);
             this.Controls.Add(this.btProximo);
             this.Controls.Add(this.textBoxAluno);
             this.Controls.Add(this.txtPt);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.lblGravando);
+            this.Controls.Add(this.lbAudio);
             this.Name = "Aula1M1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
