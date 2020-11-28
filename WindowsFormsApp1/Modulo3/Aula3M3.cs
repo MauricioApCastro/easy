@@ -67,7 +67,7 @@ namespace WindowsFormsApp1
 "tonight",
 "midday",
 "midnight",
-"what time is it",
+"What time is it",
 "hours",
 "time",
 "Tomorrow I eat rice and bean",
@@ -271,7 +271,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.tomorrow;
+                    pictureBox1.Image = Properties.Resources.tomorrow__1_;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -452,7 +452,7 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.tomorrow;
+                    pictureBox1.Image = Properties.Resources.tomorrow__1_;
                     pictureBox2.Image = Properties.Resources.rice_and_bean;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 

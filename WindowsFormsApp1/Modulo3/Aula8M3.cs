@@ -57,7 +57,7 @@ namespace WindowsFormsApp1
         public String[] listaIngles =
         {
 
-            "I want",
+"I want",
 "You want",
 "She wants",
 "He wants",
@@ -208,7 +208,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.let_s;
+                    pictureBox1.Image = Properties.Resources.I_want;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -227,7 +227,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.now;
+                    pictureBox1.Image = Properties.Resources.he_wants;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -245,7 +245,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources._for;
+                    pictureBox1.Image = Properties.Resources.she_wants;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -263,7 +263,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.outher;
+                    pictureBox1.Image = Properties.Resources.he_wants;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -281,7 +281,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.birthday;
+                    pictureBox1.Image = Properties.Resources.he_wants;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -300,10 +300,8 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
-                    pictureBox2.Visible = true;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.bake_cake;
-                    pictureBox2.Image = Properties.Resources.TUESDAY;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.he_wants;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -325,8 +323,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.let_s_eat;
-                    pictureBox2.Image = Properties.Resources.now;
+                    pictureBox1.Image = Properties.Resources.I_want;
+                    pictureBox2.Image = Properties.Resources.I_drink_juice;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -344,8 +342,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.let_s_drink;
-                    pictureBox2.Image = Properties.Resources.now;
+                    pictureBox1.Image = Properties.Resources.I_want;
+                    pictureBox2.Image = Properties.Resources.make_hot_chocolate;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -361,15 +359,16 @@ namespace WindowsFormsApp1
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.day;
+                    pictureBox2.Visible = true;
+                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
+                    pictureBox1.Image = Properties.Resources.i_eat_potato;
+                    pictureBox2.Image = Properties.Resources.I_drink_soda;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
-
                     break;
 
 
@@ -382,8 +381,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.let_s_eat;
-                    pictureBox2.Image = Properties.Resources.cheesse;
+                    pictureBox1.Image = Properties.Resources.i_eat_soup;
+                    pictureBox2.Image = Properties.Resources.i_eats_rice;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -402,8 +401,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.bake_pie;
-                    pictureBox2.Image = Properties.Resources.natal;
+                    pictureBox1.Image = Properties.Resources.i_eat_hamburger;
+                    pictureBox2.Image = Properties.Resources.sunday;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -423,8 +422,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.birthday;
-                    pictureBox2.Image = Properties.Resources.cake;
+                    pictureBox1.Image = Properties.Resources.ice_cream;
+                    pictureBox2.Image = Properties.Resources.summer;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -442,8 +441,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.bake_cake;
-                    pictureBox2.Image = Properties.Resources.birthday;
+                    pictureBox1.Image = Properties.Resources.he_wants;
+                    pictureBox2.Image = Properties.Resources.great_week;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -463,8 +462,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.let_s_drink;
-                    pictureBox2.Image = Properties.Resources.wine;
+                    pictureBox1.Image = Properties.Resources.salad_tomato_and_lettuce;
+                    pictureBox2.Image = Properties.Resources.i_eat_onion;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -482,8 +481,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.soup;
-                    pictureBox2.Image = Properties.Resources.I_hate_monday;
+                    pictureBox1.Image = Properties.Resources.three;
+                    pictureBox2.Image = Properties.Resources.potato;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -500,8 +499,8 @@ namespace WindowsFormsApp1
                     btProximo.Enabled = false;
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.bread;
-                    pictureBox2.Image = Properties.Resources.cheesse;
+                    pictureBox1.Image = Properties.Resources.sun;
+                    pictureBox2.Image = Properties.Resources.ice_cream1;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -519,7 +518,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.beer_saturday;
+                    pictureBox1.Image = Properties.Resources.i_eat_barbecue;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês

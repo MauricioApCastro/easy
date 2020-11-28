@@ -87,7 +87,7 @@ namespace WindowsFormsApp1
 "Meu nome é",
 "Prazer em conhecer",
 "Olá, como vai você",
-"Que bom te ver!!!",
+"Que bom te ver",
 "Por favor",
 "Seja bem vinda Silvia",
 "Desculpe me Maurício",

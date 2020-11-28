@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Aula7M3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Aula8M3));
             this.btOuvir = new System.Windows.Forms.Button();
             this.btFalar = new System.Windows.Forms.Button();
             this.btEscrever = new System.Windows.Forms.Button();
@@ -159,7 +159,7 @@
             this.txtEn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtEn.Size = new System.Drawing.Size(850, 148);
             this.txtEn.TabIndex = 28;
-            this.txtEn.Text = "Seasons";
+            this.txtEn.Text = "Review ";
             this.txtEn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.txtEn.UseCompatibleTextRendering = true;
             this.txtEn.Click += new System.EventHandler(this.txtEn_Click);
@@ -175,7 +175,7 @@
             this.txtPt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtPt.Size = new System.Drawing.Size(850, 150);
             this.txtPt.TabIndex = 28;
-            this.txtPt.Text = "estações do ano";
+            this.txtPt.Text = "Revisão";
             this.txtPt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.txtPt.UseCompatibleTextRendering = true;
             this.txtPt.Click += new System.EventHandler(this.txtPt_Click);
@@ -222,7 +222,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.beer_saturday;
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.he_wants;
             this.pictureBox1.Location = new System.Drawing.Point(66, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(510, 382);
@@ -259,27 +259,27 @@
             this.btProximo.UseVisualStyleBackColor = false;
             this.btProximo.Click += new System.EventHandler(this.btProximo_Click_1);
             // 
-            // Aula7M3
+            // Aula8M3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.LAYOUT_FUNDO;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.LAYOUT_FUNDO1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btProximo);
             this.Controls.Add(this.lbPagina);
             this.Controls.Add(this.txtEn);
             this.Controls.Add(this.btEscrever);
             this.Controls.Add(this.btFalar);
             this.Controls.Add(this.btOuvir);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lblGravando);
             this.Controls.Add(this.lbAudio);
             this.Controls.Add(this.textBoxAluno);
             this.Controls.Add(this.txtPt);
-            this.Name = "Aula7M3";
+            this.Name = "Aula8M3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

@@ -196,7 +196,13 @@ namespace WindowsFormsApp1
         private void button1_Click_1(object sender, EventArgs e)
         {
             MenuPrincipal novo = new MenuPrincipal();
-           
+            novo.Visible = false;
+            axWindowsMediaPlayer1.URL = "";
+            Aula8M3 nova = new Aula8M3();
+            nova.Show();
+
+            this.Hide();
+
 
         }
     }

@@ -555,7 +555,7 @@ namespace WindowsFormsApp1
                     pictureBox2.Visible = true;
                     pictureBox1.ClientSize = new Size(255, 382);//metade da tela
                     pictureBox1.Image = Properties.Resources.cold;
-                    pictureBox2.Image = Properties.Resources.morning;
+                    pictureBox2.Image = Properties.Resources.good_morning1;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês

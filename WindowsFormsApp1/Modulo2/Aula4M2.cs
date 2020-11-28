@@ -78,7 +78,7 @@ namespace WindowsFormsApp1
 "Thanks Vitor",
 "Good morning Juliana",
 "Good evening Marcia",
-"Thanks lucas",
+"Thanks Lucas",
 "Bye Jose",
 "Hello Maria",
 
