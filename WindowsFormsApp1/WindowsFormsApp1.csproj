@@ -51,6 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MenuAulaM4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAulaM4.Designer.cs">
+      <DependentUpon>MenuAulaM4.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuAulaM3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -220,8 +226,17 @@
     <Compile Include="Modulo3\Aula1M3.Designer.cs">
       <DependentUpon>Aula1M3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo4\Aula1M4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo4\Aula1M4.Designer.cs">
+      <DependentUpon>Aula1M4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MenuAulaM4.resx">
+      <DependentUpon>MenuAulaM4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuAulaM3.resx">
       <DependentUpon>MenuAulaM3.cs</DependentUpon>
     </EmbeddedResource>
@@ -305,6 +320,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo3\Aula1M3.resx">
       <DependentUpon>Aula1M3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo4\Aula1M4.resx">
+      <DependentUpon>Aula1M4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -1595,6 +1613,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\he wants.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black coat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COAT.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark blue suit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dress.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green jacket.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red shirt.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink dress.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SHIRT.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T-SHIRT.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sweatshirt.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WEAR.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white sweatshirt.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

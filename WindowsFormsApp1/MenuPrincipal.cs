@@ -67,7 +67,8 @@ namespace WindowsFormsApp1
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            MenuAulaM4 f = new MenuAulaM4();
+            f.Show();
         }
 
         private void button8_Click(object sender, EventArgs e)
