@@ -159,7 +159,7 @@
             this.txtEn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtEn.Size = new System.Drawing.Size(850, 148);
             this.txtEn.TabIndex = 28;
-            this.txtEn.Text = "Review ";
+            this.txtEn.Text = "wear";
             this.txtEn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.txtEn.UseCompatibleTextRendering = true;
             this.txtEn.Click += new System.EventHandler(this.txtEn_Click);
@@ -175,7 +175,7 @@
             this.txtPt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtPt.Size = new System.Drawing.Size(850, 150);
             this.txtPt.TabIndex = 28;
-            this.txtPt.Text = "Revisão";
+            this.txtPt.Text = "Vestir";
             this.txtPt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.txtPt.UseCompatibleTextRendering = true;
             this.txtPt.Click += new System.EventHandler(this.txtPt_Click);
