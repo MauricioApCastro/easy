@@ -54,7 +54,7 @@ namespace WindowsFormsApp1
         };
         public String[] listaIngles =
         {
-            "shorts",
+"shorts",
 "pants",
 "jeans",
 "panties",
@@ -68,7 +68,6 @@ namespace WindowsFormsApp1
 "She wears black panties",
 "He wears briefs",
 "She wears white bra",
-
 "She wears dress",
 "He wears black suit",
 "She wears red coat",
