@@ -226,6 +226,24 @@
     <Compile Include="Modulo3\Aula1M3.Designer.cs">
       <DependentUpon>Aula1M3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo4\Aula5M4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo4\Aula5M4.Designer.cs">
+      <DependentUpon>Aula5M4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo4\Aula7M4 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo4\Aula7M4 .Designer.cs">
+      <DependentUpon>Aula7M4 .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo4\Aula6M4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo4\Aula6M4.Designer.cs">
+      <DependentUpon>Aula6M4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulo4\Aula4M4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -338,6 +356,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo3\Aula1M3.resx">
       <DependentUpon>Aula1M3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo4\Aula5M4.resx">
+      <DependentUpon>Aula5M4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo4\Aula7M4 .resx">
+      <DependentUpon>Aula7M4 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo4\Aula6M4.resx">
+      <DependentUpon>Aula6M4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo4\Aula4M4.resx">
       <DependentUpon>Aula4M4.cs</DependentUpon>
@@ -1724,6 +1751,150 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sneakers.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothbrush.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothpaste.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shampoo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deodorant.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perfume.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\makeup.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lipstick.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 dolar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 dolar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 dolar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20 dolar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50 dolar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scarf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\necktie.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\necklace.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wristwatch.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bracelet.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\earrings.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit card.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 dolar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\necklace1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\He irons clothes.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\He irons clothes1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I iron the shirts.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomorrow I wash the clothes.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Today you wash clothes.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\You wash the clothes.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I wash the shirt.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\went.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\softener.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soap powder.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laundry.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\washing machine.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clothes.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to iron.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wash.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beach house.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pool.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beach umbrella.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bikini.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\country house.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farm.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunscreean.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biquini vermelho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calção preto.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

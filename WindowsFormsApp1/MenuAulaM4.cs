@@ -154,7 +154,7 @@ namespace WindowsFormsApp1
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
             axWindowsMediaPlayer1.URL = "";
-            Aula4M3 nova = new Aula4M3();
+            Aula4M4 nova = new Aula4M4();
             nova.Show();
             this.Hide();
         }
@@ -164,7 +164,7 @@ namespace WindowsFormsApp1
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
             axWindowsMediaPlayer1.URL = "";
-            Aula5M3 nova = new Aula5M3();
+            Aula5M4 nova = new Aula5M4();
             nova.Show();
             this.Hide();
         }
@@ -174,7 +174,7 @@ namespace WindowsFormsApp1
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
             axWindowsMediaPlayer1.URL = "";
-            Aula6M3 nova = new Aula6M3();
+            Aula6M4 nova = new Aula6M4();
             nova.Show();
 
             this.Hide();
@@ -186,7 +186,7 @@ namespace WindowsFormsApp1
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
             axWindowsMediaPlayer1.URL = "";
-            Aula7M3 nova = new Aula7M3();
+            Aula7M4 nova = new Aula7M4();
             nova.Show();
 
             this.Hide();

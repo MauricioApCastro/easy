@@ -182,7 +182,6 @@ namespace WindowsFormsApp1
             Gramatica(); // inicialização da gramatica
         }
 
-
         private void Aula1_Load(object sender, EventArgs e)
         {
 
@@ -228,7 +227,6 @@ namespace WindowsFormsApp1
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
-
                     break;
 
 

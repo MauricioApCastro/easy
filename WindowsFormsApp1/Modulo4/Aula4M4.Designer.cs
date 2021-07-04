@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Aula2M4));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Aula4M4));
             this.btOuvir = new System.Windows.Forms.Button();
             this.btFalar = new System.Windows.Forms.Button();
             this.btEscrever = new System.Windows.Forms.Button();
@@ -222,7 +222,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.shorts;
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.buy;
             this.pictureBox1.Location = new System.Drawing.Point(66, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(510, 382);
@@ -260,7 +260,7 @@
             this.btProximo.UseVisualStyleBackColor = false;
             this.btProximo.Click += new System.EventHandler(this.btProximo_Click_1);
             // 
-            // Aula2M4
+            // Aula4M4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -280,7 +280,7 @@
             this.Controls.Add(this.lbAudio);
             this.Controls.Add(this.textBoxAluno);
             this.Controls.Add(this.txtPt);
-            this.Name = "Aula2M4";
+            this.Name = "Aula4M4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
