@@ -280,6 +280,12 @@
     <Compile Include="Modulo4\Aula1M4.Designer.cs">
       <DependentUpon>Aula1M4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo5\Aula2M5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo5\Aula2M5.Designer.cs">
+      <DependentUpon>Aula2M5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulo5\Aula1M5 .cs">
       <SubType>Form</SubType>
     </Compile>
@@ -401,6 +407,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo4\Aula1M4.resx">
       <DependentUpon>Aula1M4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo5\Aula2M5.resx">
+      <DependentUpon>Aula2M5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo5\Aula1M5 .resx">
       <DependentUpon>Aula1M5 .cs</DependentUpon>
@@ -1949,6 +1958,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\blue car.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bicycle.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ship.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\station train.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\work.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airport.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

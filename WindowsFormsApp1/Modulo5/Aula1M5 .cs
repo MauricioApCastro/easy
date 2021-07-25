@@ -31,7 +31,14 @@ namespace WindowsFormsApp1
         //Arrays
         public String[] listaAudio =
         {
-            "audio//I take.wav",
+            "audio//bus.wav",
+"audio//taxi.wav",
+"audio//train.wav",
+"audio//subway.wav",
+"audio//car.wav",
+"audio//plane.wav",
+"audio//motorcycle.wav",
+"audio//I take.wav",
 "audio//I take the bus.wav",
 "audio//I take the taxi.wav",
 "audio//You take the train.wav",
@@ -51,7 +58,14 @@ namespace WindowsFormsApp1
         };
         public String[] listaIngles =
         {
-            "I take",
+           "bus",
+"taxi",
+"train",
+"subway",
+"car",
+"plane",
+"motorcycle",
+"I take",
 "I take the bus",
 "I take the taxi",
 "You take the train",
@@ -73,7 +87,13 @@ namespace WindowsFormsApp1
         };
         public String[] listaPortugues =
         {
-            
+    "ônibus",
+"taxi",
+"trem",
+"metrô",
+"carro",
+"avião",
+"moto",
 "Eu pego",
 "Eu pego o ônibus",
 "Eu pego o taxi",
@@ -202,6 +222,124 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.BUS;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+
+                case 1:
+                    num = 1;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.taxi;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+
+                case 2:
+                    num = 2;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.train;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+
+                case 3:
+                    num = 3;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.subway;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+
+                case 4:
+                    num = 4;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.car;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+
+                case 5:
+                    num = 5;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.plane;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+
+                case 6:
+                    num = 6;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.motorcycle;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+                    break;
+                case 7:
+                    num = 7;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.train;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
@@ -212,8 +350,8 @@ namespace WindowsFormsApp1
                     break;
 
 
-                case 1:
-                    num = 1;
+                case 8:
+                    num = 8;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -230,8 +368,8 @@ namespace WindowsFormsApp1
                     break;
 
 
-                case 2:
-                    num = 2;
+                case 9:
+                    num = 9;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -248,8 +386,8 @@ namespace WindowsFormsApp1
                     break;
 
                   
-                case 3:
-                    num = 3;
+                case 10:
+                    num = 10;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -266,8 +404,8 @@ namespace WindowsFormsApp1
                     break;
 
 
-                case 4:
-                    num = 4;
+                case 11:
+                    num =11;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -286,8 +424,8 @@ namespace WindowsFormsApp1
                   
 
 
-                case 5:
-                    num = 5;
+                case 12:
+                    num = 12;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -307,8 +445,8 @@ namespace WindowsFormsApp1
 
 
 
-                case 6:
-                    num = 6;
+                case 13:
+                    num = 13;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -325,8 +463,8 @@ namespace WindowsFormsApp1
 
                     break;
 
-                case 7:
-                    num = 7;
+                case 14:
+                    num = 14;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -346,8 +484,8 @@ namespace WindowsFormsApp1
               
 
 
-                case 8:
-                    num = 8;
+                case 15:
+                    num = 15;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -364,8 +502,8 @@ namespace WindowsFormsApp1
 
 
                     break;
-                case 9:
-                    num = 9;
+                case 16:
+                    num = 16;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -384,8 +522,8 @@ namespace WindowsFormsApp1
                     break;
                 
                     
-                case 10:
-                    num = 10;
+                case 17:
+                    num = 17;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -400,8 +538,8 @@ namespace WindowsFormsApp1
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
                     break;
-                case 11:
-                    num = 11;
+                case 18:
+                    num = 18;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -418,8 +556,8 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
 
                     break;
-                case 12:
-                    num = 12;
+                case 19:
+                    num = 19;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -435,8 +573,8 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
 
                     break;
-                case 13:
-                    num = 13;
+                case 20:
+                    num = 20;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -452,8 +590,8 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
 
                     break;
-                case 14:
-                    num = 14;
+                case 21:
+                    num = 21;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -469,8 +607,8 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
 
                     break;
-                case 15:
-                    num = 15;
+                case 22:
+                    num = 22;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -486,8 +624,8 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
 
                     break;
-                case 16:
-                    num = 16;
+                case 23:
+                    num = 23;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
@@ -510,7 +648,7 @@ namespace WindowsFormsApp1
 
 
             }
-            int quantidadeCasos = 16;
+            int quantidadeCasos = 23;
             if (numeroVezes < 3)
             {
                 if (contadorCasos <= quantidadeCasos - 1)
