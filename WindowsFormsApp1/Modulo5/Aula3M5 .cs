@@ -62,19 +62,19 @@ namespace WindowsFormsApp1
         };
         public String[] listaIngles =
         {
-            "Address",
-"Street",
-"Road",
-"Avenue",
+            "address",
+"street",
+"road",
+"avenue",
 "to drive",
-"Square",
-"Park",
-"City",
+"square",
+"park",
+"city",
 "to reside",
-"I live in Sao Paulo",
+"I live in São Paulo",
 "You live in the USA",
 "She lives in the city of New Orleans",
-"he lives on Maria Ribeiro street",
+"He lives on Maria Ribeiro street",
 "I drive on the road",
 "She drives a blue car",
 "He drives the motorcycle on the avenue",
@@ -83,19 +83,21 @@ namespace WindowsFormsApp1
 "What is your address",
 "She drives on Vegas street",
 "He lives on the old road",
-"You live in the city of São Paulo.",
+"You live in the city of São Paulo",
 "I love park in summer",
 "I love the city in december",
 "You drive the yellow motorcycle",
 "Saturday, day to go to the park",
-"Write your address in English.",
+"Write your address in English",
 
 
         };
         public String[] listaPortugues =
         {
-            "frase portugues",
+           
 "Endereço",
+"Rua",
+
 "Estrada",
 "Avenida",
 "Dirigir",
@@ -231,9 +233,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.bicycle;
+                    pictureBox1.Image = Properties.Resources.Address;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -248,9 +250,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.boat;
+                    pictureBox1.Image = Properties.Resources.Street;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -265,9 +267,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.ship;
+                    pictureBox1.Image = Properties.Resources.Road;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -282,9 +284,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.home;
+                    pictureBox1.Image = Properties.Resources.Avenue;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -299,9 +301,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.work;
+                    pictureBox1.Image = Properties.Resources.to_drive;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -316,9 +318,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.school;
+                    pictureBox1.Image = Properties.Resources.Square;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -333,9 +335,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.airport;
+                    pictureBox1.Image = Properties.Resources.Park;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -349,9 +351,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.station_train;
+                    pictureBox1.Image = Properties.Resources.City;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -367,9 +369,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.bicycle;
+                    pictureBox1.Image = Properties.Resources.ele_mora;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -385,9 +387,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.car;
+                    pictureBox1.Image = Properties.Resources.ele_mora;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -403,9 +405,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.train;
+                    pictureBox1.Image = Properties.Resources.ele_mora;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -421,9 +423,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.ship;
+                    pictureBox1.Image = Properties.Resources.ela_mora;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -441,9 +443,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                   //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.airport;
+                    pictureBox1.Image = Properties.Resources.ele_mora;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -462,9 +464,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                   //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.school;
+                    pictureBox1.Image = Properties.Resources.to_drive;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -480,10 +482,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.taxi;
-                    pictureBox2.Image = Properties.Resources.station_train;
+                    //btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.to_drive;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -492,18 +493,35 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
 
                     break;
-              
-
-
                 case 15:
                     num = 15;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.work;
+                    pictureBox1.Image = Properties.Resources.He_drives_the_motorcycle_on_the_avenue;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+
+                    break;
+
+
+
+                case 16:
+                    num = 16;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    //btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.Park;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -513,15 +531,15 @@ namespace WindowsFormsApp1
 
 
                     break;
-                case 16:
-                    num = 16;
+                case 17:
+                    num = 17;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.school;
+                    pictureBox1.Image = Properties.Resources.Address;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -533,41 +551,21 @@ namespace WindowsFormsApp1
                     break;
                 
                     
-                case 17:
-                    num = 17;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.plane;
-                    pictureBox2.Image = Properties.Resources.train;
-                    sd = listaAudio[num];//audio
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
                 case 18:
                     num = 18;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.BUS;
-                    pictureBox2.Image = Properties.Resources.subway;
+                    //btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.Address;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
                     timerFalar.Stop();
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
-
                     break;
                 case 19:
                     num = 19;
@@ -575,9 +573,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.red_car;
+                    pictureBox1.Image = Properties.Resources.to_drive;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -586,13 +584,134 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
 
                     break;
-               
+                case 20:
+                    num = 20;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    //btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.ele_mora;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+
+                    break;
+                case 21:
+                    num =21;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    //btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.ele_mora;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+
+                    break;
+                case 22:
+                    num = 22;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    //btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.Park;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+
+                    break;
+                case 23:
+                    num = 23;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    //btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.City;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+
+                    break;
+                case 24:
+                    num = 24;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    //btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.He_drives_the_motorcycle_on_the_avenue;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+
+                    break;
+             
+                case 25:
+                   num = 25;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    //btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.Park;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+
+                    break;
+                case 26:
+                    num = 26;
+                    textBoxAluno.Text = "";
+                    textBoxAluno.Visible = false;
+                    btEscrever.Enabled = false;
+                    btFalar.Enabled = false;
+                    //btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.Address;
+                    sd = listaAudio[num];//audio
+                    txtPt.Text = listaPortugues[num];//legenda 
+                    txtEn.Text = listaIngles[num];//legenda inglês
+                    timerFalar.Stop();
+                    timerEscrever.Stop();
+                    textBoxAluno.Focus();
+
+                    break;
+
+
 
 
 
 
             }
-            int quantidadeCasos = 19;
+            int quantidadeCasos = 26;
             if (numeroVezes < 3)
             {
                 if (contadorCasos <= quantidadeCasos - 1)
@@ -741,7 +860,7 @@ namespace WindowsFormsApp1
             else
             {
                 btEscrever.Text = "Corrigir";
-               btProximo.Enabled = false;
+               //btProximo.Enabled = false;
 
             }
         }

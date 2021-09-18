@@ -1992,5 +1992,38 @@
   <ItemGroup>
     <None Include="Resources\airport.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Address.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Avenue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\City.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ela mora.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ele mora.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\He drives the motorcycle on the avenue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Park.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Road.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Square.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Street.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to drive.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
