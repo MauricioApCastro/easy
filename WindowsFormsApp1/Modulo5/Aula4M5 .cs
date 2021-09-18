@@ -31,87 +31,65 @@ namespace WindowsFormsApp1
         //Arrays
         public String[] listaAudio =
         {
-            "audio//bus.wav",
-"audio//taxi.wav",
-"audio//train.wav",
-"audio//subway.wav",
-"audio//car.wav",
-"audio//plane.wav",
-"audio//motorcycle.wav",
-"audio//I take.wav",
-"audio//I take the bus.wav",
-"audio//I take the taxi.wav",
-"audio//You take the train.wav",
-"audio//You take the subway.wav",
-"audio//I take the car.wav",
-"audio//She takes the bus.wav",
-"audio//He takes the train and bus.wav",
-"audio//I take the red motorcycle.wav",
-"audio//you take the plane.wav",
-"audio//I take two buses.wav",
-"audio//I take the train and car.wav",
-"audio//She takes the red car.wav",
-"audio//He takes the blue car.wav",
-"audio//She takes the motorcycle.wav",
-"audio//He takes the plane.wav",
-"audio//I take the bus and subway.wav",
+          "audio//doctor.wav",
+"audio//lawer.wav",
+"audio//engineer.wav",
+"audio//nurse.wav",
+"audio//manager.wav",
+"audio//teacher.wav",
+"audio//driver.wav",
+"audio//cooker.wav",
+"audio//I AM A COOKER.wav",
+"audio//SHE IS A DOCTOR.wav",
+"audio//HE IS A ENGINEER.wav",
+"audio//YOU ARE A NURSE.wav",
+"audio//SILVIA IS A TEACHER.wav",
+"audio//ANA IS A MANAGER.wav",
+"audio//PAUL IS A DRIVER.wav",
+"audio//VITOR IS A LAWYER.wav",
+"audio//SHE IS A COOKER.wav",           
         };
         public String[] listaIngles =
         {
-           "bus",
-"taxi",
-"train",
-"subway",
-"car",
-"plane",
-"motorcycle",
-"I take",
-"I take the bus",
-"I take the taxi",
-"You take the train",
-"You take the subway",
-"I take the car",
-"She takes the bus",
-"He takes the train and bus",
-"I take the red motorcycle",
-"You take the plane",
-"I take two buses",
-"I take the train and car",
-"She takes the red car",
-"He takes the blue car",
-"She takes the motorcycle",
-"He takes the plane",
-"I take the bus and subway",
+            "doctor",
+"lawyer",
+"engineer",
+"nurse",
+"manager",
+"teacher",
+"driver",
+"cooker",
+"I am a cooker",
+"She is a doctor",
+"He is a engineer",
+"You are a nurse",
+"Silvia is a teacher",
+"Ana is a manager",
+"Paul is a driver",
+"Vitor is a lawer",
+"She is a cooker",
 
 
         };
         public String[] listaPortugues =
         {
-    "ônibus",
-"taxi",
-"trem",
-"metrô",
-"carro",
-"avião",
-"moto",
-"Eu pego",
-"Eu pego o ônibus",
-"Eu pego o taxi",
-"Você pega o trem",
-"Você pega o metrô",
-"Eu pego o carro",
-"Ela pega o ônibus",
-"Ele pega o trêm e ônibus",
-"Eu pego a moto vermelha",
-"Você pega o avião",
-"Eu pego dois ônibus",
-"Eu pego o trem e carro",
-"Ela pega o carro vermelho",
-"Ele pega o carro azul",
-"Ela pega a moto",
-"Ele pega o avião",
-"Eu pego ônibus e metrô",
-
+            "doutor",
+"advogado",
+"engenheiro",
+"enfermeira",
+"gerente",
+"professor",
+"motorista",
+"cozinheiro",
+"Eu sou um cozinheiro",
+"Ela e uma médica",
+"Ele é um engenheiro",
+"Você é uma enfermeira",
+"Silvia é uma professora",
+"Ana é uma gerente",
+"Paulo é um motorista",
+"Vitor é um advogado",
+"Ela é uma cozinheira",
         };
 
 
@@ -222,7 +200,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.BUS;
+                    pictureBox1.Image = Properties.Resources.doctor;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -239,7 +217,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.taxi;
+                    pictureBox1.Image = Properties.Resources.lawer;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -256,7 +234,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.train;
+                    pictureBox1.Image = Properties.Resources.engineer;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -273,7 +251,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.subway;
+                    pictureBox1.Image = Properties.Resources.nurse;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -290,7 +268,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.car;
+                    pictureBox1.Image = Properties.Resources.manager;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -307,7 +285,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.plane;
+                    pictureBox1.Image = Properties.Resources.teacher;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -324,7 +302,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.motorcycle;
+                    pictureBox1.Image = Properties.Resources.driver;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -340,7 +318,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.train;
+                    pictureBox1.Image = Properties.Resources.cookervv;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -358,7 +336,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.BUS;
+                    pictureBox1.Image = Properties.Resources.cookervv;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -376,7 +354,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.taxi;
+                    pictureBox1.Image = Properties.Resources.doctor;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -394,7 +372,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.train;
+                    pictureBox1.Image = Properties.Resources.engineer;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -412,7 +390,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.subway;
+                    pictureBox1.Image = Properties.Resources.nurse;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -432,7 +410,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                    btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.car;
+                    pictureBox1.Image = Properties.Resources.teacher;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -453,7 +431,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                    btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.BUS;
+                    pictureBox1.Image = Properties.Resources.manager;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -469,10 +447,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.train;
-                    pictureBox2.Image = Properties.Resources.BUS;
+                    btProximo.Enabled = false;
+                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
+                    pictureBox1.Image = Properties.Resources.driver;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -492,7 +469,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.motorcycle;
+                    pictureBox1.Image = Properties.Resources.lawer;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -510,7 +487,7 @@ namespace WindowsFormsApp1
                     btFalar.Enabled = false;
                     btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.plane;
+                    pictureBox1.Image = Properties.Resources.cookervv;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -521,134 +498,13 @@ namespace WindowsFormsApp1
 
                     break;
                 
-                    
-                case 17:
-                    num = 17;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.BUS;
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-                    break;
-                case 18:
-                    num = 18;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.train;
-                    pictureBox2.Image = Properties.Resources.car;
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-
-                    break;
-                case 19:
-                    num = 19;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.red_car;
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-
-                    break;
-                case 20:
-                    num = 20;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.blue_car;
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-
-                    break;
-                case 21:
-                    num = 21;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.motorcycle;
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-
-                    break;
-                case 22:
-                    num = 22;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.plane;
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-
-                    break;
-                case 23:
-                    num = 23;
-                    textBoxAluno.Text = "";
-                    textBoxAluno.Visible = false;
-                    btEscrever.Enabled = false;
-                    btFalar.Enabled = false;
-                    btProximo.Enabled = false;
-                    pictureBox1.ClientSize = new Size(255, 382);//metade da tela
-                    pictureBox1.Image = Properties.Resources.BUS;
-                    pictureBox2.Image = Properties.Resources.subway;
-                    sd = listaAudio[num];//audio
-                    txtPt.Text = listaPortugues[num];//legenda 
-                    txtEn.Text = listaIngles[num];//legenda inglês
-                    timerFalar.Stop();
-                    timerEscrever.Stop();
-                    textBoxAluno.Focus();
-
-                    break;
-
+               
 
 
 
 
             }
-            int quantidadeCasos = 23;
+            int quantidadeCasos = 16;
             if (numeroVezes < 3)
             {
                 if (contadorCasos <= quantidadeCasos - 1)

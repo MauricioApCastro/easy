@@ -2034,5 +2034,29 @@
   <ItemGroup>
     <None Include="Resources\to drive.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cookervv.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\driver.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engineer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lawer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manager.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nurse.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
