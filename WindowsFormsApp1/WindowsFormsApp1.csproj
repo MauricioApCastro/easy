@@ -280,6 +280,12 @@
     <Compile Include="Modulo4\Aula1M4.Designer.cs">
       <DependentUpon>Aula1M4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo5\Aula5M5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo5\Aula5M5.Designer.cs">
+      <DependentUpon>Aula5M5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulo5\Aula4M5 .cs">
       <SubType>Form</SubType>
     </Compile>
@@ -419,6 +425,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo4\Aula1M4.resx">
       <DependentUpon>Aula1M4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo5\Aula5M5.resx">
+      <DependentUpon>Aula5M5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo5\Aula4M5 .resx">
       <DependentUpon>Aula4M5 .cs</DependentUpon>
@@ -2057,6 +2066,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\teacher.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bracelet1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit card1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\earrings1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\necklace2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\necktie1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scarf.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wristwatch1.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

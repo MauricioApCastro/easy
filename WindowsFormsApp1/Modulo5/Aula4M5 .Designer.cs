@@ -310,3 +310,4 @@
         private System.Windows.Forms.Label lblGravando;
         private System.Windows.Forms.Button btProximo;
     }
+}
