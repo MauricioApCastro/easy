@@ -31,98 +31,100 @@ namespace WindowsFormsApp1
         //Arrays
         public String[] listaAudio =
         {
-        "audio//money.wav",
-"audio//credit card.wav",
-"audio//earrings.wav",
-"audio//bracelet.wav",
-"audio//necklace.wav",
-"audio//wristwatch.wav",
-"audio//necktie.wav",
-"audio//scarf.wav",
-"audio//I buy earrings.wav",
-"audio//you buy a bracelet.wav",
-"audio//pay by credit card please.wav",
-"audio//two wristwatches.wav",
-"audio//three black necktie.wav",
-"audio//nine red scarves.wav",
-"audio//50 dollars.wav",
-"audio//20 dollars.wav",
-"audio//5 dollars.wav",
-"audio//25 dollars.wav",
-"audio//thirty five dollars.wav",
-"audio//two dollars.wav",
-"audio//one dollar.wav",
-"audio//fifteen dollars.wav",
-"audio//four earrings for ten dollars.wav",
-"audio//two t-shirts for 5 dollars.wav",
-"audio//dress 12 dollars.wav",
-"audio//jeans 15 dollars.wav",
+            "audio//mom.wav",
+"audio//dad.wav",
+"audio//grandmother.wav",
+"audio//brother.wav",
+"audio//sister.wav",
+"audio//cousin.wav",
+"audio//aunt.wav",
+"audio//uncle.wav",
+"audio//I love momy.wav",
+"audio//I love my dad.wav",
+"audio//I like my cousins.wav",
+"audio//Grandma's house.wav",
+"audio//I have two brothers.wav",
+"audio//I have three sisters.wav",
+"audio//My uncle loves pie.wav",
+"audio//My aunt likes barbecue.wav",
+"audio//My uncle drinks beer.wav",
+"audio//E eat cake witch my cousins.wav",
+"audio//Tomorrow family party.wav",
+"audio//Travel witch the Family.wav",
+"audio//Mom’s birthday.wav",
+"audio//My sisters like apple.wav",
+"audio//My brother likes coffee.wav",
+"audio//Daddy wears White shirt.wav",
+"audio//Mom wears dress red.wav",
+"audio//The family is in the park.wav",
+
         };
         public String[] listaIngles =
         {
-           "money",
-"credit card",
-"earrings",
-"bracelet",
-"necklace",
-"wristwatch",
-"necktie",
-"scarf",
-"I buy earrings",
-"you buy a bracelet",
-"pay by credit card please",
-"two wristwatches",
-"three black necktie",
-"nine red scarves",
-"fifty dollars",
-"twenty dollars",
-"five dollars",
-"twenty five dollars",
-"thirty five dollars",
-"two dollars",
-"one dollar",
-"fifteen dollars",
-"four earrings for ten dollars",
-"two t-shirts for 5 dollars",
-"dress 12 dollars",
-"jeans 15 dollars",
+          "mom",
+"dad",
+"grandmother",
+"brother",
+"sister",
+"cousin",
+"aunt",
+"uncle",
+"I love momy",
+"I love my dad",
+"I like my cousins",
+"Grandma's house",
+"I have two brothers",
+"I have three sisters",
+"My uncle loves pie",
+"My aunt likes barbecue",
+"My uncle drinks beer",
+"E eat cake witch my cousins",
+"Tomorrow family party",
+"Travel witch the Family",
+"Mom’s birthday",
+"My sisters like apple",
+"My brother likes coffee",
+"Daddy wears White shirt",
+"Mom wears dress red",
+"The family is in the park",
 
         };
         public String[] listaPortugues =
         {
-          "dinheiro",
-"cartão de crédito",
-"brincos",
-"pulseira",
-"colar",
-"relógio de pulso",
-"gravata",
-"cachecol",
-"Eu compro brincos",
-"Você compra uma pulseira",
-"Pagar com cartão de crédito por favor",
-"Dois relógios de pulso",
-"três gravatas pretas",
-"nove cachicóis vermelhos",
-"cinquenta dolares",
-"vinte dolares",
-"cinco dolares",
-"vinte e cinco dolares",
-"trinta e cinco dolares",
-"dois dolares",
-"um dolar",
-"quinze dolares",
-"quatro brincos por 10 dolares",
-"Duas camisetas por cinco dolares",
-"vestido 12 dolares",
-"jeans 15 dolares",
+            "mãe",
+"pai",
+"avó",
+"irmão ",
+"sister",
+"primo",
+"tia",
+"tio",
+"Eu amo minha mãe",
+"Eu amo meu pai",
+"Eu amo meus primos",
+"Casa da vovó",
+"Eu tenho dois irmãos",
+"Eu tenho 3 irmãs",
+"Meu tio ama torta",
+"Minha tia gosta de churrasco",
+"Meu tio bebe cerveja",
+"Eu como bolo com meus primos",
+"Amanhã festa de família",
+"Viagem com a família",
+"Aniversário da mamãe",
+"Minhas irmãs gostam de maçã",
+"Meu irmão gosta de café",
+"Papai usa camisa branca",
+"Mamãe usa vestido vermelho",
+"A família está no parque",
+
         };
 
 
         public Aula5M5()
         {
             InitializeComponent();
-           
+
             Init();
 
 
@@ -178,7 +180,7 @@ namespace WindowsFormsApp1
             }
         }
 
-       
+
 
         public void Init()
         {
@@ -224,9 +226,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.money1;
+                    pictureBox1.Image = Properties.Resources.mom;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -241,9 +243,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.credit_card1;
+                    pictureBox1.Image = Properties.Resources.dad;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -258,9 +260,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.earrings1;
+                    pictureBox1.Image = Properties.Resources.grandmother;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -275,9 +277,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.bracelet1;
+                    pictureBox1.Image = Properties.Resources.brother;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -292,9 +294,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.necklace2;
+                    pictureBox1.Image = Properties.Resources.sister;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -309,9 +311,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.wristwatch1;
+                    pictureBox1.Image = Properties.Resources.cousin;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -326,9 +328,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.necktie1;
+                    pictureBox1.Image = Properties.Resources.aunt;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -342,9 +344,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.scarf1;
+                    pictureBox1.Image = Properties.Resources.uncle;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -360,9 +362,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.earrings;
+                    pictureBox1.Image = Properties.Resources.mom;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -378,9 +380,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.bracelet;
+                    pictureBox1.Image = Properties.Resources.dad;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -389,16 +391,16 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
                     break;
 
-                  
+
                 case 10:
                     num = 10;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.credit_card;
+                    pictureBox1.Image = Properties.Resources.cousin;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -409,14 +411,14 @@ namespace WindowsFormsApp1
 
 
                 case 11:
-                    num =11;
+                    num = 11;
                     textBoxAluno.Text = "";
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.wristwatch;
+                    pictureBox1.Image = Properties.Resources.Grandma_s_house;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -425,7 +427,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
 
                     break;
-                  
+
 
 
                 case 12:
@@ -434,9 +436,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.necktie1;
+                    pictureBox1.Image = Properties.Resources.I_have_two_brothers;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -444,7 +446,7 @@ namespace WindowsFormsApp1
                     timerEscrever.Stop();
                     textBoxAluno.Focus();
                     break;
-                   
+
 
 
 
@@ -455,9 +457,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                   btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.scarf;
+                    pictureBox1.Image = Properties.Resources.I_have_three_sisters;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -473,9 +475,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources._50_dolar;
+                    pictureBox1.Image = Properties.Resources.uncle_pie;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -484,7 +486,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Focus();
 
                     break;
-              
+
 
 
                 case 15:
@@ -493,9 +495,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources._20_dolar;
+                    pictureBox1.Image = Properties.Resources.aunt_barbecue;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -511,9 +513,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources._5_dolar;
+                    pictureBox1.Image = Properties.Resources.My_uncle_drinks_beer;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -529,9 +531,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.money1;
+                    pictureBox1.Image = Properties.Resources.I_eat_cake_witch_my_cousins;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -547,9 +549,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.money1;
+                    pictureBox1.Image = Properties.Resources.Tomorrow_family_party;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -565,9 +567,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources._2_dolar;
+                    pictureBox1.Image = Properties.Resources.gif_travel_witch_the_family;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -583,9 +585,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources._1_dolar;
+                    pictureBox1.Image = Properties.Resources.Mom_birthday;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -601,9 +603,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.money2;
+                    pictureBox1.Image = Properties.Resources.My_sisters_like_apple;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -619,9 +621,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.money1;
+                    pictureBox1.Image = Properties.Resources.make_coffee;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -637,9 +639,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.T_SHIRT;
+                    pictureBox1.Image = Properties.Resources.SHIRT;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -655,7 +657,7 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
                     pictureBox1.Image = Properties.Resources.dress;
                     sd = listaAudio[num];//audio
@@ -673,9 +675,9 @@ namespace WindowsFormsApp1
                     textBoxAluno.Visible = false;
                     btEscrever.Enabled = false;
                     btFalar.Enabled = false;
-                    btProximo.Enabled = false;
+                    //btProximo.Enabled = false;
                     pictureBox1.ClientSize = new Size(510, 382);//tela inteira
-                    pictureBox1.Image = Properties.Resources.jeans;
+                    pictureBox1.Image = Properties.Resources.The_family_is_in_the_park;
                     sd = listaAudio[num];//audio
                     txtPt.Text = listaPortugues[num];//legenda 
                     txtEn.Text = listaIngles[num];//legenda inglês
@@ -685,7 +687,7 @@ namespace WindowsFormsApp1
 
 
                     break;
-               
+
 
 
 
@@ -842,7 +844,7 @@ namespace WindowsFormsApp1
             else
             {
                 btEscrever.Text = "Corrigir";
-               btProximo.Enabled = false;
+                //btProximo.Enabled = false;
 
             }
         }

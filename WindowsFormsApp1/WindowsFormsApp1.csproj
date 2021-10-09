@@ -2094,5 +2094,71 @@
   <ItemGroup>
     <None Include="Resources\wristwatch1.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aunt barbecue1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uncle pie1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mom birthday1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif travel witch the family1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomorrow family party1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The family is in the park2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My sisters like apple2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I eat cake witch my cousins2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My uncle drinks beer2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My aunt likes barbecue2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My uncle loves pie2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I have three sisters2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I have two brothers2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grandma%27s house2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uncle2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aunt2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cousin2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sister2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brother2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grandmother2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dad2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mom2.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
