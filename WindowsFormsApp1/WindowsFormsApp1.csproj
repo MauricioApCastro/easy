@@ -280,6 +280,12 @@
     <Compile Include="Modulo4\Aula1M4.Designer.cs">
       <DependentUpon>Aula1M4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo5\Aula6M5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo5\Aula6M5.Designer.cs">
+      <DependentUpon>Aula6M5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulo5\Aula5M5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -425,6 +431,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo4\Aula1M4.resx">
       <DependentUpon>Aula1M4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo5\Aula6M5.resx">
+      <DependentUpon>Aula6M5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo5\Aula5M5.resx">
       <DependentUpon>Aula5M5.cs</DependentUpon>
@@ -2159,6 +2168,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mom2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I like school.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I write with a red pen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maths teacher.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notebook.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\study hystory.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\study.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to read.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I write with a blue pen.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
