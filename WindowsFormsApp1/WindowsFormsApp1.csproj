@@ -2217,5 +2217,38 @@
   <ItemGroup>
     <None Include="Resources\I write with a blue pen.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fever %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brain %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foot %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leg %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pain %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stomach %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\headache.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
