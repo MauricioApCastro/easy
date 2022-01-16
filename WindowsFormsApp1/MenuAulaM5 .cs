@@ -186,7 +186,7 @@ namespace WindowsFormsApp1
             MenuPrincipal novo = new MenuPrincipal();
             novo.Visible = false;
             axWindowsMediaPlayer1.URL = "";
-            Aula7M4 nova = new Aula7M4();
+            Aula7M5 nova = new Aula7M5();
             nova.Show();
 
             this.Hide();
