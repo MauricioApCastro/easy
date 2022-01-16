@@ -280,6 +280,12 @@
     <Compile Include="Modulo4\Aula1M4.Designer.cs">
       <DependentUpon>Aula1M4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulo5\Aula8M5 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo5\Aula8M5 .Designer.cs">
+      <DependentUpon>Aula8M5 .cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulo5\Aula7M5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -437,6 +443,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo4\Aula1M4.resx">
       <DependentUpon>Aula1M4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo5\Aula8M5 .resx">
+      <DependentUpon>Aula8M5 .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo5\Aula7M5.resx">
       <DependentUpon>Aula7M5.cs</DependentUpon>
@@ -2249,6 +2258,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\hospital.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ear.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lips.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nose.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\optic.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spine.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tooth.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vomit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyes.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mouth.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
